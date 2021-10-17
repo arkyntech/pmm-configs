@@ -14,13 +14,13 @@ templates:
     smart_label: added.desc
 collections:
 ### CHARTS ###
-  Trending:
-    template: { name: Chart2, num: 2 }
-    trakt_trending: 75
-    tmdb_trending_daily: 75
-    tmdb_trending_weekly: 75
-    summary: Movies Trending across the internet
-    file_poster: config/assets/Trends/Trending.png
+#  Trending:
+#    template: { name: Chart2, num: 2 }
+#    trakt_trending: 75
+#    tmdb_trending_daily: 75
+#    tmdb_trending_weekly: 75
+#    summary: Movies Trending across the internet
+#    file_poster: config/assets/Trends/Trending.png
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 75
