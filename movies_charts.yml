@@ -24,7 +24,6 @@ collections:
 #    file_poster: config/assets/Trends/Trending.png
   Popular:
     template: { name: Chart, num: 3 }
-    tmdb_popular: 75
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
       limit: 75
