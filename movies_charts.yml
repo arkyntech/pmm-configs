@@ -25,7 +25,7 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
       limit: 75
     summary: Popular Movies across the internet
-    File_poster: config/assets/Trends/Popular.png
+    File_poster: config/assets/Charts/Popular_Movies.jpg
   Top Rated:
     template: { name: Chart, num: 4 }
     imdb_list: https://www.imdb.com/chart/top/
