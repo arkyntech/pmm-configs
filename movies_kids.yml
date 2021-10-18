@@ -1,0 +1,22 @@
+templates:
+  Genre:
+    sort_title: +19_<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide  
+######################################################
+#                Genre Collections                   #
+######################################################
+collections:
+  Kids Movies:
+    template: { name: Genre }
+    sort_by: release.desc
+    smart_filter:
+       any:
+         Genre: Children
+         all:
+           - content_rating: G
+             genre: Animation
+           - content_rating: PG
+             genre: Family
+             genre: Animation
+    file_poster: config/assets/Genre/Kids Movies.jpg
