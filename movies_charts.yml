@@ -28,7 +28,7 @@ collections:
     File_poster: config/assets/Trends/Popular.png
   Top Rated:
     template: { name: Chart, num: 4 }
-    imdb_list: https://www.imdb.com/chart/top/
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short,&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
     tmdb_top_rated: 250
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Top Rated.png
