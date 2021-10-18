@@ -7,7 +7,6 @@ templates:
   Chart:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
-
     collection_order: custom
   Chart2:
     sort_title: +1_<<num>><<collection_name>>
@@ -15,13 +14,11 @@ templates:
     collection_order: custom
 collections:
 ### CHARTS ###
-#  Trending:
-#    template: { name: Chart2, num: 2 }
-#    trakt_trending: 75
-#    tmdb_trending_daily: 75
-#    tmdb_trending_weekly: 75
-#    summary: Movies Trending across the internet
-#    file_poster: config/assets/Trends/Trending.png
+  Trending:
+    template: { name: Chart2, num: 2 }
+    trakt_trending: 25
+    summary: Movies Trending across the internet
+    file_poster: config/assets/Trends/Trending.png
   Popular:
     template: { name: Chart, num: 3 }
     imdb_list:
