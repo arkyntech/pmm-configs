@@ -1,0 +1,38 @@
+######################################################
+#                Popular / Top Rated                 #
+######################################################
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+collections:
+### CHARTS ###
+  Top Rated of 2021:
+    template: { name: Chart, num: 5 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&release_date=2021-01-01,&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      limit: 75
+    summary: Top Rated Movies across the internet
+    file_poster: config/assets/Trends/Top Rated.png
+  Top Rated of 2020:
+    template: { name: Chart, num: 6 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&release_date=2020-01-01,2021-01-01&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      limit: 75
+    summary: Top Rated Movies across the internet
+    file_poster: config/assets/Trends/Top Rated.png
+  Top Rated of 2019:
+    template: { name: Chart, num: 7 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&release_date=2019-01-01,2020-01-01&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      limit: 75
+    summary: Top Rated Movies across the internet
+    file_poster: config/assets/Trends/Top Rated.png
+  Top Rated of 2018:
+    template: { name: Chart, num: 8}
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&release_date=2018-01-01,2019-01-01&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      limit: 75
+    summary: Top Rated Movies across the internet
+    file_poster: config/assets/Trends/Top Rated.png

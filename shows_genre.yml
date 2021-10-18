@@ -14,12 +14,12 @@ collections:
   Action:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=action&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/images/Genre/Action.png
   Adventure:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=adventure&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Adventure.png
   Animation:
@@ -29,38 +29,43 @@ collections:
        file_poster: config/assets/images/Genre/Animation.png
   Biography:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=biography&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Biography.png
   Comedy:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=comedy&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Comedy.png
   Crime:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=crime&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Family.png 
   Documentaries:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=documentary&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
     file_poster: config/assets/images/Genre/Documentaries.png 
   Drama:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=drama&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Drama.png
   Family:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=famiy&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=famiy&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Family.png
   Fantasy:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=family&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Family.png
+  Game Show:
+    imdb_list:
+     - url: https://www.imdb.com/search/title/?genres=game-show&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+       limit: 125
+       file_poster: config/assets/images/Genre/Game-Show.png
   History:
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
@@ -68,47 +73,67 @@ collections:
        file_poster: config/assets/images/Genre/History.png
   Horror:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=history&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Horror.png
   Music:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=music&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Music.png
   Musicals:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=musical&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Musicals.png       
   Mystery:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=mystery&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Family.png
+  Reality TV:
+    imdb_ list:
+     - url: https://www.imdb.com/search/title/?genres=reality&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+       limit: 125
+       file_poster: config/assets/images/Genre/Romance.png
   Romance:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=romance&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Romance.png
   Sci-Fi:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/SciFi.png
+  Shorts:
+    imdb_list:
+     - url: https://www.imdb.com/search/title/?genres=short&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+       limit: 125
+       file_poster: config/assets/images/Genre/Shorts.png
+  Sports:
+    imdb_list:
+     - url: https://www.imdb.com/search/title/?genres=sport&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+       limit: 125
+       file_poster: config/assets/images/Genre/Sports.png  
+  Talk-Show:
+    imdb_list:
+     - url: https://www.imdb.com/search/title/?genres=talk-show&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+       limit: 125
+       file_poster: config/assets/images/Genre/Sports.png        
   Thriller:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=thriller&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Thriller.png
   War:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=war&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/War.png 
   Western:
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=western&title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
        file_poster: config/assets/images/Genre/Western.png
 ##########################################
