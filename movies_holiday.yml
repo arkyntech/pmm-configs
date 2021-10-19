@@ -1,0 +1,19 @@
+templates:
+  Genre:
+    sort_title: ++4_<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide
+  BestOf:
+    sort_title: +4_<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide    
+######################################################
+#                Genre Collections                   #
+######################################################
+collections:
+  Best Halloween Movies :
+    template: { name: Genre }
+    imdb_list:
+     - url: https://www.imdb.com/search/keyword/?keywords=halloween
+       limit: 150
+    file_poster: config/assets/images/Holidays/Halloween.jpeg
