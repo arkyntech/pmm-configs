@@ -2,11 +2,7 @@ templates:
   Genre:
     sort_title: +++4<<collection_name>>
     sync_mode: sync
-    collection_mode: hide
-  BestOf:
-    sort_title: +4_<<collection_name>>
-    sync_mode: sync
-    collection_mode: hide    
+    collection_mode: custom
 ######################################################
 #                Genre Collections                   #
 ######################################################
