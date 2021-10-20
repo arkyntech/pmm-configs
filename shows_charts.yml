@@ -14,19 +14,19 @@ templates:
     collection_order: custom
 collections:
 ### CHARTS ###
-  Trending:
+  Trending Shows:
     template: { name: Chart2, num: 2 }
     trakt_trending: 50
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/Trending.png
-  Popular:
+  Popular Shows:
     template: { name: Chart, num: 3 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
       limit: 125
     summary: Popular Movies across the internet
     File_poster: config/assets/Trends/Popular.png
-  Top Rated:
+  Top Rated Shows:
     template: { name: Chart, num: 4 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&user_rating=5.0,10.0&num_votes=100000,&countries=!in,!pk&languages=en&sort=user_rating,desc
