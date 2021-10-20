@@ -53,6 +53,7 @@ collections:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+       limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_documentary.jpg
   Drama:
     template: { name: Genre }
