@@ -14,32 +14,25 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&release_date=2021-01-01,&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    file_poster: config/assets/Trends/Top Rated.png
+    file_poster: config/assets/Trends/Movies/movies_toprated_2021.jpg
   Top Rated of 2020:
     template: { name: Chart, num: 6 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&release_date=2020-01-01,2021-01-01&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    file_poster: config/assets/Trends/Top Rated.png
+    file_poster: config/assets/Trends/Movies/movies_toprated_2020.jpg
   Top Rated of 2019:
     template: { name: Chart, num: 7 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&release_date=2019-01-01,2020-01-01&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    file_poster: config/assets/Trends/Top Rated.png
+    file_poster: config/assets/Trends/Movies/movies_toprated_2019.jpg
   Top Rated of 2018:
     template: { name: Chart, num: 8}
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&release_date=2018-01-01,2019-01-01&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    file_poster: config/assets/Trends/Top Rated.png
-  Best Picture Winner:
-    template: { name: Chart, num: 9 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?count=100&groups=oscar_best_picture_winners&sort=year%2Cdesc
-      limit: 75
-    summary: Top Rated Movies across the internet
-    file_poster: config/assets/Trends/Top Rated.png
+    file_poster: config/assets/Trends/Movies/movies_toprated_2018.jpg

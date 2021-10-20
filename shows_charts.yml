@@ -2,34 +2,28 @@
 #                Popular / Top Rated                 #
 ######################################################
 templates:
-#  Plex Trending:
-#    sort_title: +1_<<collection_name>> 
   Chart:
-    sort_title: +1_<<num>><<collection_name>>
-    sync_mode: sync
-    collection_order: custom
-  Chart2:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
     collection_order: custom
 collections:
 ### CHARTS ###
   Trending Shows:
-    template: { name: Chart2, num: 2 }
+    template: { name: Chart, num: 2 }
     trakt_trending: 50
     summary: Movies Trending across the internet
-    file_poster: config/assets/Trends/Trending.png
+    file_poster: config/assets/Trends/Shows/tv_trending.jpg
   Popular Shows:
     template: { name: Chart, num: 3 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
       limit: 125
     summary: Popular Movies across the internet
-    File_poster: config/assets/Trends/Popular.png
+    File_poster: config/assets/Trends/Shows/tv_popular.jpg
   Top Rated Shows:
     template: { name: Chart, num: 4 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&user_rating=5.0,10.0&num_votes=100000,&countries=!in,!pk&languages=en&sort=user_rating,desc
       limit: 125
     summary: Top Rated Movies across the internet
-    file_poster: config/assets/Trends/Top Rated.png
+    file_poster: config/assets/Trends/Shows/tv_toprated.jpg
