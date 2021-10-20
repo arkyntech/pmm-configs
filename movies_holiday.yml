@@ -7,7 +7,7 @@ templates:
 #                Genre Collections                   #
 ######################################################
 collections:
-  Best Halloween Movies :
+  Halloween Movies :
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/keyword/?keywords=halloween
