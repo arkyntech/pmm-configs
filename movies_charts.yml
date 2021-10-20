@@ -2,7 +2,7 @@
 #                Popular / Top Rated                 #
 ######################################################
 templates:
-  Chart2:
+  Chart:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
     collection_order: custom
