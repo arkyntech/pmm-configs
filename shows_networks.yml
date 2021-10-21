@@ -3,6 +3,8 @@ templates:
     sort_title: '+5_<<collection_name>>'
     sync_mode: sync
     collection_order: alpha
+  Plex Networks:
+    sort_title: +5_<<collection_name>>    
 ####  Networks ####
 collections:
   ABC:
