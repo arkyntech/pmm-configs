@@ -3,7 +3,7 @@
 ######################################################
 templates:
   Awards:
-    sort_title: +2_<<collection_name>>
+    sort_title: +3_<<collection_name>>
     sync_mode: sync
     collection_mode: hide
     collection_order: custom

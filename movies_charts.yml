@@ -9,14 +9,14 @@ templates:
 collections:
 ### CHARTS ###
   Trending Movies:
-    template: { name: Chart, num: 2 }
+    template: { name: Chart, num: 1 }
     trakt_trending: 50
     filters:
       release: 365
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/Movies/movies_trending.jpg
   Popular Movies:
-    template: { name: Chart, num: 3 }
+    template: { name: Chart, num: 2}
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&countries=!in,!pk&languages=en&sort=moviemeter,asc
       limit: 125
