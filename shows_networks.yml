@@ -343,14 +343,6 @@ collections:
     summary: A collection of National Geographic content
     file_poster: config/assets/Network/network_comedycentral.jpg
   MasterClass:
-    template: { name: Plex Networks }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Comedy Central
-    summary: A collection of National Geographic content
-    file_poster: config/assets/Network/network_comedycentral.jpg
-  MasterClass:
    template: {name: Networks}
    plex_all: true
    filters:
