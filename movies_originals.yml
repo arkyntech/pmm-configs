@@ -1,0 +1,51 @@
+templates:
+  Network:
+    sort_title: +2_<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide
+collections:
+  Prime Originals:
+    template: {name: Network}
+    trakt_list:
+      - https://trakt.tv/users/QuickFlix/lists/amazon-originals-movies
+    summary: A collection of Amazon Original content 
+    file_poster: config/assets/Originals/Amazon_Prime_Originals.jpg
+  Netflix Originals:
+    template: {name: Network}
+    trakt_list:
+      - https://trakt.tv/users/dannyvfilms/lists/all-netflix-originals
+      - https://trakt.tv/users/disgustedguy/lists/netflix
+    summary: A collection of Netflix Originals 
+    file_poster: config/assets/Originals/Netflix_Originals.jpg
+  Disney Plus Originals:
+    template: {name: Network}
+    trakt_list:
+      - https://trakt.tv/users/mri8879/lists/disney-original-content
+    summary: A collection of Disney Plus Original content 
+    file_poster: config/assets/Originals/Disney_Plus_Originals.jpg
+  HBO Max Originals:
+    template: {name: Network}
+    trakt_list:
+      - https://trakt.tv/users/mri8879/lists/hbo-max-exclusive-original-content
+    summary: A collection of HBO Max Original content 
+    file_poster: config/assets/Originals/HBO_Max_Originals.jpg
+  Hulu Originals:
+    template: {name: Network}
+    trakt_list:
+      - https://trakt.tv/users/mri8879/lists/hulu-exclusive-original-content
+    summary: A collection of Hulu Original content
+    file_poster: config/assets/Originals/Hulu_Originals.jpg         
+  Shudder:
+    template: {name: Network}
+    trakt_list:
+      - https://trakt.tv/users/mri8879/lists/shudder-exclusive-original-content
+    summary: A collection of Shudder Exclusive & Original Content
+    file_poster: config/assets/Originals/shudder.jpg
+  CuriosityStreams:
+    template: {name: Originals}
+    plex_search: 
+       added: 3
+    filters:
+       filepath: /mnt/sharedrives/zd-storage-ceph/courses/curiositystream/VIDEOS/
+    summary: a collection of CuriosityStreams content
+    file_poster: config/assets/Originals/Curiosity_Streams.png    
