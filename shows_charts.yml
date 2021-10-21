@@ -16,14 +16,14 @@ collections:
   Popular Shows:
     template: { name: Chart, num: 3 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&countries=!in,!pk&languages=en&sort=moviemeter,asc
       limit: 125
     summary: Popular Movies across the internet
     File_poster: config/assets/Trends/Shows/tv_popular.jpg
   Top Rated Shows:
     template: { name: Chart, num: 4 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries,tv_short&user_rating=5.0,10.0&num_votes=100000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&user_rating=5.0,10.0&num_votes=100000,&countries=!in,!pk&languages=en&sort=user_rating,desc
       limit: 125
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Shows/tv_toprated.jpg

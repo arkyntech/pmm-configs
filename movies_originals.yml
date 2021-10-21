@@ -12,27 +12,13 @@ collections:
       limit: 75
     summary: A collection of Apple TV+ Original Content
     file_poster: config/assets/Originals/Amazon_Prime_Originals.jpg
-  Prime Originals:
-    template: {name: Network}
-    trakt_list:
-      - https://trakt.tv/users/mri8879/lists/amazon-prime-video-exclusive-original-content?sort=released,asc
-      limit: 75
-    summary: A collection of Amazon Original content 
-    file_poster: config/assets/Originals/Amazon_Prime_Originals.jpg
-  Netflix Originals:
-    template: {name: Network}
-    trakt_list:
-      - https://trakt.tv/users/mri8879/lists/netflix-original-content?sort=released,asc
-      limit: 75
-    summary: A collection of Netflix Originals 
-    file_poster: config/assets/Originals/Netflix_Originals.jpg
   Disney Plus Originals:
     template: {name: Network}
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/disney-original-content
       limit: 75
     summary: A collection of Disney Plus Original content 
-    file_poster: config/assets/Originals/Disney_Plus_Originals.jpg
+    file_poster: config/assets/Originals/Disney_Plus_Originals.jpg   
   HBO Max Originals:
     template: {name: Network}
     trakt_list:
@@ -46,7 +32,21 @@ collections:
       - https://trakt.tv/users/mri8879/lists/hulu-exclusive-original-content?sort=released,asc
       limit: 75
     summary: A collection of Hulu Original content
-    file_poster: config/assets/Originals/Hulu_Originals.jpg         
+    file_poster: config/assets/Originals/Hulu_Originals.jpg 
+  Netflix Originals:
+    template: {name: Network}
+    trakt_list:
+      - https://trakt.tv/users/mri8879/lists/netflix-original-content?sort=released,asc
+      limit: 75
+    summary: A collection of Netflix Originals 
+    file_poster: config/assets/Originals/Netflix_Originals.jpg      
+  Prime Originals:
+    template: {name: Network}
+    trakt_list:
+      - https://trakt.tv/users/mri8879/lists/amazon-prime-video-exclusive-original-content?sort=released,asc
+      limit: 75
+    summary: A collection of Amazon Original content 
+    file_poster: config/assets/Originals/Amazon_Prime_Originals.jpg    
   Shudder:
     template: {name: Network}
     trakt_list:

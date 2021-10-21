@@ -36,6 +36,7 @@ collections:
            - genre.not: Crime
            - genre.not: Biography
          any:
+           - genre: Children
            - genre: Animation
            - genre: Family
            - content_rating: PG
@@ -44,4 +45,4 @@ collections:
            - content_rating: TV-Y
            - content_rating: TV-Y7
            - content_rating: TV-Y7-FV
-    file_poster: config/assets/Genre/Kids Movies.jpg
+    file_poster: config/assets/Genre/Movies/movies_kid.jpg

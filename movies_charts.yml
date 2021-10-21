@@ -16,10 +16,17 @@ collections:
   Popular Movies:
     template: { name: Chart, num: 3 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+      url: https://www.imdb.com/search/title/?title_type=feature&countries=!in,!pk&languages=en&sort=moviemeter,asc
       limit: 125
     summary: Popular Movies across the internet
     File_poster: config/assets/Trends/Movies/movies_popular.jpg
+  Popular TV Movies:
+    template: { name: Chart, num: 3 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_movie&countries=!in,!pk&languages=en&sort=moviemeter,asc
+      limit: 125
+    summary: Popular Movies across the internet
+    File_poster: config/assets/Trends/Movies/movies_popular_tvmovies.jpg  
   Top Rated Movies:
     template: { name: Chart, num: 4 }
     imdb_list:
