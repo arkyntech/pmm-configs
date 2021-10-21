@@ -21,7 +21,7 @@ collections:
       all:
         network: Amazon
     summary: A collection of Amazon content
-    file_poster: config/assets/Network/Originals/network_prime.jpg.jpg
+    file_poster: config/assets/Network/Originals/network_prime.jpg
   Apple TV+:
     template: { name: Originals }
     smart_filter:
