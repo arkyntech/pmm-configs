@@ -13,7 +13,6 @@ collections:
     smart_filter:
        all:
          all:
-           - genre.not: English
            - genre.not: War
            - genre.not: TV Movie
            - genre.not: Travel
