@@ -9,7 +9,7 @@ collections:
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/apple-tv-original-content
     summary: A collection of Apple TV+ Original Content
-    file_poster: config/assets/Network/Originals/network_apletv.jpg
+    file_poster: config/assets/Network/Originals/network_appletv.jpg
   Disney Plus Originals:
     template: {name: Network}
     trakt_list:
