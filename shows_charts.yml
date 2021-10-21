@@ -12,6 +12,8 @@ collections:
     template: { name: Chart, num: 2 }
     trakt_trending: 50
     summary: Movies Trending across the internet
+    filters:
+      release: 365
     file_poster: config/assets/Trends/Shows/tv_trending.jpg
   Popular Shows:
     template: { name: Chart, num: 3 }
