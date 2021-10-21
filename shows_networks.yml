@@ -365,13 +365,6 @@ collections:
       network: Comedy Central
     summary: A collection of National Geographic content
     file_poster: config/assets/Network/network_comedycentral.jpg
-  MasterClass:
-   template: {name: Networks}
-   plex_all: true
-   filters:
-      filepath: /mnt/sharedrives/zd-storage-ceph/courses/masterclass
-   summary: a collection of Masterclass content
-   file_poster: config/assets/Network/network_masterclass.jpg
     
     
 #####  Networks ####
