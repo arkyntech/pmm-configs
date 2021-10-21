@@ -9,40 +9,40 @@ collections:
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/apple-tv-original-content
     summary: A collection of Apple TV+ Original Content
-    file_poster: config/assets/Originals/Amazon_Prime_Originals.jpg
+    file_poster: config/assets/Network/Originals/network_apletv.jpg
   Disney Plus Originals:
     template: {name: Network}
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/disney-original-content
     summary: A collection of Disney Plus Original content 
-    file_poster: config/assets/Originals/Disney_Plus_Originals.jpg   
+    file_poster: config/assets/Network/Originals/network_disney.jpg   
   HBO Max Originals:
     template: {name: Network}
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/hbo-max-exclusive-original-content
     summary: A collection of HBO Max Original content 
-    file_poster: config/assets/Originals/HBO_Max_Originals.jpg
+    file_poster: config/assets/Network/Originals/network_hbo.jpg
   Hulu Originals:
     template: {name: Network}
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/hulu-exclusive-original-content
     summary: A collection of Hulu Original content
-    file_poster: config/assets/Originals/Hulu_Originals.jpg 
+    file_poster: config/assets/Network/Originals/network_hulu.jpg 
   Netflix Originals:
     template: {name: Network}
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/netflix-original-content
     summary: A collection of Netflix Originals 
-    file_poster: config/assets/Originals/Netflix_Originals.jpg      
+    file_poster: config/assets/Network/Originals/network_netflix.jpg      
   Prime Originals:
     template: {name: Network}
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/amazon-prime-video-exclusive-original-content
     summary: A collection of Amazon Original content 
-    file_poster: config/assets/Originals/Amazon_Prime_Originals.jpg    
+    file_poster: config/assets/Network/Originals/network_prime.jpg    
   Shudder:
     template: {name: Network}
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/shudder-exclusive-original-content
     summary: A collection of Shudder Exclusive & Original Content
-    file_poster: config/assets/Originals/shudder.jpg
+    file_poster: config/assets/Network/Originals/network_shudder.jpg
