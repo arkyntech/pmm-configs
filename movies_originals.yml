@@ -9,7 +9,6 @@ collections:
     template: {name: Network}
     trakt_list:
       url: https://trakt.tv/users/mri8879/lists/apple-tv-original-content
-      limit: 75
     summary: A collection of Apple TV+ Original Content
     file_poster: config/assets/Originals/Amazon_Prime_Originals.jpg
   Disney Plus Originals:
