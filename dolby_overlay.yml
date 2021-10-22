@@ -9,7 +9,7 @@ collections:
     plex_search:
       all:
         resolution: 4K
-        added: 2
+#        added: 2
     item_overlay: 4K-Dolby
     build_collection: false    
     
