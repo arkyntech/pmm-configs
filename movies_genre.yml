@@ -13,121 +13,121 @@ templates:
 #                Genre Collections                   #
 ######################################################
 collections:
-  Action:
+  Popular Action:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_action.jpg
-  Adventure:
+  Popular Adventure:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_adventure.jpg
-  Animation:
+  Popular Animation:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_animation.jpg
-  Biography:
+  Popular Biography:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_biography.jpg
-  Comedy:
+  Popular Comedy:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_comedy.jpg
-  Crime:
+  Popular Crime:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_crime.jpg
-  Documentaries:
+  Popular Documentaries:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_documentary.jpg
-  Drama:
+  Popular Drama:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_drama.jpg
-  Family:
+  Popular Family:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=famiy&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_family.jpg
-  Fantasy:
+  Popular Fantasy:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_fantasy.jpg
-  History:
+  Popular History:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_history.jpg
-  Horror:
+  Popular Horror:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_horror.jpg
-  Music:
+  Popular Music:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_music.jpg
-  Musicals:
+  Popular Musicals:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_musicals.jpg
-  Mystery:
+  Popular Mystery:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_mystery.jpg
-  Romance:
+  Popular Romance:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_romance.jpg
-  Sci-Fi:
+  Popular Sci-Fi:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_scifi.jpg
-  Thriller:
+  Popular Thriller:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_thriller.jpg
-  War:
+  Popular War:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_war.jpg
-  Western:
+  Popular Western:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
