@@ -9,39 +9,39 @@ templates:
 collections:
   Kids Movies:
     template: { name: Genre }
-    sort_by: release.desc
     smart_filter:
+     sort_by: release.desc 
+     all:
        all:
-         all:
-           - genre.not: War
-           - genre.not: TV Movie
-           - genre.not: Travel
-           - genre.not: Thriller
-           - genre.not: Talk Show
-           - genre.not: Suspense
-           - genre.not: Soap
-           - genre.not: Reality
-           - genre.not: News
-           - genre.not: Podcast
-           - genre.not: Mini-Series
-           - genre.not: Martial Arts
-           - genre.not: Horror
-           - genre.not: Home and Garden
-           - genre.not: History
-           - genre.not: Game Show
-           - genre.not: Food
-           - genre.not: Film-Noir
-           - genre.not: Documentary
-           - genre.not: Crime
-           - genre.not: Biography
-         any:
-           - genre: Children
-           - genre: Animation
-           - genre: Family
-           - content_rating: PG
-           - content_rating: G
-           - content_rating: GP
-           - content_rating: TV-Y
-           - content_rating: TV-Y7
-           - content_rating: TV-Y7-FV
+         - genre.not: War
+         - genre.not: TV Movie
+         - genre.not: Travel
+         - genre.not: Thriller
+         - genre.not: Talk Show
+         - genre.not: Suspense
+         - genre.not: Soap
+         - genre.not: Reality
+         - genre.not: News
+         - genre.not: Podcast
+         - genre.not: Mini-Series
+         - genre.not: Martial Arts
+         - genre.not: Horror
+         - genre.not: Home and Garden
+         - genre.not: History
+         - genre.not: Game Show
+         - genre.not: Food
+         - genre.not: Film-Noir
+         - genre.not: Documentary
+         - genre.not: Crime
+         - genre.not: Biography
+       any:
+         - genre: Children
+         - genre: Animation
+         - genre: Family
+         - content_rating: PG
+         - content_rating: G
+         - content_rating: GP
+         - content_rating: TV-Y
+         - content_rating: TV-Y7
+         - content_rating: TV-Y7-FV
     file_poster: config/assets/Genre/Movies/movies_kid.jpg
