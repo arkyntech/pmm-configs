@@ -155,6 +155,7 @@ collections:
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_animation.jpg
   Top Rated Biography:
+    template: { name: BestOf }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
        limit: 125
