@@ -59,9 +59,10 @@ collections:
     file_poster: config/assets/Network/Originals/network_hulu.jpg
   Netflix:
     template: { name: Originals }
-    trakt_list:
-      url: https://trakt.tv/users/mri8879/lists/netflix-original-content?sort=released,asc
-      limit: 150
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Netflix
     summary: A collection of Netflix content
     file_poster: config/assets/Network/Originals/network_netflix.jpg
   Paramount+:
