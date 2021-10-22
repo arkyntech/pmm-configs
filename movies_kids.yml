@@ -30,7 +30,7 @@ collections:
            - genre.not: History
            - genre.not: Game Show
            - genre.not: Food
-           - genre.not: Film Noir
+           - genre.not: Film-Noir
            - genre.not: Documentary
            - genre.not: Crime
            - genre.not: Biography
