@@ -14,7 +14,6 @@ collections:
      all:
        all:
          - genre.not: War
-         - genre.not: TV Movie
          - genre.not: Travel
          - genre.not: Thriller
          - genre.not: Talk Show
