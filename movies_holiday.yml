@@ -10,13 +10,13 @@ collections:
   Halloween Movies:
     template: { name: Genre, num: 1 }
     imdb_list: 
-      - url: https://www.imdb.com/search/keyword/?keywords=halloween&sort=moviemeter,asc
+      - url: https://www.imdb.com/list/ls050722485/?sort=moviemeter,asc&st_dt=&mode=detail&page=1
         limit: 150
     file_poster: config/assets/Holidays/halloween.jpg
   Christmas Movies :
     template: { name: Genre, num: 2 }
     imdb_list: 
-      - url: https://www.imdb.com/search/keyword/?keywords=christmas-movie
+      - url: https://www.imdb.com/search/keyword/?keywords=christmas-movie&ref_=kw_ref_rt_vt&sort=moviemeter,asc&mode=detail&page=1&num_votes=1999%2C
         limit: 150
     file_poster: config/assets/Holidays/christmas.png  
   Christmas Horror :
