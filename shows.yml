@@ -260,7 +260,7 @@ collections:
       network: BBC America 
     summary: A collection of BBC America content
     file_poster: config/assets/Network/network_bbcamerica.jpg
-  History:
+  History Channel:
     template: { name: Networks }
     plex_search:
       network: History 
