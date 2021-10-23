@@ -1,6 +1,6 @@
 templates:
   Genre:
-    sort_title: +4+_<<collection_name>>
+    sort_title: +5+_<<num>><<collection_name>>
     sync_mode: sync
     collection_order: custom
 ######################################################
@@ -8,8 +8,20 @@ templates:
 ######################################################
 collections:
   Halloween Movies :
-    template: { name: Genre }
+    template: { name: Genre, num: 1 }
     imdb_list:
      - url: https://www.imdb.com/search/keyword/?keywords=halloween
        limit: 150
-    file_poster: config/assets/Holidays/Halloween.jpeg
+    file_poster: config/assets/Holidays/Halloween.jpg
+  Christmas Movies :
+    template: { name: Genre, num: 2 }
+    imdb_list:
+     - url: https://www.imdb.com/search/keyword/?keywords=christmas
+       limit: 150
+    file_poster: config/assets/Holidays/christmas.png  
+  Christmas Horror :
+    template: { name: Genre, num: 3 }
+    imdb_list:
+     - url: https://www.imdb.com/search/keyword/?keywords=halloween
+       limit: 150
+    file_poster: config/assets/Holidays/christmas_horror.jpg    
