@@ -1,46 +1,52 @@
 templates:
   Genre:
-    sort_title: +19_<<collection_name>>
+    sort_title: +1_9<<collection_name>>
     sync_mode: sync
     collection_mode: hide  
 ######################################################
 #                Genre Collections                   #
 ######################################################
 collections:
-  Kids Shows:
+  Kids Movies:
     template: { name: Genre }
-    smart_filter:
-     sort_by: release.desc 
-     all:
-       all:
-         - genre.not: War
-         - genre.not: Travel
-         - genre.not: Thriller
-         - genre.not: Talk Show
-         - genre.not: Suspense
-         - genre.not: Soap
-         - genre.not: Reality
-         - genre.not: News
-         - genre.not: Podcast
-         - genre.not: Mini-Series
-         - genre.not: Martial Arts
-         - genre.not: Horror
-         - genre.not: Home and Garden
-         - genre.not: History
-         - genre.not: Game Show
-         - genre.not: Food
-         - genre.not: Film-Noir
-         - genre.not: Documentary
-         - genre.not: Crime
-         - genre.not: Biography
-       any:
-         - genre: Children
-         - genre: Animation
-         - genre: Family
-         - content_rating: PG
-         - content_rating: G
-         - content_rating: GP
-         - content_rating: TV-Y
-         - content_rating: TV-Y7
-         - content_rating: TV-Y7-FV
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,tv_short&certificates=US:G,US:PG,US:TV-Y,US:TV-G,US:TV-Y7,US:TV-Y7-FV,US:TV-PG,US:PG-13,US:TV-14&genres=family&languages=en&sort=release_date,desc
+    summary: Popular shows for your Kid(s)!
     file_poster: config/assets/Genre/Shows/tv_kids.jpg
+    collection_order: custom
+#  Kids Shows:
+#    template: { name: Genre }
+#    smart_filter:
+#     sort_by: release.desc 
+#     all:
+#       all:
+#         - genre.not: War
+#         - genre.not: Travel
+#         - genre.not: Thriller
+#         - genre.not: Talk Show
+#         - genre.not: Suspense
+#         - genre.not: Soap
+#         - genre.not: Reality
+#         - genre.not: News
+#         - genre.not: Podcast
+#         - genre.not: Mini-Series
+#         - genre.not: Martial Arts
+#         - genre.not: Horror
+#         - genre.not: Home and Garden
+#         - genre.not: History
+#         - genre.not: Game Show
+#         - genre.not: Food
+#         - genre.not: Film-Noir
+#         - genre.not: Documentary
+#         - genre.not: Crime
+#         - genre.not: Biography
+#       any:
+#         - genre: Children
+#         - genre: Animation
+#         - genre: Family
+#         - content_rating: PG
+#         - content_rating: G
+#         - content_rating: GP
+#         - content_rating: TV-Y
+#         - content_rating: TV-Y7
+#         - content_rating: TV-Y7-FV
+#    file_poster: config/assets/Genre/Shows/tv_kids.jpg
