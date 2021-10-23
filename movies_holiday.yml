@@ -9,13 +9,17 @@ templates:
 collections:
   Halloween Movies:
     template: { name: Genre, num: 1 }
-    trakt_list: https://trakt.tv/users/jim222001/lists/the-best-movies-and-shows-for-halloween?display=movie,season,episode,person&sort=rank,asc
+    imdb_list: 
+      - url: https://www.imdb.com/search/keyword/?keywords=halloween&sort=moviemeter,asc
+        limit: 150
     file_poster: config/assets/Holidays/halloween.jpg
   Christmas Movies :
     template: { name: Genre, num: 2 }
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-50-best-christmas-movies-of-all-time?sort=rank,asc
+    imdb_list: 
+      - url: https://www.imdb.com/search/keyword/?keywords=christmas-movie
+        limit: 150
     file_poster: config/assets/Holidays/christmas.png  
   Christmas Horror :
     template: { name: Genre, num: 3 }
-    letterboxd_list: https://letterboxd.com/toshio/list/christmas-horror/by/popular/
+    imdb_list: https://www.imdb.com/search/keyword/?keywords=christmas-horror
     file_poster: config/assets/Holidays/christmas_horror.png
