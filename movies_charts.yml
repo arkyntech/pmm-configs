@@ -8,32 +8,18 @@ templates:
     collection_order: custom
 collections:
 ### CHARTS ###
-#  Trending Movies:
-#    template: { name: Chart, num: 1 }
-#    trakt_trending: 50
-#    filters:
-#      release: 365
-#    summary: Movies Trending across the internet
-#    file_poster: config/assets/Trends/Movies/movies_trending.jpg
+  Trending Movies:
+    template: { name: Chart, num: 1 }
+    trakt_trending: 50
+    filters:
+      release: 365
+    summary: Movies Trending across the internet
+    file_poster: config/assets/Trends/Movies/movies_trending.jpg
   Most Watched Weekly:
     template: { name: Chart, num: 1 }
-    trakt_list: https://trakt.tv/movies/watched/weekly
-    limit: 150
+    trakt_watched: 50
     summary: Movies Trending across the internet
-    file_poster: config/assets/Trends/watched_daily.jpg    
-  Most Watched Monthly:
-    template: { name: Chart, num: 1 }
-    trakt_list: 
-      - url: https://trakt.tv/movies/watched/monthly
-        limit: 150
-    summary: Movies Trending across the internet
-    file_poster: config/assets/Trends/watched_weekly.jpg  
-  Most Watched Yearly:
-    template: { name: Chart, num: 1 }
-    trakt_list: 
-      - url: https://trakt.tv/movies/watched/yearly
-        limit: 150
-    file_poster: config/assets/Trends/watched_monthly.jpg      
+    file_poster: config/assets/Trends/watched_weekly.jpg    
   Popular Movies:
     template: { name: Chart, num: 2}
     imdb_list:
