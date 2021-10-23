@@ -42,11 +42,8 @@ collections:
     template: { name: Originals }
     smart_filter:
       sort_by: title.asc
-      any:
-        - network: 
-            - HBO MAX
-            - HBO
-            - HBO Canada
+      all:
+        network: HBO Max
     summary: A collection of HBO Max Originals 
     file_poster: config/assets/Network/Originals/network_hbo.jpg
   Hulu:
