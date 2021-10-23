@@ -9,26 +9,19 @@ templates:
     sync_mode: sync
     collection_order: alpha
     collection_mode: hide
-    schedule: weekly(monday)
-  Plex Networks:
-    sort_title: +5_<<collection_name>> 
-    collection_mode: hide 
-    schedule: weekly(monday)    
-  Originals:
-    sort_title: +3_<<collection_name>>
-    schedule: weekly(monday)    
+    schedule: monthly(1), monthly(15)  
   Genre:
     sort_title: +4_1<<collection_name>>
     sync_mode: sync
     collection_mode: hide
     collection_order: custom
-    schedule: weekly(monday)
+    schedule: monthly(1), monthly(15)
   BestOf:
     sort_title: +4_<<collection_name>>
     sync_mode: sync
     collection_mode: hide
     collection_order: custom   
-    schedule: weekly(monday)
+    schedule: monthly(1), monthly(15)
 collections:
 ### CHARTS ###
   Trending Shows:
@@ -50,106 +43,6 @@ collections:
       limit: 125
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Shows/tv_toprated.jpg
-#### ORIGINALS ####
-  Amazon Prime:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Amazon
-    summary: A collection of Amazon content
-    file_poster: config/assets/Network/Originals/network_prime.jpg
-  Apple TV+:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Apple TV+
-    summary: A collection of AppleTV content
-    file_poster: config/assets/Network/Originals/network_appletv.jpg
-  Disney Plus:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Disney+
-    summary: A collection of Disney Plus content
-    file_poster: config/assets/Network/Originals/network_disney.jpg
-  HBO Max:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: title.asc
-      any:
-        - network: 
-            - HBO MAX
-            - HBO
-            - HBO Canada
-    summary: A collection of HBO Max Originals 
-    file_poster: config/assets/Network/Originals/network_hbo.jpg
-  Hulu:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Hulu
-    summary: A collection of Hulu content
-    file_poster: config/assets/Network/Originals/network_hulu.jpg
-  Netflix:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Netflix
-    summary: A collection of Netflix content
-    file_poster: config/assets/Network/Originals/network_netflix.jpg
-  Paramount+:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Paramount+
-    summary: A collection of Paramount+ content
-    file_poster: config/assets/Network/Originals/network_paramount.jpg
-  Peacock:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Peacock
-    summary: A collection of Peacock content
-    file_poster: config/assets/Network/Originals/network_peacock.jpg  
-  Quibi:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Quibi
-    summary: A collection of Quibi content
-    file_poster: config/assets/Network/Originals/network_quibi.jpg
-  Stan:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Stan
-    summary: A collection of Stan content
-    file_poster: config/assets/Network/Originals/network_stan.jpg  
-  Starz:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Starz
-    summary: A collection of Starz content
-    file_poster: config/assets/Network/Originals/network_starz.jpg  
-  Youtube:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Youtube
-    summary: A collection of Youtube content
-    file_poster: config/assets/Network/Originals/network_youtube.jpg
 ####  Networks ####
   ABC:
     template: { name: Networks }
