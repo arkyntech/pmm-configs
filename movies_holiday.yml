@@ -10,7 +10,7 @@ collections:
   Halloween Movies:
     template: { name: Genre, num: 1 }
     imdb_list: 
-      - url: https://www.imdb.com/list/ls050722485/?sort=moviemeter,asc&st_dt=&mode=detail&page=1
+      - url: https://www.imdb.com/list/ls000091321/?sort=moviemeter,asc&st_dt=&mode=detail&page=1&title_type=movie&ref_=ttls_ref_typ
         limit: 150
     file_poster: config/assets/Holidays/halloween.jpg
   Christmas Movies :
