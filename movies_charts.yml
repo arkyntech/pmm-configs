@@ -17,9 +17,8 @@ collections:
 #    file_poster: config/assets/Trends/Movies/movies_trending.jpg
   Most Watched Weekly:
     template: { name: Chart, num: 1 }
-    trakt_list: 
-      - url: https://trakt.tv/movies/watched/weekly
-        limit: 150
+    trakt_list: https://trakt.tv/movies/watched/weekly
+    limit: 150
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_daily.jpg    
   Most Watched Monthly:
