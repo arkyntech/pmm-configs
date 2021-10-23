@@ -24,4 +24,4 @@ collections:
     imdb_list:
      - url: https://www.imdb.com/search/keyword/?keywords=halloween
        limit: 150
-    file_poster: config/assets/Holidays/christmas_horror.jpg    
+    file_poster: config/assets/Holidays/christmas_horror.jpg   
