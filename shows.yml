@@ -299,7 +299,6 @@ collections:
 ######################################################
 #                Genre Collections                   #
 ######################################################
-collections:
   Action:
     template: { name: Genre }
     imdb_list:
