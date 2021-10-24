@@ -6,6 +6,8 @@ templates:
     
 collections:
   4K Overlay:
-    plex_all: true
+    plex_search:
+      all:
+        added: 30
     item_overlay: 4K
     build_collection: false   
