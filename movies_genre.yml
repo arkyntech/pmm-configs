@@ -82,7 +82,7 @@ collections:
   Popular Horror:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=horror&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_horror.jpg
   Popular Music:
