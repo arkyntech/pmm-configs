@@ -8,6 +8,6 @@ collections:
   4K Overlay:
     plex_search:
       all:
-        added: 7
+        added: 3
     item_overlay: 4K
     build_collection: false   
