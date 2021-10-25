@@ -1,6 +1,6 @@
 templates:
   Genre:
-    sort_title: +1_4<<collection_name>>
+    sort_title: +1_5<<collection_name>>
     sync_mode: sync
     collection_mode: hide  
 ######################################################
