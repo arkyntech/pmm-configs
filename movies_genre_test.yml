@@ -13,12 +13,12 @@ templates:
 #                Genre Collections                   #
 ######################################################
 collections:
-Top Rated Comedy TEST:
-  tmdb_discover:
-    sort_by: vote_average.desc
-    with_original_language: English
-    with_genres: 35
-    vote_average.gte: 7
-    limit: 100
-  sync_mode: sync
-  collection_order: custom
+  Top Rated Comedy TEST:
+    tmdb_discover:
+      sort_by: vote_average.desc
+      with_original_language: English
+      with_genres: 35
+      vote_average.gte: 7
+      limit: 100
+    sync_mode: sync
+    collection_order: custom
