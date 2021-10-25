@@ -15,7 +15,7 @@ templates:
 collections:
   Top Rated Comedy TEST:
     tmdb_discover:
-      sort_by: vote_average.desc
+      sort_by: audience_rating.desc
       with_original_language: en
       with_genres: 35
       vote_average.gte: 7
