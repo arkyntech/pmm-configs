@@ -13,7 +13,7 @@ templates:
 #                Genre Collections                   #
 ######################################################
 collections:
-Top Rated Comedy:
+Top Rated Comedy TEST:
   tmdb_discover:
     sort_by: vote_average.desc
     with_original_language: English
