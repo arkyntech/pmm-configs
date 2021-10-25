@@ -1,0 +1,24 @@
+templates:
+  Genre:
+    sort_title: +4_1<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide
+    collection_order: custom
+  BestOf:
+    sort_title: +4_<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide  
+    collection_order: custom
+######################################################
+#                Genre Collections                   #
+######################################################
+collections:
+Top Rated Comedy:
+  tmdb_discover:
+    sort_by: vote_average.desc
+    with_original_language: English
+    with_genres: 35
+    vote_average.gte: 7
+    limit: 100
+  sync_mode: sync
+  collection_order: custom
