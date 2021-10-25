@@ -22,11 +22,21 @@ collections:
       limit: 125
     summary: Popular Movies across the internet
     File_poster: config/assets/Trends/Movies/movies_popular.jpg
+  Most Watched Daily:
+    template: { name: Chart, num: 3 }
+    trakt_watched_daily: 50
+    summary: Movies Trending across the internet
+    file_poster: config/assets/Trends/watched_daily.jpg     
   Most Watched Weekly:
     template: { name: Chart, num: 3 }
-    trakt_watched: 50
+    trakt_watched_weekly: 50
     summary: Movies Trending across the internet
-    file_poster: config/assets/Trends/watched_weekly.jpg      
+    file_poster: config/assets/Trends/watched_weekly.jpg    
+  Most Watched Monthly:
+    template: { name: Chart, num: 3 }
+    trakt_watched_monthly: 50
+    summary: Movies Trending across the internet
+    file_poster: config/assets/Trends/watched_monthly.jpg     
   Popular TV Movies:
     template: { name: Chart, num: 4 }
     imdb_list:
