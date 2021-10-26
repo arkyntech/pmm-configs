@@ -36,14 +36,14 @@ collections:
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_yearly.jpg    
   Popular TV Movies:
-    template: { name: Chart, num: 5 }
+    template: { name: Chart, num: 7 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_movie&countries=!in,!pk&languages=en&sort=moviemeter,asc
       limit: 125
     summary: Popular Movies across the internet
     File_poster: config/assets/Trends/Movies/movies_popular_tvmovies.jpg  
   Top Rated Movies:
-    template: { name: Chart, num: 6 }
+    template: { name: Chart, num: 8 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=100000,&countries=!in,!pk&languages=en&sort=user_rating,desc
       limit: 125
