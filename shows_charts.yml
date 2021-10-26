@@ -30,6 +30,11 @@ collections:
     trakt_watched_monthly: 50
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_monthly.jpg  
+  Most Watched Yearly:
+    template: { name: Chart, num: 5 }
+    trakt_watched_yearly: 50
+    summary: Movies Trending across the internet
+    file_poster: config/assets/Trends/watched_yearly.jpg      
   Top Rated Shows:
     template: { name: Chart, num: 6 } #kids is 5
     imdb_list:
