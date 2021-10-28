@@ -7,47 +7,17 @@ templates:
 #                Genre Collections                   #
 ######################################################
 collections:
-  Kids Movies:
-    template: { name: Genre }
-    imdb_list: https://www.imdb.com/search/title/?title_type=feature,tv_movie&certificates=US:G,US:PG,US:TV-Y,US:TV-G,US:TV-Y7,US:TV-Y7-FV,US:TV-PG,US:PG-13,US:TV-14&genres=family&languages=en&sort=release_date,desc
-    summary: Popular movies for your Kid(s)!
-    file_poster: config/assets/Genre/Movies/movies_kids.jpg
-    collection_order: custom
 #  Kids Movies:
 #    template: { name: Genre }
-#    smart_filter:
-#     sort_by: release.desc 
-#     all:
-#       all:
-#         - genre.not: War
-#         - genre.not: TV Movie
-#         - genre.not: Travel
-#         - genre.not: Thriller
-#         - genre.not: Talk Show
-#         - genre.not: Suspense
-#         - genre.not: Soap
-#         - genre.not: Reality
-#         - genre.not: News
-#         - genre.not: Podcast
-#         - genre.not: Mini-Series
-#         - genre.not: Martial Arts
-#         - genre.not: Horror
-#         - genre.not: Home and Garden
-#         - genre.not: History
-#         - genre.not: Game Show
-#         - genre.not: Food
-#         - genre.not: Film-Noir
-#         - genre.not: Documentary
-#         - genre.not: Crime
-#         - genre.not: Biography
-#       any:
-#         - genre: Children
-#         - genre: Animation
-#         - genre: Family
-#         - content_rating: PG
-#         - content_rating: G
-#         - content_rating: GP
-#         - content_rating: TV-Y
-#         - content_rating: TV-Y7
-#         - content_rating: TV-Y7-FV
+#    imdb_list: https://www.imdb.com/search/title/?title_type=feature,tv_movie&certificates=US:G,US:PG,US:TV-Y,US:TV-G,US:TV-Y7,US:TV-Y7-FV,US:TV-PG,US:PG-13,US:TV-14&genres=family&languages=en&sort=release_date,desc
+#    summary: Popular movies for your Kid(s)!
 #    file_poster: config/assets/Genre/Movies/movies_kids.jpg
+#    collection_order: custom
+  Kids Movies:
+    tmdb_discover:
+      with_genres: 10751
+      sort_by: popularity.desc
+      vote_average.gte: 5
+      vote_count.gte: 300
+      limit: 1000
+    collection_order: custom  
