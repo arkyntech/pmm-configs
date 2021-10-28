@@ -19,5 +19,6 @@ collections:
       sort_by: popularity.desc
       vote_average.gte: 5
       vote_count.gte: 300
+      certification.lte: PG
       limit: 1000
     collection_order: custom  
