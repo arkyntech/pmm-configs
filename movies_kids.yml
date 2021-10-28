@@ -17,7 +17,7 @@ collections:
     template: { name: Genre }
     tmdb_discover:
       with_genres: 10751
-      sort_by: popularity.desc
+      sort_by: release_date.desc
       vote_average.gte: 5
       vote_count.gte: 300
       certification_country: US
