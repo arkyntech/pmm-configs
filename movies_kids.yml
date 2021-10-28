@@ -19,6 +19,7 @@ collections:
     tmdb_discover:
       with_genres: 10751
       sort_by: primary_release_date.desc
+      with_original_language: en
       vote_average.gte: 5
       vote_count.gte: 300
       certification_country: US
