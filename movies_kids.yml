@@ -2,7 +2,8 @@ templates:
   Genre:
     sort_title: +1_6<<collection_name>>
     sync_mode: sync
-    collection_mode: hide  
+    collection_mode: hide
+    collection_order: custom
 ######################################################
 #                Genre Collections                   #
 ######################################################
