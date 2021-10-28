@@ -24,5 +24,4 @@ collections:
       limit: 1000
     collection_order: custom  
     summary: Popular movies for your Kid(s)!
-    file_poster: config/assets/Genre/Movies/movies_kids.jpg
-    collection_order: custom    
+    file_poster: config/assets/Genre/Movies/movies_kids.jpg 
