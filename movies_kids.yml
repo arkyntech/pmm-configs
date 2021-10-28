@@ -14,6 +14,7 @@ collections:
 #    file_poster: config/assets/Genre/Movies/movies_kids.jpg
 #    collection_order: custom
   Kids Movies:
+    template: { name: Genre }
     tmdb_discover:
       with_genres: 10751
       sort_by: popularity.desc
@@ -22,6 +23,5 @@ collections:
       certification_country: US
       certification.lte: PG
       limit: 1000
-    collection_order: custom  
     summary: Popular movies for your Kid(s)!
     file_poster: config/assets/Genre/Movies/movies_kids.jpg 
