@@ -18,7 +18,7 @@ collections:
     imdb_list: 
       - url: https://www.imdb.com/search/keyword/?keywords=christmas-movie&ref_=kw_ref_rt_vt&sort=moviemeter,asc&mode=detail&page=1&num_votes=1999%2C
         limit: 150
-    file_poster: config/assets/Holidays/christmas.png  
+    file_poster: config/assets/Holidays/christmas.jpg
   Christmas Horror :
     template: { name: Genre, num: 3 }
     imdb_list: https://www.imdb.com/search/keyword/?keywords=christmas-horror

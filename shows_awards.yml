@@ -9,28 +9,28 @@ templates:
     collection_order: custom
 collections:
   Emmy Award Winners:
-    template: {name: Awards, num: 3 }
+    template: {name: Awards, num: 5 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=emmy_winner&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Emmy Award Winners
     file_poster: config/assets/Awards/awards_emmy_winners.jpg  
   Emmy Award Nominees:
-    template: {name: Awards, num: 4 }
+    template: {name: Awards, num: 6 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=emmy_nominee&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Emmy Awards Nominees
     file_poster: config/assets/Awards/awards_emmy_nominated.jpg
   Golden Globes Winners:
-    template: {name: Awards, num: 5 }
+    template: {name: Awards, num: 7 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=golden_globe_winner&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Golden Globes Winners
     file_poster: config/assets/Awards/awards_goldenglobes.jpg    
   Golden Globes Nominees:
-    template: {name: Awards, num: 6 }
+    template: {name: Awards, num: 8 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=golden_globe_nominee&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75

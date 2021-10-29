@@ -9,42 +9,42 @@ templates:
     collection_order: custom
 collections:
   Oscar Winners:
-    template: {name: Awards, num: 1 }
+    template: {name: Awards, num: 5 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_winner&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Oscar Winners
     file_poster: config/assets/Awards/awards_academyawards.jpg
   Oscar Nominees:
-    template: {name: Awards, num: 2 }
+    template: {name: Awards, num: 6 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_nominee&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Oscar Nominees
     file_poster: config/assets/Awards/awards_academyawards_nominated.jpg
   Emmy Award Winners:
-    template: {name: Awards, num: 3 }
+    template: {name: Awards, num: 7 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_winner&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Emmy Award Winners
     file_poster: config/assets/Awards/awards_emmy_winners.jpg  
   Emmy Award Nominees:
-    template: {name: Awards, num: 4 }
+    template: {name: Awards, num: 8 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_nominee&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Emmy Awards Nominees
     file_poster: config/assets/Awards/awards_emmy_nominated.jpg
   Golden Globes Winners:
-    template: {name: Awards, num: 5 }
+    template: {name: Awards, num: 9 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_winner&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Golden Globes Winners
     file_poster: config/assets/Awards/awards_goldenglobes.jpg    
   Golden Globes Nominees:
-    template: {name: Awards, num: 6 }
+    template: {name: Awards, num: 91 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_nominee&countries=!in,!pk&languages=en&sort=release_date,desc
       limit: 75
