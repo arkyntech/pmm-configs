@@ -8,6 +8,7 @@ templates:
 ##########################################
 #               Top Rated                #       
 ##########################################
+collections:
   Top Rated Action:
     template: { name: TopRated }
     imdb_list:
