@@ -43,21 +43,21 @@ collections:
   Popular Movies:
     template: { name: Chart, num: 2}
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&countries=!in,!pk&languages=en&sort=moviemeter,asc
+      url: https://www.imdb.com/search/title/?title_type=feature&languages=en&sort=moviemeter,asc
       limit: 125
     summary: Popular Movies across the internet
     File_poster: config/assets/Trends/Movies/movies_popular.jpg
   Popular TV Movies:
     template: { name: Chart, num: 3 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_movie&countries=!in,!pk&languages=en&sort=moviemeter,asc
+      url: https://www.imdb.com/search/title/?title_type=tv_movie&languages=en&sort=moviemeter,asc
       limit: 125
     summary: Popular Movies across the internet
     File_poster: config/assets/Trends/Movies/movies_popular_tvmovies.jpg  
   Top Rated Movies:
     template: { name: Chart, num: 4 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=100000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=100000,&languages=en&sort=user_rating,desc
       limit: 125
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Movies/movies_toprated.jpg
@@ -65,28 +65,28 @@ collections:
   Top Rated of 2021:
     template: { name: Chart, num: 5 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2021-01-01,&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2021-01-01,&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Movies/movies_toprated_2021.jpg
   Top Rated of 2020:
     template: { name: Chart, num: 6 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2020-01-01,2021-01-01&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2020-01-01,2021-01-01&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Movies/movies_toprated_2020.jpg
   Top Rated of 2019:
     template: { name: Chart, num: 7 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2019-01-01,2020-01-01&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2019-01-01,2020-01-01&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Movies/movies_toprated_2019.jpg
   Top Rated of 2018:
     template: { name: Chart, num: 8}
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2018-01-01,2019-01-01&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2018-01-01,2019-01-01&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Movies/movies_toprated_2018.jpg     
@@ -94,42 +94,42 @@ collections:
   Oscar Winners:
     template: {name: Awards, num: 1 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_winner&countries=!in,!pk&languages=en&sort=release_date,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_winner&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Oscar Winners
     file_poster: config/assets/Awards/awards_academyawards.jpg
   Oscar Nominees:
     template: {name: Awards, num: 2 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_nominee&countries=!in,!pk&languages=en&sort=release_date,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_nominee&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Oscar Nominees
     file_poster: config/assets/Awards/awards_academyawards_nominated.jpg
   Emmy Award Winners:
     template: {name: Awards, num: 3 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_winner&countries=!in,!pk&languages=en&sort=release_date,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_winner&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Emmy Award Winners
     file_poster: config/assets/Awards/awards_emmy_winners.jpg  
   Emmy Award Nominees:
     template: {name: Awards, num: 4 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_nominee&countries=!in,!pk&languages=en&sort=release_date,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_nominee&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Emmy Awards Nominees
     file_poster: config/assets/Awards/awards_emmy_nominated.jpg
   Golden Globes Winners:
     template: {name: Awards, num: 5 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_winner&countries=!in,!pk&languages=en&sort=release_date,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_winner&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Golden Globes Winners
     file_poster: config/assets/Awards/awards_goldenglobes.jpg    
   Golden Globes Nominees:
     template: {name: Awards, num: 6 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_nominee&countries=!in,!pk&languages=en&sort=release_date,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_nominee&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Golden Globes Nominees
     file_poster: config/assets/Awards/awards_goldenglobes_nominated.jpg     
@@ -180,121 +180,121 @@ collections:
   Popular Action:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_action.jpg
   Popular Adventure:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_adventure.jpg
   Popular Animation:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_animation.jpg
   Popular Biography:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_biography.jpg
   Popular Comedy:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_comedy.jpg
   Popular Crime:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_crime.jpg
   Popular Documentaries:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_documentary.jpg
   Popular Drama:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_drama.jpg
   Popular Family:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=famiy&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=famiy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_family.jpg
   Popular Fantasy:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_fantasy.jpg
   Popular History:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_history.jpg
   Popular Horror:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_horror.jpg
   Popular Music:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_music.jpg
   Popular Musicals:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_musicals.jpg
   Popular Mystery:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_mystery.jpg
   Popular Romance:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_romance.jpg
   Popular Sci-Fi:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_scifi.jpg
   Popular Thriller:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_thriller.jpg
   Popular War:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_war.jpg
   Popular Western:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&countries=!in,!pk&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_popular_western.jpg
 ##########################################
@@ -303,121 +303,121 @@ collections:
   Top Rated Action:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_action.jpg
   Top Rated Adventure:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_adventure.jpg
   Top Rated Animation:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_animation.jpg
   Top Rated Biography:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_biography.jpg
   Top Rated Comedy:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_comedy.jpg
   Top Rated Crime:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_crime.jpg
   Top Rated Documentaries:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_documentary.jpg
   Top Rated Drama:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_drama.jpg
   Top Rated Family:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_family.jpg
   Top Rated Fantasy:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=fantasy&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=fantasy&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_fantasy.jpg
   Top Rated History:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_history.jpg
   Top Rated Horror:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=horror&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=horror&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_horror.jpg
   Top Rated Music:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_music.jpg
   Top Rated Musicals:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_musicals.jpg
   Top Rated Mystery:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_mystery.jpg
   Top Rated Romance:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_romance.jpg
   Top Rated Sci-Fi:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_scifi.jpg
   Top Rated Thriller:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_thriller.jpg
   Top Rated War:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_war.jpg
   Top Rated Western:
     template: { name: BestOf }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&countries=!in,!pk&languages=en&sort=user_rating,desc
+     - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 125
     file_poster: config/assets/Genre/Movies/movies_toprated_western.jpg    
     
