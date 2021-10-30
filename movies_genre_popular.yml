@@ -64,13 +64,13 @@ collections:
   Popular Family:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=famiy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     file_poster: config/assets/Genre/Movies/movies_popular_family.jpg
   Popular Fantasy:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=fantasy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     file_poster: config/assets/Genre/Movies/movies_popular_fantasy.jpg
   Popular History:

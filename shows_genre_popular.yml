@@ -59,13 +59,13 @@ collections:
   Family:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=famiy&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=family&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Shows/tv_popular_family.jpg
   Fantasy:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=family&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=fantasy&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Shows/tv_popular_fantasy.jpg
   History:
@@ -77,7 +77,7 @@ collections:
   Horror:
     template: { name: Genre }
     imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=history&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
+     - url: https://www.imdb.com/search/title/?genres=horror&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Shows/tv_popular_horror.jpg
   Music:
