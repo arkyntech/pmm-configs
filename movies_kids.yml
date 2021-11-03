@@ -26,4 +26,5 @@ collections:
       certification.lte: PG
       limit: 1000
     summary: Popular movies for your Kid(s)!
+    label: Kids
     file_poster: config/assets/Genre/Movies/movies_kids.jpg 
