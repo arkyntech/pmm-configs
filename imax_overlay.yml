@@ -12,13 +12,13 @@ collections:
       resolution.not: 4K
     item_overlay: IMAX_ONLY
     build_collection: false    
-  IMAX_HDR:
-    plex_all: true
-    filters:
-      filepath: IMAX
-      filepath.not: .DV.
-    item_overlay: IMAX_HDR
-    build_collection: false
+#  IMAX_HDR:
+#    plex_all: true
+#    filters:
+#      filepath: IMAX
+#      filepath.not: .DV.
+#    item_overlay: IMAX_HDR
+#    build_collection: false
   IMAX_Dolby:
     plex_all: true
     filters:
