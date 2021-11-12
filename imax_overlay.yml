@@ -37,7 +37,7 @@ collections:
       filepath: 
          - HMAX
       resolution.not: 4K
-    item_overlay: IMAX_ONLY
+    item_overlay: HMAX_ONLY
     build_collection: false    
   4K_HMAX:
     plex_all: true
@@ -46,7 +46,7 @@ collections:
          - HMAX
       filepath.not: .DV.
       resolution: 4K
-    item_overlay: IMAX_HDR
+    item_overlay: HMAX_HDR
     build_collection: false
   HMAX_Dolby:
     plex_all: true
@@ -55,5 +55,5 @@ collections:
         - HMAX
         - .DV.
       resolution: 4K  
-    item_overlay: IMAX_DOLBY
+    item_overlay: HMAX_DOLBY
     build_collection: false        
