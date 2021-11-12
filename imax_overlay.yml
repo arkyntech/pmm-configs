@@ -16,8 +16,7 @@ collections:
   4K_IMAX:
     plex_all: true
     filters:
-      filepath:
-         - IMAX
+      filepath: IMAX
       filepath.not: .DV.
       resolution: 4K
     item_overlay: IMAX_HDR
