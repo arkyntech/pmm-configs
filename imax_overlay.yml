@@ -1,0 +1,13 @@
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+    
+collections:    
+  4K-Dolby:
+    plex_all: true
+    filters:
+      filepath: IMAX
+    item_overlay: IMAX
+    build_collection: false    
