@@ -12,7 +12,7 @@ collections:
       resolution.not: 4K
     item_overlay: IMAX_ONLY
     build_collection: false    
-  IMAX_HDR:
+  4K_IMAX:
     plex_all: true
     filters:
       filepath: IMAX
