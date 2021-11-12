@@ -5,7 +5,12 @@ templates:
     collection_order: custom
     
 collections:
-  4K Overlay:
-    plex_all: true
+  4K:
+    plex_search:
+      all:
+        resolution: 4K
+    filters:
+      filepath.not: .DV.
+      filepath.not: DoVi
     item_overlay: 4K
-    build_collection: false   
+    build_collection: false
