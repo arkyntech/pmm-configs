@@ -5,7 +5,7 @@ templates:
     collection_order: custom
     
 collections:    
-  4K-Dolby:
+  IMAX:
     plex_all: true
     filters:
       filepath: IMAX
