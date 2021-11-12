@@ -5,9 +5,16 @@ templates:
     collection_order: custom
     
 collections:    
-  IMAX:
+  IMAX_ONLY:
     plex_all: true
     filters:
       filepath: IMAX
-    item_overlay: IMAX
+      resolution.not: 4K
+    item_overlay: IMAX_ONLY
     build_collection: false    
+#  IMAX:
+#    plex_all: true
+#    filters:
+#      filepath: IMAX
+#    item_overlay: IMAX
+#    build_collection: false     
