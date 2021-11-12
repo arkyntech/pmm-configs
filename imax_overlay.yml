@@ -18,7 +18,6 @@ collections:
     filters:
       filepath: IMAX
       filepath.not: .DV.
-      resolution: 4K
     item_overlay: IMAX_HDR
     build_collection: false
 #  IMAX_Dolby:
