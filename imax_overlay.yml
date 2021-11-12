@@ -8,14 +8,18 @@ collections:
 #  IMAX_ONLY:
 #    plex_all: true
 #    filters:
-#      filepath: IMAX
+#      filepath: 
+#         - IMAX
+#         - HMAX
 #      resolution.not: 4K
 #    item_overlay: IMAX_ONLY
 #    build_collection: false    
 #  4K_IMAX:
 #    plex_all: true
 #    filters:
-#      filepath: IMAX
+#      filepath:
+#         - IMAX
+#         - HMAX
 #      filepath.not: .DV.
 #      resolution: 4K
 #    item_overlay: IMAX_HDR
@@ -24,6 +28,7 @@ collections:
     plex_all: true
     filters:
       filepath: 
+        - HMAX
         - IMAX
         - .DV.
       resolution: 4K  
