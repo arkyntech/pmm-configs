@@ -10,7 +10,8 @@ collections:
       all:
         resolution: 4K
     filters:
-      filepath.not: .DV.
-      filepath.not: DoVi
+      filepath.not: 
+        - .DV.
+        - DoVi
     item_overlay: 4K
     build_collection: false
