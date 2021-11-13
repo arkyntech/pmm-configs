@@ -43,45 +43,36 @@ collections:
     File_poster: config/assets/Misc/misc_fanedits.jpg    
   1080P IMAX:
     template: { name: Alternate, num: 1 }
-    smart_filter:  
-      sort_by: title.asc
-      all:
+    plex_search: 
+      any:
         resolution: 1080p 
-        label.not:
-          - 4K77
-          - FanEdits
-          - AltCuts
+    filters:
+      filepath: IMAX 
     summary: A collection of IMAX Enhanced 1080p films.
-    item_label: 1080PIMAX
     File_poster: config/assets/Misc/misc_1080PIMAX.jpg
-  4K IMAX HDR:
-    template: { name: Alternate, num: 2 }
-    smart_filter:  
-      sort_by: title.asc
-      all:
-        resolution: 4K 
-        hdr: true
-        label.not:
-          - 4K77
-          - FanEdits
-          - AltCuts
-          - 1080PIMAX
-    #item_label: 4KHDRIMAX         
-    summary: A collection of IMAX Enhanced 4K HDR films.
-    File_poster: config/assets/Misc/misc_4KIMAX.jpg
-  4K IMAX Dolby Vision:
-    template: { name: Alternate, num: 3 }
-    smart_filter:  
-      sort_by: title.asc
-      all:
-        resolution: 4K 
-        hdr: false
-        label.not:
-          - 4K77
-          - FanEdits
-          - AltCuts
-          - 1080PIMAX
-
-    #item_label: 4KDVIMAX      
-    summary: A collection of IMAX Enhanced 4K Dolby Vision films.
-    File_poster: config/assets/Misc/misc_4KDVIMAX.jpg
+#  4K IMAX HDR:
+#    template: { name: Alternate, num: 2 }
+#    smart_filter:  
+#      sort_by: title.asc
+#      all:
+#        resolution: 4K 
+#        hdr: true
+#        label.not:
+#          - 4K77
+#          - FanEdits
+#          - AltCuts
+#    summary: A collection of IMAX Enhanced 4K HDR films.
+#    File_poster: config/assets/Misc/misc_4KIMAX.jpg
+#  4K IMAX Dolby Vision:
+#    template: { name: Alternate, num: 3 }
+#    smart_filter:  
+#      sort_by: title.asc
+#      all:
+#        resolution: 4K 
+#        hdr: false
+#        label.not:
+#          - 4K77
+#          - FanEdits
+#          - AltCuts
+#    summary: A collection of IMAX Enhanced 4K Dolby Vision films.
+#    File_poster: config/assets/Misc/misc_4KDVIMAX.jpg
