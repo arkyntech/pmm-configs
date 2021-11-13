@@ -21,18 +21,22 @@ collections:
     template: { name: Alternate, num: 2 }
     plex_search: 
       any:
-        resolution: 1080p 
+        resolution: 4K 
     filters:
-      filepath: IMAX 
+      filepath:
+        - HDR
+        - IMAX
     summary: A collection of IMAX Enhanced 4K HDR films.
     File_poster: config/assets/Misc/misc_4KIMAX.jpg
   4K IMAX Dolby Vision:
     template: { name: Alternate, num: 3 }
     plex_search: 
       any:
-        resolution: 1080p 
+        resolution: 4K 
     filters:
-      filepath: IMAX 
+      filepath:
+        - .DV.
+        - IMAX
     summary: A collection of IMAX Enhanced 4K Dplby Vision films.
     File_poster: config/assets/Misc/misc_4KDVIMAX.jpg
   Alternate Cuts:
