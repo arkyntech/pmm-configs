@@ -33,7 +33,7 @@ collections:
     smart_filter: 
       any:
         title: 
-          - 4K77
+          - (4K77)
     summary: The Project 4K77 Star Wars Collection.
     File_poster: config/assets/Misc/misc_fanedits.jpg    
 #  1080P IMAX:
