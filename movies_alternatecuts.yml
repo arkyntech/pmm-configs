@@ -18,6 +18,7 @@ collections:
           - Dawn of the Dead
           - Deep Red
     summary: A collection of alternate cuts.
+    item_label: AltCuts
     File_poster: config/assets/Misc/misc_altcuts.jpg
   Fan Edits:
     template: { name: Alternate, num: 5 }
@@ -27,6 +28,7 @@ collections:
           - Hobbit
           - Sacred Timeline Cut
     summary: A collection of fan edits.
+    item_label: FanEdits
     File_poster: config/assets/Misc/misc_fanedits.jpg
   Project 4K77:
     template: { name: Alternate, num: 6 }
@@ -35,16 +37,18 @@ collections:
         title: 
           - (4K77)
     summary: The Project 4K77 Star Wars Collection.
+    item_label: 4K77
     File_poster: config/assets/Misc/misc_fanedits.jpg    
-#  1080P IMAX:
-#    template: { name: Alternate, num: 1 }
-#    plex_search: 
-#      any:
-#        resolution: 1080p 
-#    filters:
-#      filepath: IMAX 
-#    summary: A collection of IMAX Enhanced 1080p films.
-#    File_poster: config/assets/Misc/misc_1080PIMAX.jpg
+  1080P IMAX:
+    template: { name: Alternate, num: 1 }
+    smart_filter: 
+      any:
+        resolution: 1080p 
+    filters:
+      filepath: IMAX 
+    summary: A collection of IMAX Enhanced 1080p films.
+    item_label: 1080PIMAX
+    File_poster: config/assets/Misc/misc_1080PIMAX.jpg
 #  4K IMAX HDR:
 #    template: { name: Alternate, num: 2 }
 #    plex_search: 
