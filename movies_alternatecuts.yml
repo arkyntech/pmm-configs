@@ -56,7 +56,7 @@ collections:
     smart_filter: 
       all:
         resolution: 4K 
-        HDR: True
+        hdr: true
         label.not:
           - 4K77
           - FanEdits
@@ -70,7 +70,7 @@ collections:
     smart_filter: 
       all:
         resolution: 4K 
-        HDR: False
+        hdr: false
         label.not:
           - 4K77
           - FanEdits
