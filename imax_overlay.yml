@@ -14,10 +14,9 @@ collections:
 #    item_overlay: IMAX_ONLY
 #    build_collection: false    
   4K_IMAX:
-    plex_all: true
-    filters:
-      filepath: IMAX
-      filepath.not: .DV.
+    plex_search:
+      all:
+        collection: 4K IMAX HDR
     item_overlay: IMAX_HDR
     build_collection: false
 #  IMAX_Dolby:
