@@ -69,7 +69,7 @@ collections:
     File_poster: config/assets/Misc/misc_4KIMAX.jpg
   4K IMAX Dolby Vision:
     template: { name: Alternate, num: 3 }
-     smart_filter: 
+    smart_filter: 
       all:
         resolution: 4K 
         label.not:
