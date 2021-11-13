@@ -42,7 +42,7 @@ collections:
   1080P IMAX:
     template: { name: Alternate, num: 1 }
     smart_filter: 
-      any:
+      all:
         resolution: 1080p 
         label.not:
           - 4K77
