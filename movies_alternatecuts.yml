@@ -18,25 +18,25 @@ collections:
     summary: A collection of IMAX Enhanced 1080p films.
     File_poster: config/assets/Misc/misc_1080PIMAX.jpg
   4K IMAX HDR:
-    template: { name: Alternate, num: 1 }
+    template: { name: Alternate, num: 2 }
     plex_search: 
       any:
         resolution: 1080p 
     filters:
       filepath: IMAX 
-    summary: A collection of IMAX Enhanced 1080p films.
+    summary: A collection of IMAX Enhanced 4K HDR films.
     File_poster: config/assets/Misc/misc_4KIMAX.jpg
   4K IMAX Dolby Vision:
-    template: { name: Alternate, num: 1 }
+    template: { name: Alternate, num: 3 }
     plex_search: 
       any:
         resolution: 1080p 
     filters:
       filepath: IMAX 
-    summary: A collection of IMAX Enhanced 1080p films.
+    summary: A collection of IMAX Enhanced 4K Dplby Vision films.
     File_poster: config/assets/Misc/misc_4KDVIMAX.jpg
   Alternate Cuts:
-    template: { name: Alternate, num: 1 }
+    template: { name: Alternate, num: 4 }
     plex_search: 
       any:
         title: 
@@ -45,22 +45,22 @@ collections:
           - Days of Future Past
           - Dawn of the Dead
           - Deep Red
-    summary: A collection of IMAX Enhanced 1080p films.
+    summary: A collection of alternate cuts.
     File_poster: config/assets/Misc/misc_altcuts.jpg
   Fan Edits:
-    template: { name: Alternate, num: 1 }
+    template: { name: Alternate, num: 5 }
     plex_search: 
       any:
         title: 
           - Hobbit
           - Sacred Timeline Cut
-    summary: A collection of IMAX Enhanced 1080p films.
+    summary: A collection of fan edits.
     File_poster: config/assets/Misc/misc_fanedits.jpg
   Project 4K77:
-    template: { name: Alternate, num: 1 }
+    template: { name: Alternate, num: 6 }
     plex_search: 
       any:
         title: 
           - 4K77
-    summary: A collection of IMAX Enhanced 1080p films.
+    summary: The Project 4K77 Star Wars Collection.
     File_poster: config/assets/Misc/misc_fanedits.jpg    
