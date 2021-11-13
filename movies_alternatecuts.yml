@@ -40,6 +40,7 @@ collections:
         - .DV.
         - .DoVi.
         - IMAX
+      filepath.not: HDR
     summary: A collection of IMAX Enhanced 4K Dplby Vision films.
     File_poster: config/assets/Misc/misc_4KDVIMAX.jpg
   Alternate Cuts:
