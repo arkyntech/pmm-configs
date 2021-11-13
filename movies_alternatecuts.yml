@@ -9,7 +9,7 @@ templates:
 collections:
   Alternate Cuts:
     template: { name: Alternate, num: 4 }
-    plex_search: 
+    smart_filter: 
       any:
         title: 
           - Rocky IV
@@ -21,7 +21,7 @@ collections:
     File_poster: config/assets/Misc/misc_altcuts.jpg
   Fan Edits:
     template: { name: Alternate, num: 5 }
-    plex_search: 
+    smart_filter: 
       any:
         title: 
           - Hobbit
@@ -30,7 +30,7 @@ collections:
     File_poster: config/assets/Misc/misc_fanedits.jpg
   Project 4K77:
     template: { name: Alternate, num: 6 }
-    plex_search: 
+    smart_filter: 
       any:
         title: 
           - 4K77
