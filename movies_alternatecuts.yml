@@ -48,8 +48,6 @@ collections:
           - 4K77
           - FanEdits
           - AltCuts
-          - 4KDVIMAX
-          - 4KHDRIMAX
     summary: A collection of IMAX Enhanced 1080p films.
     item_label: 1080PIMAX
     File_poster: config/assets/Misc/misc_1080PIMAX.jpg
@@ -58,13 +56,13 @@ collections:
     smart_filter: 
       all:
         resolution: 4K 
+        HDR: True
         label.not:
           - 4K77
           - FanEdits
           - AltCuts
           - 1080PIMAX
-          - 4KDVIMAX
-    item_label: 4KHDRIMAX         
+    #item_label: 4KHDRIMAX         
     summary: A collection of IMAX Enhanced 4K HDR films.
     File_poster: config/assets/Misc/misc_4KIMAX.jpg
   4K IMAX Dolby Vision:
@@ -72,12 +70,13 @@ collections:
     smart_filter: 
       all:
         resolution: 4K 
+        HDR: False
         label.not:
           - 4K77
           - FanEdits
           - AltCuts
           - 1080PIMAX
-          - 4KHDRIMAX
-    item_label: 4KDVIMAX      
+
+    $item_label: 4KDVIMAX      
     summary: A collection of IMAX Enhanced 4K Dolby Vision films.
     File_poster: config/assets/Misc/misc_4KDVIMAX.jpg
