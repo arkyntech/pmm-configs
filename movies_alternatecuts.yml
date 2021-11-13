@@ -5,7 +5,7 @@ templates:
   Alternate:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
-    
+    sort_by: title.asc
 collections:
   Alternate Cuts:
     template: { name: Alternate, num: 4 }
