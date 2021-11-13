@@ -27,6 +27,7 @@ collections:
         - IMAX
       filepath.not:
         - .DV.
+        - DoVi
     summary: A collection of IMAX Enhanced 4K HDR films.
     File_poster: config/assets/Misc/misc_4KIMAX.jpg
   4K IMAX Dolby Vision:
@@ -37,6 +38,7 @@ collections:
     filters:
       filepath:
         - .DV.
+        - .DoVi.
         - IMAX
     summary: A collection of IMAX Enhanced 4K Dplby Vision films.
     File_poster: config/assets/Misc/misc_4KDVIMAX.jpg
