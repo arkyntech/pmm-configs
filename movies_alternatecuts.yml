@@ -1,0 +1,46 @@
+######################################################
+#                Popular / Top Rated                 #
+######################################################
+templates:
+  Alternate:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+collections:
+### CHARTS ###
+  1080P IMAX:
+    template: { name: Alternate, num: 1 }
+    plex_search: 
+      any:
+        resolution: 1080p 
+    filters:
+      filepath: IMAX 
+    summary: A collection of IMAX Enhanced 1080p films.
+    File_poster: config/assets/Misc/misc_1080PIMAX.jpg
+#  4K IMAX HDR:
+#    template: { name: Alternate, num: 2 }
+#    trakt_watched_daily: 50
+#    summary: Movies Trending across the internet
+#    file_poster: config/assets/Trends/watched_daily.jpg     
+#  4K IMAX Dolby Vision:
+#    template: { name: Alternate, num: 3 }
+#    trakt_watched_weekly: 50
+#    summary: Movies Trending across the internet
+#    file_poster: config/assets/Trends/watched_weekly.jpg    
+#  Alternate Cuts:
+#    template: { name: Alternate, num: 4 }
+#    trakt_watched_monthly: 50
+#    summary: Movies Trending across the internet
+#    file_poster: config/assets/Trends/watched_monthly.jpg  
+#  Fan Edits:
+#    template: { name: Alternate, num: 5 }
+#    trakt_watched_yearly: 50
+#    summary: Movies Trending across the internet
+#    file_poster: config/assets/Trends/watched_yearly.jpg    
+#  Project 4K77:
+#    template: { name: Alternate, num: 7 }
+#    imdb_list:
+#      url: https://www.imdb.com/search/title/?title_type=tv_movie&languages=en&sort=moviemeter,asc
+#      limit: 125
+#    summary: Popular Movies across the internet
+#    File_poster: config/assets/Trends/Movies/movies_popular_tvmovies.jpg  
