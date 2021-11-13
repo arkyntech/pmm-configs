@@ -8,8 +8,7 @@ templates:
 collections:
   Alternate Cuts:
     template: { name: Alternate, num: 4 }
-    smart_filter: 
-      sort_by: title.asc
+    plex_search: 
       any:
         title: 
           - Rocky IV
@@ -22,8 +21,7 @@ collections:
     File_poster: config/assets/Misc/misc_altcuts.jpg
   Fan Edits:
     template: { name: Alternate, num: 5 }
-    smart_filter:  
-      sort_by: title.asc
+    plex_search: 
       any:
         title: 
           - Hobbit
@@ -33,8 +31,7 @@ collections:
     File_poster: config/assets/Misc/misc_fanedits.jpg
   Project 4K77:
     template: { name: Alternate, num: 6 }
-    smart_filter:  
-      sort_by: title.asc
+    plex_search: 
       any:
         title: 
           - (4K77)
@@ -50,19 +47,20 @@ collections:
       filepath: IMAX 
     summary: A collection of IMAX Enhanced 1080p films.
     File_poster: config/assets/Misc/misc_1080PIMAX.jpg
-#  4K IMAX HDR:
-#    template: { name: Alternate, num: 2 }
-#    smart_filter:  
-#      sort_by: title.asc
-#      all:
-#        resolution: 4K 
-#        hdr: true
-#        label.not:
-#          - 4K77
-#          - FanEdits
-#          - AltCuts
-#    summary: A collection of IMAX Enhanced 4K HDR films.
-#    File_poster: config/assets/Misc/misc_4KIMAX.jpg
+  4K IMAX HDR:
+    template: { name: Alternate, num: 2 }
+    plex_search: 
+      any:
+        resolution: 4K 
+    filters:
+      filepath:
+        - IMAX
+        - HDR
+      filepath.not:
+        - .DV.
+        - DoVi        
+    summary: A collection of IMAX Enhanced 4K HDR films.
+    File_poster: config/assets/Misc/misc_4KIMAX.jpg
 #  4K IMAX Dolby Vision:
 #    template: { name: Alternate, num: 3 }
 #    smart_filter:  
