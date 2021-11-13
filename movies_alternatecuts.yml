@@ -77,6 +77,6 @@ collections:
           - AltCuts
           - 1080PIMAX
 
-    $item_label: 4KDVIMAX      
+    #item_label: 4KDVIMAX      
     summary: A collection of IMAX Enhanced 4K Dolby Vision films.
     File_poster: config/assets/Misc/misc_4KDVIMAX.jpg
