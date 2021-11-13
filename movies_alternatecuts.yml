@@ -44,8 +44,10 @@ collections:
     smart_filter: 
       any:
         resolution: 1080p 
-    filters:
-      filepath: IMAX 
+        label.not:
+          - 4K77
+          - FanEdits
+          - AltCuts
     summary: A collection of IMAX Enhanced 1080p films.
     item_label: 1080PIMAX
     File_poster: config/assets/Misc/misc_1080PIMAX.jpg
