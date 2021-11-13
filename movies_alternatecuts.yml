@@ -5,11 +5,11 @@ templates:
   Alternate:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
-    sort_order: title.asc
 collections:
   Alternate Cuts:
     template: { name: Alternate, num: 4 }
     smart_filter: 
+      sort_by: title.asc
       any:
         title: 
           - Rocky IV
@@ -22,7 +22,8 @@ collections:
     File_poster: config/assets/Misc/misc_altcuts.jpg
   Fan Edits:
     template: { name: Alternate, num: 5 }
-    smart_filter: 
+    smart_filter:  
+      sort_by: title.asc
       any:
         title: 
           - Hobbit
@@ -32,7 +33,8 @@ collections:
     File_poster: config/assets/Misc/misc_fanedits.jpg
   Project 4K77:
     template: { name: Alternate, num: 6 }
-    smart_filter: 
+    smart_filter:  
+      sort_by: title.asc
       any:
         title: 
           - (4K77)
@@ -41,7 +43,8 @@ collections:
     File_poster: config/assets/Misc/misc_fanedits.jpg    
   1080P IMAX:
     template: { name: Alternate, num: 1 }
-    smart_filter: 
+    smart_filter:  
+      sort_by: title.asc
       all:
         resolution: 1080p 
         label.not:
@@ -53,7 +56,8 @@ collections:
     File_poster: config/assets/Misc/misc_1080PIMAX.jpg
   4K IMAX HDR:
     template: { name: Alternate, num: 2 }
-    smart_filter: 
+    smart_filter:  
+      sort_by: title.asc
       all:
         resolution: 4K 
         hdr: true
@@ -67,7 +71,8 @@ collections:
     File_poster: config/assets/Misc/misc_4KIMAX.jpg
   4K IMAX Dolby Vision:
     template: { name: Alternate, num: 3 }
-    smart_filter: 
+    smart_filter:  
+      sort_by: title.asc
       all:
         resolution: 4K 
         hdr: false
