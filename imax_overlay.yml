@@ -5,52 +5,21 @@ templates:
     collection_order: custom
     
 collections:    
-#  IMAX_ONLY:
-#    plex_all: true
-#    filters:
-#      filepath: 
-#         - IMAX
-#      resolution.not: 4K
-#    item_overlay: IMAX_ONLY
-#    build_collection: false    
+  IMAX_1080P:
+    plex_search:
+      all:
+        label: 1080PIMAX
+    item_overlay: IMAX_ONLY
+    build_collection: false    
   4K_IMAX:
     plex_search:
       all:
-        collection: 4K IMAX HDR
+        label: 4KHDRIMAX
     item_overlay: IMAX_HDR
     build_collection: false
-#  IMAX_Dolby:
-#    plex_all: true
-#    filters:
-#      filepath: 
-#        - IMAX
-#        - .DV.
-#      resolution: 4K  
-#    item_overlay: IMAX_DOLBY
-#    build_collection: false    
-#  HMAX_ONLY:
-#    plex_all: true
-#    filters:
-#      filepath: 
-#         - HMAX
-#      resolution.not: 4K
-#    item_overlay: HMAX_ONLY
-#    build_collection: false    
-#  4K_HMAX:
-#    plex_all: true
-#    filters:
-#      filepath:
-#         - HMAX
-#      filepath.not: .DV.
-#      resolution: 4K
-#    item_overlay: HMAX_HDR
-#    build_collection: false
-#  HMAX_Dolby:
-#    plex_all: true
-#    filters:
-#      filepath: 
-#        - HMAX
-#        - .DV.
-#      resolution: 4K  
-#    item_overlay: HMAX_DOLBY
-#    build_collection: false        
+  IMAX_Dolby:
+    plex_search:
+      all:
+        label: 4KDVIMAX
+    item_overlay: IMAX_DOLBY
+    build_collection: false    
