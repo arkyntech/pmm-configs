@@ -19,10 +19,14 @@ collections:
     File_poster: config/assets/Misc/misc_1080PIMAX.jpg
   4K IMAX HDR:
     template: { name: Alternate, num: 2 }
-    smart_filter:
+    plex_search: 
       any:
-        title: 
-          - HDR
+        resolution: 4K 
+    filters:
+      filepath:
+        - IMAX
+      filepath.not:
+        - .DV.
     summary: A collection of IMAX Enhanced 4K HDR films.
     File_poster: config/assets/Misc/misc_4KIMAX.jpg
   4K IMAX Dolby Vision:
