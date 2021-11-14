@@ -64,8 +64,7 @@ collections:
     file_poster: config/assets/Misc/misc_4KIMAX.jpg
   4K IMAX Dolby Vision:
     template: { name: Alternate, num: 3 }
-    smart_filter:  
-      sort_by: title.asc
+    plex_search:  
       all:
         resolution: 4K 
         hdr: false
