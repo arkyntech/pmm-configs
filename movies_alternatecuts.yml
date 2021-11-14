@@ -45,6 +45,7 @@ collections:
         resolution: 1080p 
     filters:
       filepath: IMAX 
+      filepath: HMAX
     item_label: 1080PIMAX
     summary: A collection of IMAX Enhanced 1080p films.
     file_poster: config/assets/Misc/misc_1080PIMAX.jpg
