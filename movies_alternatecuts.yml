@@ -18,7 +18,7 @@ collections:
 #          - Deep Red
 #    summary: A collection of alternate cuts.
 #    item_label: AltCuts
-#    File_poster: config/assets/Misc/misc_altcuts.jpg
+#    file_poster: config/assets/Misc/misc_altcuts.jpg
 #  Fan Edits:
 #    template: { name: Alternate, num: 5 }
 #    plex_search: 
@@ -28,7 +28,7 @@ collections:
 #          - Sacred Timeline Cut
 #    summary: A collection of fan edits.
 #    item_label: FanEdits
-#    File_poster: config/assets/Misc/misc_fanedits.jpg
+#    file_poster: config/assets/Misc/misc_fanedits.jpg
 #  Project 4K77:
 #    template: { name: Alternate, num: 6 }
 #    plex_search: 
@@ -37,7 +37,7 @@ collections:
 #          - (4K77)
 #    summary: The Project 4K77 Star Wars Collection.
 #    item_label: 4K77
-#    File_poster: config/assets/Misc/misc_fanedits.jpg    
+#    file_poster: config/assets/Misc/misc_fanedits.jpg    
   1080P IMAX:
     template: { name: Alternate, num: 1 }
     plex_search: 
@@ -47,7 +47,7 @@ collections:
       filepath: IMAX 
     label: 1080PIMAX
     summary: A collection of IMAX Enhanced 1080p films.
-    File_poster: config/assets/Misc/misc_1080PIMAX.jpg
+    file_poster: config/assets/Misc/misc_1080PIMAX.jpg
 #  4K IMAX HDR:
 #    template: { name: Alternate, num: 2 }
 #    plex_search: 
@@ -61,7 +61,7 @@ collections:
 #        - .DV.
 #        - DoVi        
 #    summary: A collection of IMAX Enhanced 4K HDR films.
-#    File_poster: config/assets/Misc/misc_4KIMAX.jpg
+#    file_poster: config/assets/Misc/misc_4KIMAX.jpg
 #  4K IMAX Dolby Vision:
 #    template: { name: Alternate, num: 3 }
 #    smart_filter:  
@@ -74,4 +74,4 @@ collections:
 #          - FanEdits
 #          - AltCuts
 #    summary: A collection of IMAX Enhanced 4K Dolby Vision films.
-#    File_poster: config/assets/Misc/misc_4KDVIMAX.jpg
+#    file_poster: config/assets/Misc/misc_4KDVIMAX.jpg
