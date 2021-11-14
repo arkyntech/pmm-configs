@@ -53,13 +53,12 @@ collections:
     plex_search: 
       any:
         resolution: 4K
-        hdr: true
     filters:
       filepath:
         - IMAX
       filepath.not:
         - .DV.
-        - DoViKIMAXHDR        
+        - DoVi       
     summary: A collection of IMAX Enhanced 4K HDR films.
     file_poster: config/assets/Misc/misc_4KIMAX.jpg
   4K IMAX Dolby Vision:
@@ -67,7 +66,6 @@ collections:
     plex_search:  
       all:
         resolution: 4K 
-        hdr: false
     filters:
       filepath:
         - IMAX
