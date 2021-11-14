@@ -69,9 +69,12 @@ collections:
       all:
         resolution: 4K 
         hdr: false
-        label.not:
-          - 4K77
-          - FanEdits
-          - AltCuts
+    filters:
+      filepath:
+        - IMAX
+        - .DV.
+        - DoVi
+      filepath.not:
+        - HDR   
     summary: A collection of IMAX Enhanced 4K Dolby Vision films.
     file_poster: config/assets/Misc/misc_4KDVIMAX.jpg
