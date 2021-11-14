@@ -48,30 +48,30 @@ collections:
     item_label: 1080PIMAX
     summary: A collection of IMAX Enhanced 1080p films.
     file_poster: config/assets/Misc/misc_1080PIMAX.jpg
-#  4K IMAX HDR:
-#    template: { name: Alternate, num: 2 }
-#    plex_search: 
-#      any:
-#        resolution: 4K 
-#    filters:
-#      filepath:
-#        - IMAX
-#        - HDR
-#      filepath.not:
-#        - .DV.
-#        - DoVi        
-#    summary: A collection of IMAX Enhanced 4K HDR films.
-#    file_poster: config/assets/Misc/misc_4KIMAX.jpg
-#  4K IMAX Dolby Vision:
-#    template: { name: Alternate, num: 3 }
-#    smart_filter:  
-#      sort_by: title.asc
-#      all:
-#        resolution: 4K 
-#        hdr: false
-#        label.not:
-#          - 4K77
-#          - FanEdits
-#          - AltCuts
-#    summary: A collection of IMAX Enhanced 4K Dolby Vision films.
-#    file_poster: config/assets/Misc/misc_4KDVIMAX.jpg
+  4K IMAX HDR:
+    template: { name: Alternate, num: 2 }
+    plex_search: 
+      any:
+        resolution: 4K
+        hdr: true
+    filters:
+      filepath:
+        - IMAX
+      filepath.not:
+        - .DV.
+        - DoViKIMAXHDR        
+    summary: A collection of IMAX Enhanced 4K HDR films.
+    file_poster: config/assets/Misc/misc_4KIMAX.jpg
+  4K IMAX Dolby Vision:
+    template: { name: Alternate, num: 3 }
+    smart_filter:  
+      sort_by: title.asc
+      all:
+        resolution: 4K 
+        hdr: false
+        label.not:
+          - 4K77
+          - FanEdits
+          - AltCuts
+    summary: A collection of IMAX Enhanced 4K Dolby Vision films.
+    file_poster: config/assets/Misc/misc_4KDVIMAX.jpg
