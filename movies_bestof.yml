@@ -18,21 +18,21 @@ collections:
   Top Rated of 2020:
     template: { name: Chart, num: 2 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2020-01-01,2021-01-01&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2020-01-01,2020-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Movies/movies_toprated_2020.jpg
   Top Rated of 2019:
     template: { name: Chart, num: 3 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2019-01-01,2020-01-01&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2019-01-01,2019-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Movies/movies_toprated_2019.jpg
   Top Rated of 2018:
     template: { name: Chart, num: 4 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2018-01-01,2019-01-01&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2018-01-01,2018-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
     file_poster: config/assets/Trends/Movies/movies_toprated_2018.jpg
