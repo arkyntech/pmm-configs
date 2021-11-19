@@ -15,8 +15,6 @@ collections:
       with_original_language: en
       vote_average.gte: 5
       vote_count.gte: 300
-      certification_country: US
-      certification.lte: PG
       limit: 1000
     summary: Popular shows for your Kid(s)!
     item_label: Kids
