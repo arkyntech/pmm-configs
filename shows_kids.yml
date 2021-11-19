@@ -17,7 +17,6 @@ collections:
       vote_count.gte: 300
       limit: 1000
     summary: Popular shows for your Kid(s)!
-    item_label: Kids
     file_poster: config/assets/Genre/Shows/tv_kids.jpg 
 #  Kids Shows:
 #    template: { name: Genre }
