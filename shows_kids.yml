@@ -3,6 +3,7 @@ templates:
     sort_title: +1_7<<collection_name>>
     sync_mode: sync
     collection_mode: hide  
+    collection_order: custom
 ######################################################
 #                Genre Collections                   #
 ######################################################
@@ -11,7 +12,7 @@ collections:
     template: { name: Genre }
     tmdb_discover:
       with_genres: 10762
-      sort_by: primary_release_date.desc
+      sort_by: popularity.desc
       with_original_language: en
       vote_average.gte: 5
       vote_count.gte: 300
