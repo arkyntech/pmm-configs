@@ -24,7 +24,7 @@ collections:
       vote_count.gte: 300
       certification_country: US
       certification.lte: PG
-      limit: 1000
+      limit: 1500
     summary: Popular movies for your Kid(s)!
     item_label: Kids
     file_poster: config/assets/Genre/Movies/movies_kids.jpg 
