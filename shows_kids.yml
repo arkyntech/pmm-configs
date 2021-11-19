@@ -18,7 +18,7 @@ collections:
       limit: 1000
     summary: Popular shows for your Kid(s)!
     item_label: Kids
-    file_poster: config/assets/Genre/Movies/shows_kids.jpg 
+    file_poster: config/assets/Genre/Shows/tv_kids.jpg 
 #  Kids Shows:
 #    template: { name: Genre }
 #    imdb_list: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,tv_short&certificates=US:G,US:PG,US:TV-Y,US:TV-G,US:TV-Y7,US:TV-Y7-FV,US:TV-PG,US:PG-13,US:TV-14&genres=family&languages=en&sort=release_date,desc
