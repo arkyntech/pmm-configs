@@ -12,9 +12,8 @@ collections:
     template: { name: Genre }
     tmdb_discover:
       with_genres: 10762
+      sort_by: popularity.desc
       with_original_language: en
-      vote_average.gte: 5
-      vote_count.gte: 300
       limit: 1000
     summary: Popular shows for your Kid(s)!
     file_poster: config/assets/Genre/Shows/tv_kids.jpg 
