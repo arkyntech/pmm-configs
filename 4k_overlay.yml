@@ -5,13 +5,17 @@ templates:
     collection_order: custom
     
 collections:
-  4K:
+  4K Overlay:
     plex_search:
       all:
         resolution: 4K
-    filters:
-      filepath.not: 
-        - .DV.
-        - DoVi
+        hdr: false
     item_overlay: 4K
     build_collection: false
+  4K-HDR Overlay:
+    plex_search:
+      all:
+        resolution: 4K
+        hdr: true
+    item_overlay: 4K-HDR
+    build_collection: false    
