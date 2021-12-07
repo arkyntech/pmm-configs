@@ -13,19 +13,9 @@ collections:
 #      - url: https://www.imdb.com/list/ls000091321/?sort=moviemeter,asc&st_dt=&mode=detail&page=1&title_type=movie&ref_=ttls_ref_typ
 #        limit: 150
 #    file_poster: config/assets/Holidays/halloween.jpg
-#  Christmas Movies :
-#    template: { name: Genre, num: 2 }
-#    imdb_list: 
-#      - url: https://www.imdb.com/search/keyword/?keywords=christmas-movie&ref_=kw_ref_rt_vt&sort=moviemeter,asc&mode=detail&page=1&num_votes=1999%2C
-#        limit: 150
-#    file_poster: config/assets/Holidays/christmas.jpg
-  Christmas Movies:
-    template: { name: Genre }
-    tmdb_discover:
-      tmdb_keyword: 207317
-      sort_by: popularity.desc
-      with_original_language: en
-      vote_average.gte: 5
-      vote_count.gte: 300
-      limit: 150
-    file_poster: config/assets/Holidays/christmas.jpg   
+  Christmas Movies :
+    template: { name: Genre, num: 2 }
+    imdb_list: 
+      - url: https://www.imdb.com/list/ls000096828/?sort=moviemeter,asc
+        limit: 150
+    file_poster: config/assets/Holidays/christmas.jpg
