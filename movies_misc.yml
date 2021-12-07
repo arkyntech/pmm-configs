@@ -7,12 +7,12 @@ templates:
 #                Genre Collections                   #
 ######################################################
 collections:
-  Halloween Movies:
-    template: { name: Genre, num: 1 }
-    imdb_list: 
-      - url: https://www.imdb.com/list/ls000091321/?sort=moviemeter,asc&st_dt=&mode=detail&page=1&title_type=movie&ref_=ttls_ref_typ
-        limit: 150
-    file_poster: config/assets/Holidays/halloween.jpg
+#  Halloween Movies:
+#    template: { name: Genre, num: 1 }
+#    imdb_list: 
+#      - url: https://www.imdb.com/list/ls000091321/?sort=moviemeter,asc&st_dt=&mode=detail&page=1&title_type=movie&ref_=ttls_ref_typ
+#        limit: 150
+#    file_poster: config/assets/Holidays/halloween.jpg
 #  Christmas Movies :
 #    template: { name: Genre, num: 2 }
 #    imdb_list: 
@@ -22,7 +22,7 @@ collections:
   Christmas Movies:
     template: { name: Genre }
     tmdb_discover:
-      with_genres: 207317
+      tmdb_keyword: 207317
       sort_by: popularity.desc
       with_original_language: en
       vote_average.gte: 5
