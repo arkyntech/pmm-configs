@@ -83,13 +83,6 @@ collections:
       filepath: movies-int/hu/
     summary: A collection of Hungarian movies.
 #    file_poster: config/assets/Language/china.jpg
-  Hindi:
-    template: {name: Language}
-    plex_all: true
-    filters:
-      filepath: movies-int/hi/
-    summary: A collection of Hindi movies.
-#    file_poster: config/assets/Language/china.jpg
   Icelandic:
     template: {name: Language}
     plex_all: true
