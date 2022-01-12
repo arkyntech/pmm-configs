@@ -10,16 +10,14 @@ collections:
     template: {name: Language}
     plex_all: true
     filters:
-      filepath: 
-        - movies-int/zh/
+      filepath: movies-int/zh/
     summary: A collection of Chinese movies.
 #    file_poster: config/assets/Language/china.jpg
   French:
     template: {name: Language}
     plex_all: true
     filters:
-      filepath: 
-        - movies-int/fr/
+      filepath: movies-int/fr/
     summary: A collection of French movies.
 #    file_poster: config/assets/Language/French.jpg    
     
