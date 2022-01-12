@@ -139,13 +139,6 @@ collections:
       filepath: movies-int/pl/
     summary: A collection of Polish movies.
 #    file_poster: config/assets/Language/china.jpg
-  Norwegian:
-    template: {name: Language}
-    plex_all: true
-    filters:
-      filepath: movies-int/nl/
-    summary: A collection of Norwegian movies.
-#    file_poster: config/assets/Language/china.jpg
   Romanian:
     template: {name: Language}
     plex_all: true
