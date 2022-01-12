@@ -8,6 +8,8 @@ templates:
 collections:
   Chinese:
     template: {name: Language}
+    plex_search:
+      all:
     filters:
       filepath: 
         - movies-int/zh/
@@ -15,6 +17,8 @@ collections:
 #    file_poster: config/assets/Language/china.jpg
   French:
     template: {name: Language}
+    plex_search:
+      all:
     filters:
       filepath: 
         - movies-int/fr/
