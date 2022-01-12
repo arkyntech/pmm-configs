@@ -6,12 +6,54 @@ templates:
     collection_order: alpha
     file_poster: config/assets/Language/<<image>>
 collections:
-  Chinese:
+  Arabic:
     template: {name: Language}
     plex_all: true
     filters:
-      filepath: movies-int/zh/
-    summary: A collection of Chinese movies.
+      filepath: movies-int/ar/
+    summary: A collection of Arabic movies.
+#    file_poster: config/assets/Language/china.jpg
+  Bulgarian:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/bg/
+    summary: A collection of Bulgarian movies.
+#    file_poster: config/assets/Language/china.jpg
+  Czech:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/cs/
+    summary: A collection of Czech movies.
+#    file_poster: config/assets/Language/china.jpg
+  Danish:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/da/
+    summary: A collection of Danish movies.
+#    file_poster: config/assets/Language/china.jpg
+  Greek:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/el/
+    summary: A collection of Greek movies.
+#    file_poster: config/assets/Language/china.jpg
+  Spanish:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/es/
+    summary: A collection of spanish movies.
+#    file_poster: config/assets/Language/china.jpg
+  Finnish:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/fi/
+    summary: A collection of Bulgarian movies.
 #    file_poster: config/assets/Language/china.jpg
   French:
     template: {name: Language}
@@ -20,4 +62,144 @@ collections:
       filepath: movies-int/fr/
     summary: A collection of French movies.
 #    file_poster: config/assets/Language/French.jpg    
+  Hebrew:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/he/
+    summary: A collection of Hebrew movies.
+#    file_poster: config/assets/Language/china.jpg
+  Hindi:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/hi/
+    summary: A collection of Hindi movies.
+#    file_poster: config/assets/Language/china.jpg
+  Hungarian:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/hu/
+    summary: A collection of Hungarian movies.
+#    file_poster: config/assets/Language/china.jpg
+  Hindi:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/hi/
+    summary: A collection of Hindi movies.
+#    file_poster: config/assets/Language/china.jpg
+  Icelandic:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/is/
+    summary: A collection of Icelandic movies.
+#    file_poster: config/assets/Language/china.jpg
+  Italian:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/it/
+    summary: A collection of Italian movies.
+#    file_poster: config/assets/Language/china.jpg
+  Japan:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/ja/
+    summary: A collection of Japanese movies.
+#    file_poster: config/assets/Language/china.jpg
+  Korean:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/ko/
+    summary: A collection of Korean movies.
+#    file_poster: config/assets/Language/china.jpg
+  Lithuanian:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/lt/
+    summary: A collection of Lithuanian movies.
+#    file_poster: config/assets/Language/china.jpg
+  Dutch:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/nl/
+    summary: A collection of Dutch movies.
+#    file_poster: config/assets/Language/china.jpg
+  Norwegian:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/no/
+    summary: A collection of Norwegian movies.
+#    file_poster: config/assets/Language/china.jpg
+  Polish:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/pl/
+    summary: A collection of Polish movies.
+#    file_poster: config/assets/Language/china.jpg
+  Norwegian:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/nl/
+    summary: A collection of Norwegian movies.
+#    file_poster: config/assets/Language/china.jpg
+  Romanian:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/ro/
+    summary: A collection of Romanian movies.
+#    file_poster: config/assets/Language/china.jpg
+  Russian:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/ru/
+    summary: A collection of Russian movies.
+#    file_poster: config/assets/Language/china.jpg
+  Swedish:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/sv/
+    summary: A collection of Swedish movies.
+#    file_poster: config/assets/Language/china.jpg
+  Thailand:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/th/
+    summary: A collection of Thai movies.
+#    file_poster: config/assets/Language/china.jpg
+  Turkish:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/tr/
+    summary: A collection of Turkish movies.
+#    file_poster: config/assets/Language/china.jpg
+  Vietnamese:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/vi/
+    summary: A collection of Vietnamese movies.
+#    file_poster: config/assets/Language/china.jpg
+  Chinese:
+    template: {name: Language}
+    plex_all: true
+    filters:
+      filepath: movies-int/zh/
+    summary: A collection of Chinese movies.
+#    file_poster: config/assets/Language/china.jpg
     
