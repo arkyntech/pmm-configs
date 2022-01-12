@@ -9,7 +9,6 @@ collections:
   Chinese:
     template: {name: Language}
     plex_search:
-      all:
     filters:
       filepath: 
         - movies-int/zh/
