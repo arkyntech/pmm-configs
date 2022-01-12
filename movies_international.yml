@@ -1,0 +1,23 @@
+templates:
+  Language:
+    sort_title: +1_<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide
+    collection_order: alpha
+    file_poster: config/assets/Language/<<image>>
+collections:
+  Chinese:
+    template: {name: Language}
+    filters:
+      filepath: 
+        - movies-int/zh/
+    summary: A collection of Chinese movies.
+#    file_poster: config/assets/Language/china.jpg
+  French:
+    template: {name: Language}
+    filters:
+      filepath: 
+        - movies-int/fr/
+    summary: A collection of French movies.
+#    file_poster: config/assets/Language/French.jpg    
+    
