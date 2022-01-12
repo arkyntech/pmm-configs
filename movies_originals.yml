@@ -43,7 +43,7 @@ collections:
     file_poster: config/assets/Network/Originals/network_peacock.jpg     
   Prime Originals:
     template: {name: Network}
-    imdb_list:
+    trakt_list:
       - https://trakt.tv/users/mri8879/lists/amazon-prime-video-exclusive-original-content
     summary: A collection of Amazon Original content 
     file_poster: config/assets/Network/Originals/network_prime.jpg    
