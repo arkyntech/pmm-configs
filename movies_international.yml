@@ -101,7 +101,7 @@ collections:
           - is
     summary: A collection of Italian movies.
     file_poster: config/assets/Languages/language_italian.jpg
-  Japan:
+  Japanese:
     template: {name: Language}
     smart_filter:
       all:
@@ -173,7 +173,7 @@ collections:
           - sv
     summary: A collection of Swedish movies.
     file_poster: config/assets/Languages/language_swedish.jpg
-  Thailand:
+  Thai:
     template: {name: Language}
     smart_filter:
       all:
