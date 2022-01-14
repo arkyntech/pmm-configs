@@ -3,7 +3,7 @@ templates:
     sort_title: +1_<<collection_name>>
     sync_mode: sync
     collection_mode: hide
-    collection_order: alpha
+    sort_by: release.desc
     file_poster: config/assets/Language/<<image>>
 collections:
   Arabic:
