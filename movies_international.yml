@@ -3,7 +3,8 @@ templates:
     sort_title: +1_<<collection_name>>
     sync_mode: sync
     collection_mode: hide
-    sort_by: release.desc
+    smart_filter:
+      sort_by: release.desc
 collections:
   Arabic:
     template: {name: Language}
