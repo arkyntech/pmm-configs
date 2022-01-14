@@ -4,7 +4,6 @@ templates:
     sync_mode: sync
     collection_mode: hide
     sort_by: release.desc
-    file_poster: config/assets/Language/<<image>>
 collections:
   Arabic:
     template: {name: Language}
@@ -22,169 +21,192 @@ collections:
           - bg
     summary: A collection of Bulgarian movies.
     file_poster: config/assets/Language/language_bulgarian.jpg
-#  Danish:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/da/
-#    summary: A collection of Danish movies.
-#    file_poster: config/assets/Language/language_danish.jpg
-#  Greek:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/el/
-#    summary: A collection of Greek movies.
-#    file_poster: config/assets/Language/language_greek.jpg
-#  Spanish:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/es/
-#    summary: A collection of spanish movies.
-#    file_poster: config/assets/Language/language_spanish.jpg
-#  Finnish:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/fi/
-#    summary: A collection of Bulgarian movies.
-#    file_poster: config/assets/Language/language_finnish.jpg
-#  French:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/fr/
-#    summary: A collection of French movies.
-#    file_poster: config/assets/Language/language_french.jpg    
-#  Hebrew:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/he/
-#    summary: A collection of Hebrew movies.
-#    file_poster: config/assets/Language/language_hebrew.jpg
-#  Hindi:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/hi/
-#    summary: A collection of Hindi movies.
-#    file_poster: config/assets/Language/language_hindi.jpg
-#  Hungarian:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/hu/
-#    summary: A collection of Hungarian movies.
-#    file_poster: config/assets/Language/language_hungarian.jpg
-#  Icelandic:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/is/
-#    summary: A collection of Icelandic movies.
-#    file_poster: config/assets/Language/language_icelandic.jpg
-#  Italian:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/it/
-#    summary: A collection of Italian movies.
-#    file_poster: config/assets/Language/language_italian.jpg
-#  Japan:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/ja/
-#    summary: A collection of Japanese movies.
-#    file_poster: config/assets/Language/language_japanese.jpg
-#  Korean:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/ko/
-#    summary: A collection of Korean movies.
-#    file_poster: config/assets/Language/language_korean.jpg
-#  Lithuanian:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/lt/
-#    summary: A collection of Lithuanian movies.
-#    file_poster: config/assets/Language/language_lithuanian.jpg
-#  Dutch:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/nl/
-#    summary: A collection of Dutch movies.
-#    file_poster: config/assets/Language/language_dutch.jpg
-#  Norwegian:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/no/
-#    summary: A collection of Norwegian movies.
-#    file_poster: config/assets/Language/language_norwegian.jpg
-#  Polish:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/pl/
-#    summary: A collection of Polish movies.
-#    file_poster: config/assets/Language/language_polish.jpg
-#  Romanian:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/ro/
-#    summary: A collection of Romanian movies.
-#    file_poster: config/assets/Language/language_romanian.jpg
-#  Russian:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/ru/
-#    summary: A collection of Russian movies.
-#    file_poster: config/assets/Language/language_russian.jpg
-#  Swedish:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/sv/
-#    summary: A collection of Swedish movies.
-#    file_poster: config/assets/Language/language_swedish.jpg
-#  Thailand:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/th/
-#    summary: A collection of Thai movies.
-#    file_poster: config/assets/Language/language_thai.jpg
-#  Turkish:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/tr/
-#    summary: A collection of Turkish movies.
-#    file_poster: config/assets/Language/language_turkish.jpg
-#  Vietnamese:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/vi/
-#    summary: A collection of Vietnamese movies.
-#    file_poster: config/assets/Language/language_viet.jpg
-#  Chinese:
-#    template: {name: Language}
-#    plex_all: true
-#    filters:
-#      filepath: movies-int/zh/
-#    summary: A collection of Chinese movies.
-#    file_poster: config/assets/Language/language_chinese.jpg
-#
-#
+  Danish:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - da
+    summary: A collection of Danish movies.
+    file_poster: config/assets/Language/language_danish.jpg
+  Greek:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - el
+    summary: A collection of Greek movies.
+    file_poster: config/assets/Language/language_greek.jpg
+  Spanish:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - es
+    summary: A collection of spanish movies.
+    file_poster: config/assets/Language/language_spanish.jpg
+  Finnish:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - fi
+    summary: A collection of Bulgarian movies.
+    file_poster: config/assets/Language/language_finnish.jpg
+  French:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - fr
+    summary: A collection of French movies.
+    file_poster: config/assets/Language/language_french.jpg    
+  Hebrew:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - he
+    summary: A collection of Hebrew movies.
+    file_poster: config/assets/Language/language_hebrew.jpg
+  Hindi:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - hi
+    summary: A collection of Hindi movies.
+    file_poster: config/assets/Language/language_hindi.jpg
+  Hungarian:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - hu
+    summary: A collection of Hungarian movies.
+    file_poster: config/assets/Language/language_hungarian.jpg
+  Icelandic:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - bg
+    summary: A collection of Icelandic movies.
+    file_poster: config/assets/Language/language_icelandic.jpg
+  Italian:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - is
+    summary: A collection of Italian movies.
+    file_poster: config/assets/Language/language_italian.jpg
+  Japan:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - ja
+    summary: A collection of Japanese movies.
+    file_poster: config/assets/Language/language_japanese.jpg
+  Korean:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - kr
+    summary: A collection of Korean movies.
+    file_poster: config/assets/Language/language_korean.jpg
+  Lithuanian:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - lt
+    summary: A collection of Lithuanian movies.
+    file_poster: config/assets/Language/language_lithuanian.jpg
+  Dutch:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - nl
+    summary: A collection of Dutch movies.
+    file_poster: config/assets/Language/language_dutch.jpg
+  Norwegian:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - no
+    summary: A collection of Norwegian movies.
+    file_poster: config/assets/Language/language_norwegian.jpg
+  Polish:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - pl
+    summary: A collection of Polish movies.
+    file_poster: config/assets/Language/language_polish.jpg
+  Romanian:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - ro
+    summary: A collection of Romanian movies.
+    file_poster: config/assets/Language/language_romanian.jpg
+  Russian:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - ru
+    summary: A collection of Russian movies.
+    file_poster: config/assets/Language/language_russian.jpg
+  Swedish:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - sv
+    summary: A collection of Swedish movies.
+    file_poster: config/assets/Language/language_swedish.jpg
+  Thailand:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - th
+    summary: A collection of Thai movies.
+    file_poster: config/assets/Language/language_thai.jpg
+  Turkish:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - tr
+    summary: A collection of Turkish movies.
+    file_poster: config/assets/Language/language_turkish.jpg
+  Vietnamese:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - vi
+    summary: A collection of Vietnamese movies.
+    file_poster: config/assets/Language/language_viet.jpg
+  Chinese:
+    template: {name: Language}
+    smart_filter:
+      all:
+        audio_language:
+          - zh
+    summary: A collection of Chinese movies.
+    file_poster: config/assets/Language/language_chinese.jpg
+
+
 
 #  Arabic:
 #    template: {name: Language}
