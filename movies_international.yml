@@ -11,7 +11,7 @@ collections:
     smart_filter:
       all:
         audio_language:
-          - Arabic
+          - ar
     summary: A collection of Arabic movies.
     file_poster: config/assets/Language/language_arabic.jpg
   Bulgarian:
@@ -19,7 +19,7 @@ collections:
     smart_filter:
       all:
         audio_language:
-          - Bulgarian
+          - bg
     summary: A collection of Bulgarian movies.
     file_poster: config/assets/Language/language_bulgarian.jpg
 #  Danish:
