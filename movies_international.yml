@@ -9,6 +9,7 @@ collections:
   Arabic:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - ar
@@ -17,6 +18,7 @@ collections:
   Bulgarian:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - bg
@@ -25,6 +27,7 @@ collections:
   Danish:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - da
@@ -33,6 +36,7 @@ collections:
   Greek:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - el
@@ -41,6 +45,7 @@ collections:
   Spanish:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - es
@@ -49,6 +54,7 @@ collections:
   Finnish:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - fi
@@ -57,6 +63,7 @@ collections:
   French:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - fr
@@ -65,6 +72,7 @@ collections:
   Hebrew:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - he
@@ -73,6 +81,7 @@ collections:
   Hindi:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - hi
@@ -81,6 +90,7 @@ collections:
   Hungarian:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - hu
@@ -89,6 +99,7 @@ collections:
   Icelandic:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - bg
@@ -97,6 +108,7 @@ collections:
   Italian:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - is
@@ -105,6 +117,7 @@ collections:
   Japanese:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - ja
@@ -113,6 +126,7 @@ collections:
   Korean:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - ko
@@ -121,6 +135,7 @@ collections:
   Lithuanian:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - lt
@@ -129,6 +144,7 @@ collections:
   Dutch:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - nl
@@ -137,6 +153,7 @@ collections:
   Norwegian:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - no
@@ -145,6 +162,7 @@ collections:
   Polish:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - pl
@@ -153,6 +171,7 @@ collections:
   Romanian:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - ro
@@ -161,6 +180,7 @@ collections:
   Russian:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - ru
@@ -169,6 +189,7 @@ collections:
   Swedish:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - sv
@@ -177,6 +198,7 @@ collections:
   Thai:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - th
@@ -185,6 +207,7 @@ collections:
   Turkish:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - tr
@@ -193,6 +216,7 @@ collections:
   Vietnamese:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - vi
@@ -201,6 +225,7 @@ collections:
   Chinese:
     template: {name: Language}
     smart_filter:
+      sort_by: release.desc
       all:
         audio_language:
           - zh
