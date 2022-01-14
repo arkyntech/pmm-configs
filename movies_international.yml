@@ -114,7 +114,7 @@ collections:
     smart_filter:
       all:
         audio_language:
-          - kr
+          - ko
     summary: A collection of Korean movies.
     file_poster: config/assets/Languages/language_korean.jpg
   Lithuanian:
