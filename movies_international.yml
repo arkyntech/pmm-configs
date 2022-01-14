@@ -10,7 +10,7 @@ collections:
     template: {name: Language}
     smart_filter:
       all:
-        audio_language: arabic
+        audio_language: Arabic
     summary: A collection of Arabic movies.
     file_poster: config/assets/Language/language_arabic.jpg
 #  Bulgarian:
