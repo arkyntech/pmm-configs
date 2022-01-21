@@ -9,7 +9,5 @@ collections:
     plex_search:
       all:
         resolution: 4K
-    filters:
-      filepath: .DV.
     item_overlay: 4K-Dolby
     build_collection: false    
