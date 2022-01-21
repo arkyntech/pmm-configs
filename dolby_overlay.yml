@@ -6,8 +6,6 @@ templates:
     
 collections:    
   4K-Dolby:
-    plex_search:
-      all:
-        resolution: 4K
+    plex_all: true
     item_overlay: 4K-Dolby
     build_collection: false    
