@@ -1,0 +1,713 @@
+templates:
+  Networks:
+    sort_title: '+5_<<collection_name>>'
+    sync_mode: sync
+    collection_order: alpha
+    collection_mode: hide
+    plex_search:
+      limit: 75
+  Plex Networks:
+    sort_title: +5_<<collection_name>> 
+    collection_mode: hide    
+  Originals:
+    sort_title: +3_<<collection_name>>    
+
+collections:
+#### ORIGINALS ####
+  Amazon Prime:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Amazon
+    summary: A collection of Amazon content
+    file_poster: config/assets/Network/Originals/network_prime.jpg
+  Apple TV+:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Apple TV+
+    summary: A collection of AppleTV content
+    file_poster: config/assets/Network/Originals/network_appletv.jpg
+  Disney Plus:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Disney+
+    summary: A collection of Disney Plus content
+    file_poster: config/assets/Network/Originals/network_disney.jpg
+  HBO Max:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: title.asc
+      all:
+        network: HBO Max
+    summary: A collection of HBO Max Originals 
+    file_poster: config/assets/Network/Originals/network_hbo.jpg
+  Hulu:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Hulu
+    summary: A collection of Hulu content
+    file_poster: config/assets/Network/Originals/network_hulu.jpg
+  Netflix:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Netflix
+    summary: A collection of Netflix content
+    file_poster: config/assets/Network/Originals/network_netflix.jpg
+  Paramount+:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Paramount+
+    summary: A collection of Paramount+ content
+    file_poster: config/assets/Network/Originals/network_paramount.jpg
+  Peacock:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Peacock
+    summary: A collection of Peacock content
+    file_poster: config/assets/Network/Originals/network_peacock.jpg  
+  Quibi:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Quibi
+    summary: A collection of Quibi content
+    file_poster: config/assets/Network/Originals/network_quibi.jpg
+  Stan:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Stan
+    summary: A collection of Stan content
+    file_poster: config/assets/Network/Originals/network_stan.jpg  
+  Starz:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Starz
+    summary: A collection of Starz content
+    file_poster: config/assets/Network/Originals/network_starz.jpg  
+  Youtube:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Youtube
+    summary: A collection of Youtube content
+    file_poster: config/assets/Network/Originals/network_youtube.jpg
+####  Networks ####
+  ABC:
+    template: { name: Networks }
+    plex_search:
+      network: ABC
+    summary: A collection of ABC content
+    file_poster: config/assets/Network/network_abc.jpg
+  AMC:
+    template: { name: Networks }
+    plex_search:
+      network: AMC
+    summary: A collection of AMC content
+    file_poster: config/assets/Network/network_amc.jpg
+  Cartoon Network:
+    template: { name: Networks }
+    plex_search:
+      network: Cartoon Network
+    summary: A collection of Cartoon Network content
+    file_poster: config/assets/Network/network_cartoonnetwork.jpg
+  Disney Junior:
+    template: { name: Networks }
+    plex_search:
+      network: Disney Junior
+    summary: A collection of Disney Junior content
+    file_poster: config/assets/Network/network_disneyjunior.jpg
+  Disney Channel:
+    template: { name: Networks }
+    plex_search:
+      network: Disney Channel
+    summary: A collection of Disney Channel content
+    file_poster: config/assets/Network/network_disneychannel.jpg
+  Discovery+:
+    template: { name: Networks }
+    plex_search:
+      network: Discovery+
+    summary: A collection of Discovery+ content
+    file_poster: config/assets/Network/network_discovery.jpg
+  Disney XD:
+    template: { name: Networks }
+    plex_search:
+      network: Disney XD
+    summary: A collection of Disney XD content
+    file_poster: config/assets/Network/disneyxd.jpg
+  NickToons:
+    template: { name: Networks }
+    plex_search:
+      network: NickToons
+    summary: A collection of NickToons (US) content
+    file_poster: config/assets/Network/network_nicktoons.jpg
+  Nick:
+    template: { name: Networks }
+    plex_search:
+      network: Nickelodeon
+    summary: A collection of Nick (US) content
+    file_poster: config/assets/Network/network_nick.jpg
+  PBS Kids:
+    template: { name: Networks }
+    plex_search:
+      network: PBS Kids
+    summary: A collection of PBS Kids content
+    file_poster: config/assets/Network/network_pbskids.jpg
+  PBS:
+    template: { name: Networks }
+    plex_search:
+      network: PBS
+    summary: A collection of PBS content
+    file_poster: config/assets/Network/network_pbs.jpg
+  Showtime:
+    template: { name: Networks }
+    plex_search:
+      network: Showtime 
+    summary: A collection of Showtime content
+    file_poster: config/assets/Network/network_showtime.jpg
+  Universal Kids:
+    template: { name: Networks }
+    plex_search:
+      network: Universal Kids 
+    summary: A collection of Universal Kids content
+    file_poster: config/assets/Network/network_universalkids.jpg
+  Discovery Family:
+    template: { name: Networks }
+    plex_search:
+      network: Discovery Family 
+    summary: A collection of Discovery Family content
+    file_poster: config/assets/Network/network_discoveryfamily.jpg
+  Investigation Discovery:
+    template: { name: Networks }
+    plex_search:
+      network: Investigation Discovery 
+    summary: A collection of Investigation Discovery content
+    file_poster: config/assets/Network/network_id.jpg
+  FOX:
+    template: { name: Networks }
+    plex_search:
+      network: FOX 
+    summary: A collection of FOX content
+    file_poster: config/assets/Network/network_fox.jpg
+  USA Network:
+    template: { name: Networks }
+    plex_search:
+      network: USA Network 
+    summary: A collection of USA Network content
+    file_poster: config/assets/Network/network_usa.jpg
+  Travel Channel:
+    template: { name: Networks }
+    plex_search:
+      network: Travel Channel 
+    summary: A collection of Travel Channel content
+    file_poster: config/assets/Network/network_travvelchannel.jpg
+  TNT:
+    template: { name: Networks }
+    plex_search:
+      network: TNT 
+    summary: A collection of TNT content
+    file_poster: config/assets/Network/network_tnt.jpg
+  iTV:
+    template: { name: Networks }
+    plex_search:
+      network: iTV 
+    summary: A collection of iTV content
+    file_poster: config/assets/Network/network_itv.jpg
+  Food Network:
+    template: { name: Networks }
+    plex_search:
+      network: Food Network
+    summary: A collection of Food Network content
+    file_poster: config/assets/Network/network_foodnetwork.jpg
+  TruTV:
+    template: { name: Networks }
+    plex_search:
+      network: TruTV 
+    summary: A collection of TruTV content
+    file_poster: config/assets/Network/network_trutv.jpg
+  Sundance TV:
+    template: { name: Networks }
+    plex_search:
+      network: SundanceTV
+    summary: A collection of Sundance TV Network content
+    file_poster: config/assets/Network/network_sundancetv.jpg
+  Spike:
+    template: { name: Networks }
+    plex_search:
+      network: Spike 
+    summary: A collection of Spike content
+    file_poster: config/assets/Network/network_spike.jpg
+  BBC One:
+    template: { name: Networks }
+    plex_search:
+      network: BBC One 
+    summary: A collection of BBC One content
+    file_poster: config/assets/Network/network_bbcone.jpg
+  Adult Swim:
+    template: { name: Networks }
+    plex_search:
+      network: Adult Swim 
+    summary: A collection of Adult Swim content
+    file_poster: config/assets/Network/network_adultswim.jpg
+  Animal Planet:
+    template: { name: Networks }
+    plex_search:
+      network: Animal Planet 
+    summary: A collection of Animal Planet content
+    file_poster: config/assets/Network/network_animalplanet.jpg
+  The CW:
+    template: { name: Networks }
+    plex_search:
+      network: The CW 
+    summary: A collection of CW content
+    file_poster: config/assets/Network/network_thecw.jpg
+  CWSeed:
+    template: { name: Networks }
+    plex_search:
+      network: CW Seed 
+    summary: A collection of CWSeed content
+    file_poster: config/assets/Network/network_cwseed.jpg
+  FX:
+    template: { name: Networks }
+    plex_search:
+      network: FX 
+    summary: A collection of FX content
+    file_poster: config/assets/Network/network_fx.jpg
+  Lifetime:
+    template: { name: Networks }
+    plex_search:
+      network: Lifetime 
+    summary: A collection of Lifetime content
+    file_poster: config/assets/Network/network_lifetime.jpg
+  SYFY:
+    template: { name: Networks }
+    plex_search:
+      network: SYFY 
+    summary: A collection of SYFY content
+    file_poster: config/assets/Network/network_syfy.jpg
+  TBS:
+    template: { name: Networks }
+    plex_search:
+      network: TBS 
+    summary: A collection of TBS content
+    file_poster: config/assets/Network/network_tbs.jpg
+  NBC:
+    template: { name: Networks }
+    plex_search:
+      network: NBC 
+    summary: A collection of NBC content
+    file_poster: config/assets/Network/network_nbc.jpg
+  CBS:
+    template: { name: Networks }
+    plex_search:
+      network: CBS 
+    summary: A collection of CBS content
+    file_poster: config/assets/Network/network_cbs.jpg
+  BBC America: 
+    template: { name: Networks }
+    plex_search:
+      network: BBC America 
+    summary: A collection of BBC America content
+    file_poster: config/assets/Network/network_bbcamerica.jpg
+  History Channel:
+    template: { name: Networks }
+    plex_search:
+      network: History 
+    summary: A collection of History content
+    file_poster: config/assets/Network/network_history.jpg
+  National Geographic:
+    template: { name: Networks }
+    plex_search:
+      network: National Geographic 
+    summary: A collection of National Geographic content
+    file_poster: config/assets/Network/network_natgeo.jpg
+  Nat Geo Wild:
+    template: { name: Networks }
+    plex_search:
+      network: Nat Geo Wild
+    summary: A collection of National Geographic content
+    file_poster: config/assets/Network/network_natgeowild.jpg
+  TLC:
+    template: { name: Networks }
+    plex_search:
+      network: TLC
+    summary: A collection of National Geographic content
+    file_poster: config/assets/Network/network_tlc.jpg
+  HGTV:
+    template: { name: Networks }
+    plex_search:
+      network: HGTV
+    summary: A collection of National Geographic content
+    file_poster: config/assets/Network/network_hgtv.jpg
+  Comedy Central:
+    template: { name: Networks }
+    plex_search:
+      network: Comedy Central
+    summary: A collection of National Geographic content
+    file_poster: config/assets/Network/network_comedycentral.jpg
+    
+    
+#####  Networks ####
+#  ABC:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      limit: 75
+#      all:
+#        network: ABC
+#    summary: A collection of ABC content
+#    file_poster: config/assets/Network/network_abc.jpg
+#  Adult Swim:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Adult Swim
+#    summary: A collection of Adult Swim content
+#    file_poster: config/assets/Network/network_adultswim.jpg
+#  AMC:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: AMC
+#    summary: A collection of AMC content
+#    file_poster: config/assets/Network/network_amc.jpg
+#  Animal Planet:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Animal Planet
+#    summary: A collection of Animal Planet content
+#    file_poster: config/assets/Network/network_animalplanet.jpg
+#  BBC America:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: BBC America
+#    summary: A collection of BBC America content
+#    file_poster: config/assets/Network/network_bbcamerica.jpg
+#  BBC One:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: BBC One
+#    summary: A collection of BBC One content
+#    file_poster: config/assets/Network/network_bbcone.jpg
+#  Cartoon Network:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Cartoon Network
+#    summary: A collection of Cartoon Network content
+#    file_poster: config/assets/Network/network_cartoonnetwork.jpg
+#  Disney Junior:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Disney Junior
+#    summary: A collection of Disney Junior content
+#    file_poster: config/assets/Network/network_disneyjunion.jpg
+#  Disney Channel:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Disney Channel
+#    summary: A collection of Disney Channel content
+#    file_poster: config/assets/Network/network_disneychannel.jpg
+#  Disney XD:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Disney XD
+#    summary: A collection of Disney XD content
+#    file_poster: config/assets/Network/network_disneyxd.jpg
+#  NickToons:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: NickToons
+#    sort_title: +5_NickTooms
+#    summary: A collection of NickToons (US) content
+#    file_poster: config/assets/Network/network_nicktoons.us
+#  Nick:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Nickelodeon
+#    summary: A collection of Nick (US) content
+#    file_poster: config/assets/Network/network_nick.jpg
+#  Paramount:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Paramount Network
+#    summary: A collection of Paramount content
+#    file_poster: config/assets/Network/network_paramount.jpg
+#  PBS Kids:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: PBS Kids
+#    summary: A collection of PBS Kids content
+#    file_poster: config/assets/Network/network_pbskids.jpg
+#  PBS:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: PBS
+#    summary: A collection of PBS content
+#    file_poster: config/assets/Network/network_pbs.jpg
+#  Showtime:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Showtime 
+#    summary: A collection of Showtime content
+#    file_poster: config/assets/Network/network_showtime.jpg
+#  Universal Kids:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Universal Kids 
+#    summary: A collection of Universal Kids content
+#    file_poster: config/assets/Network/network_universalkids.jpg
+#  Discovery Family:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Discovery Family 
+#    summary: A collection of Discovery Family content
+#    file_poster: config/assets/Network/network_discoveryfamily.jpg
+#  Investigation Discovery:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Investigation Discovery 
+#    summary: A collection of Investigation Discovery content
+#    file_poster: config/assets/Network/network_id.jpg
+#  FOX:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: FOX 
+#    summary: A collection of FOX content
+#    file_poster: config/assets/Network/network_fox.jpg
+#  USA Network:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: USA Network 
+#    summary: A collection of USA Network content
+#    file_poster: config/assets/Network/network_usanetwork.jpg
+#  Travel Channel:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Travel Channel 
+#    summary: A collection of Travel Channel content
+#    file_poster: config/assets/Network/network_travelchannel.jpg
+#  TNT:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: TNT 
+#    summary: A collection of TNT content
+#    file_poster: config/assets/Network/network_tnt.jpg
+#  iTV:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: iTV 
+#    summary: A collection of iTV content
+#    file_poster: config/assets/Network/network_itv.jpg
+#  Food Network:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Food Network
+#    summary: A collection of Food Network content
+#    file_poster: config/assets/Network/network_foodnetwork.jpg
+#  TruTV:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: TruTV 
+#    summary: A collection of TruTV content
+#    file_poster: config/assets/Network/network_trutv.jpg
+#  Sundance TV:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: SundanceTV
+#    summary: A collection of Sundance TV Network content
+#    file_poster: config/assets/Network/network_sundancetv.jpg
+#  Spike:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Spike 
+#    summary: A collection of Spike content
+#    file_poster: config/assets/Network/network_spike.jpg
+#  CW:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: The CW 
+#    summary: A collection of CW content
+#    file_poster: config/assets/Network/network_thecw.jpg
+#  CWSeed:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: CW Seed 
+#    summary: A collection of CWSeed content
+#    file_poster: config/assets/Network/network_cwseed.jpg
+#  FX:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: FX 
+#    summary: A collection of FX content
+#    file_poster: config/assets/Network/network_fx.jpg
+#  Lifetime:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Lifetime 
+#    summary: A collection of Lifetime content
+#    file_poster: config/assets/Network/network_lifetime.jpg
+#  SYFY:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: SYFY 
+#    summary: A collection of SYFY content
+#    file_poster: config/assets/Network/network_syfy.jpg
+#  TBS:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: TBS 
+#    summary: A collection of TBS content
+#    file_poster: config/assets/Network/network_tbs.jpg
+#  NBC:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: NBC 
+#    summary: A collection of NBC content
+#    file_poster: config/assets/Network/network_nbc.jpb
+#  CBS:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: CBS 
+#    summary: A collection of CBS content
+#    file_poster: config/assets/Network/network_cbs.jpg
+#  History:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: History 
+#    summary: A collection of History content
+#    file_poster: config/assets/Network/network_history.jpg
+#  National Geographic:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: National Geographic 
+#    summary: A collection of National Geographic content
+#    file_poster: config/assets/Network/network_natgeo.jpg
+#  Nat Geo Wild:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Nat Geo Wild
+#    summary: A collection of National Geographic content
+#    file_poster: config/assets/Network/network_natgeowild.jpg
+#  TLC:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: TLC
+#    summary: A collection of National Geographic content
+#    file_poster: config/assets/Network/network_tlc.jpg
+#  HGTV:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: HGTV
+#    summary: A collection of National Geographic content
+#    file_poster: config/assets/Network/network_hgtv.jpg
+#  Comedy Central:
+#    template: { name: Plex Networks }
+#    smart_filter:
+#      sort_by: originally_available.desc
+#      all:
+#        network: Comedy Central
+#    summary: A collection of National Geographic content
+#    file_poster: config/assets/Network/network_comedycentral.jpg
+#  MasterClass:
+#   template: {name: Networks}
+#   plex_all: true
+#   filters:
+#      filepath: /mnt/sharedrives/zd-storage-ceph/courses/masterclass
+#   summary: a collection of Masterclass content
+#   file_poster: config/assets/Network/network_masterclass.jpg
