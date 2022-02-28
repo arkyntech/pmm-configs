@@ -6,7 +6,7 @@ templates:
     sync_mode: sync
     collection_order: custom
     collection_mode: hide
-    file_poster: config/assets/Genre/Movies/Franchises/<<image>>
+    file_poster: config/assets/Movies/Franchises/<<image>>
   TMDB Franchises:
     optional:
       - collections
@@ -20,12 +20,12 @@ templates:
     tmdb_summary: <<tmdb_summary>>
     summary: <<summary>>
     #url_poster: <<poster>>
-    file_poster: config/assets/Genre/Movies/Franchises/<<image>>
+    file_poster: config/assets/Movies/Franchises/<<image>>
     sort_title: +5_<<collection_name>>
     collection_order: release
     collection_mode: hide
   imdb:
-    file_poster: config/assets/Genre/Movies/Franchises/<<image>>
+    file_poster: config/assets/Movies/Franchises/<<image>>
     summary: <<summary>>
     sync_mode: sync
     sort_title: +5_<<collection_name>>

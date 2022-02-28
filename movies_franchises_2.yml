@@ -87,7 +87,7 @@ collections:
     template: {name: TMDB Franchises, collections: 131635, tmdb_summary: 131635, image: The Hunger Games Collection.jpeg }    
   Disney Animation:
     template: {name: TMDB Franchises, lists: "7103808, 7103807", summary: "A collection of Disney Animation movies."}
-    file_poster: config/assets/Genre/Disney_Animation.png
+    file_poster: config/assets/Studio/Walt Disney Animation Studios.png
   Disney ReImaginings:
     template: {name: imdb, summary: "Live-action remakes produced by Walt Disney Pictures of its animated films.", image: Disney Reimagined.png }
     imdb_list:
