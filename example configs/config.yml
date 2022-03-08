@@ -1,0 +1,107 @@
+libraries:
+  Movies:
+    library_type: movie
+    metadata_path:
+      - file: /yml/movies_awards.yml
+      - file: /yml/movies_bestof.yml
+      - file: /yml/movies_charts.yml
+      - file: /yml/movies_franchises.yml
+      - file: /yml/movies_genre_popular.yml
+      - file: /yml/movies_genre_top.yml
+      - file: /yml/movies_originals.yml
+      - file: /yml/movies_kids.yml
+  Movies - 4K:
+    library_type: movie
+    metadata_path:
+      - file: /yml/movies_awards.yml
+      - file: /yml/movies_bestof.yml
+      - file: /yml/movies_charts.yml
+      - file: /yml/movies_genre_popular.yml
+      - file: /yml/movies_genre_top.yml
+      - file: /yml/movies_originals.yml
+      - file: /yml/movies_kids.yml
+  Movies - 4K DV:
+    library_type: movie
+    metadata_path:
+      - file: /yml/movies_awards.yml
+      - file: /yml/movies_bestof.yml
+      - file: /yml/movies_charts.yml
+      - file: /yml/movies_genre_popular.yml
+      - file: /yml/movies_genre_top.yml
+      - file: /yml/movies_originals.yml
+      - file: /yml/movies_kids.yml
+  TV Shows:
+    library_type: show
+    metadata_path:
+      - file: /yml/shows_awards.yml
+      - file: /yml/shows_bestof.yml
+      - file: /yml/shows_charts.yml
+      - file: /yml/shows_genre_popular.yml
+      - file: /yml/shows_genre_top.yml
+      - file: /yml/shows_networks.yml
+      - file: /yml/shows_kids.yml
+  TV Shows - 4K:
+    library_type: show
+    metadata_path:
+      - file: /yml/shows_awards.yml
+      - file: /yml/shows_bestof.yml
+      - file: /yml/shows_charts.yml
+      - file: /yml/shows_genre_popular.yml
+      - file: /yml/shows_genre_top.yml
+      - file: /yml/shows_networks.yml
+      - file: /yml/shows_kids.yml
+settings:                                       # Can be individually specified per library as well
+  cache: true
+  cache_expiration: 60
+  sync_mode: sync
+  show_unmanaged: false
+  show_filtered: false
+  show_missing: fale
+  save_missing: false
+  run_again_delay: 2
+  asset_directory: config/assets
+  asset_folders: true
+  assets_for_all: false
+  released_missing_only: false
+  create_asset_folders: false
+  missing_only_released: false
+  delete_below_minimum: true
+  notifiarr_collection_creation: false
+  notifiarr_collection_addition: false
+  notifiarr_collection_removing: false
+  tvdb_language: default
+  show_missing_assets: true
+  only_filter_missing: false
+  minimum_items: 5
+  asset_depth: 0
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  default_collection_order:
+  item_refresh_delay: 0
+  delete_not_scheduled: false
+  show_options: false
+  ignore_ids:
+  ignore_imdb_ids:
+  playlist_sync_to_users: all
+  verify_ssl: true
+  custom_repo:
+plex:                                           # Can be individually specified per library as well
+  url: http://plex:32400
+  token: XXXXXXXXXXXXX
+  timeout: 120
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:
+  apikey: 
+  language: en
+omdb:
+  apikey: 
+
+trakt:
+  client_id: 
+  client_secret: 
+
