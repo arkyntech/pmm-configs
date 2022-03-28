@@ -16,11 +16,17 @@ collections:
       limit: 125
     summary: Popular Movies across the internet
     File_poster: config/assets/Trends/Shows/tv_popular.jpg
+    visible_library: true
+    visible_home: true
+    visible_shared: true
   Most Watched Daily:
     template: { name: Chart, num: 2 }
     trakt_watched_daily: 50
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_daily.jpg     
+    visible_library: true
+    visible_home: true
+    visible_shared: true
   Most Watched Weekly:
     template: { name: Chart, num: 3 }
     trakt_watched_weekly: 50

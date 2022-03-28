@@ -1,0 +1,20 @@
+templates:
+  Sports:
+    sort_title: +6_<<collection_name>>
+    sync_mode: sync
+    collection_order: release.desc
+    collection_mode: hide
+
+collections:
+  UFC:
+    template: { name: Chart, num: 2 }
+    smart_filter:
+      all:
+        title: UFC
+    file_poster: config/assets/Network/UFC.jpeg  
+  WWE:
+    template: { name: Chart, num: 2 }
+    smart_filter:
+      all:
+        title: WWE
+    file_poster: config/assets/Network/WWE.jpeg      
