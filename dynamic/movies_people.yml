@@ -1,0 +1,13 @@
+######################################################
+#                Dynamic Collections                 #
+######################################################
+default_template:
+  tmdb_person: <<tmdb_popular_people>>
+  plex_search:
+    all:
+      actor: tmdb
+
+dynamic_collections:
+  TMDb Popular People:          # This name is the mapping name
+    type: tmdb_popular_people
+    data: 15      
