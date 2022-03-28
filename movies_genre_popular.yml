@@ -4,11 +4,13 @@ templates:
     sync_mode: sync
     collection_mode: hide
     collection_order: custom
+    schedule: monthly(1), monthly(15)
   BestOf:
     sort_title: +4_<<collection_name>>
     sync_mode: sync
     collection_mode: hide  
     collection_order: custom
+    schedule: monthly(1), monthly(15)
 ######################################################
 #                Genre Collections                   #
 ######################################################

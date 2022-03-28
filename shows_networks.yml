@@ -6,9 +6,11 @@ templates:
     collection_mode: hide
     plex_search:
       limit: 75
+    schedule: monthly(1)  
   Plex Networks:
     sort_title: +5_<<collection_name>> 
     collection_mode: hide    
+    schedule: monthly(1)
   Originals:
     sort_title: +3_<<collection_name>>    
 
