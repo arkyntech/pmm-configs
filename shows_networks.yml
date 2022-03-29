@@ -1,12 +1,4 @@
-templates:
-#  Networks:
-#    sort_title: '+5_<<collection_name>>'
-#    sync_mode: sync
-#    collection_order: alpha
-#    collection_mode: hide
-#    plex_search:
-#      limit: 75
-#    schedule: monthly(1)  
+templates: 
   network:
     smart_filter:
       sort_by: title.asc
@@ -14,103 +6,8 @@ templates:
       any:
         network: <<network>>
     sort_title: +5_<<collection_name>>  
-  Plex Networks:
-    sort_title: +5_<<collection_name>> 
-    collection_mode: hide    
-    schedule: monthly(1)
-  Originals:
-    sort_title: +3_<<collection_name>>    
 
 collections:
-#### ORIGINALS ####
-  Amazon Prime:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      validate: false
-      all:
-        network: Amazon
-    file_poster: config/assets/Network/Originals/network_prime.jpg
-  Apple TV+:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      validate: false
-      all:
-        network: Apple TV+
-    file_poster: config/assets/Network/Originals/network_appletv.jpg
-  Disney Plus:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      validate: false
-      all:
-        network: Disney+
-    file_poster: config/assets/Network/Originals/network_disney.jpg
-  HBO Max:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: title.asc
-      validate: false
-      all:
-        network: HBO Max
-    file_poster: config/assets/Network/Originals/network_hbo.jpg
-  Hulu:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Hulu
-    file_poster: config/assets/Network/Originals/network_hulu.jpg
-  Netflix:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Netflix
-    file_poster: config/assets/Network/Originals/network_netflix.jpg
-  Paramount+:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Paramount+
-    file_poster: config/assets/Network/Originals/network_paramount.jpg
-  Peacock:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Peacock
-    file_poster: config/assets/Network/Originals/network_peacock.jpg  
-  Quibi:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Quibi
-    file_poster: config/assets/Network/Originals/network_quibi.jpg
-  Stan:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Stan
-    file_poster: config/assets/Network/Originals/network_stan.jpg  
-  Starz:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Starz
-    file_poster: config/assets/Network/Originals/network_starz.jpg  
-  Youtube:
-    template: { name: Originals }
-    smart_filter:
-      sort_by: originally_available.desc
-      all:
-        network: Youtube
-    file_poster: config/assets/Network/Originals/network_youtube.jpg
 ####  Networks ####
 ABC:
   file_poster: config/assets/Network/network_abc.jpg
