@@ -9,6 +9,13 @@ templates:
     schedule: monthly(1)
 collections:
 ### CHARTS ###
+  Top Rated of 2022:
+    template: { name: Chart, num: 1 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature&release_date=2022-01-01,&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+      limit: 75
+    summary: Top Rated Movies across the internet
+    file_poster: config/assets/Trends/Movies/movies_toprated_2022.jpg 
   Top Rated of 2021:
     template: { name: Chart, num: 1 }
     imdb_list:
