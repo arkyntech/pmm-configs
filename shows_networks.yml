@@ -87,8 +87,7 @@ collections:
     template: { name: network, network: "National Geographic" }
   Nick:
     file_poster: config/assets/Network/network_nick.jpg
-    template:
-      name: Networks
+    template: { name: network, network: "Nick" }
   NickToons:
     file_poster: config/assets/Network/network_nicktoons.jpg
     template: { name: network, network: "Nicktoons" }
