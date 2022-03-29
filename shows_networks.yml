@@ -7,7 +7,7 @@ templates:
 #    plex_search:
 #      limit: 75
 #    schedule: monthly(1)  
-  Networks:
+  network:
     smart_filter:
       sort_by: title.asc
       validate: false
