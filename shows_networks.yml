@@ -20,8 +20,7 @@ collections:
     template: { name: network, network: "Adult Swim" }
   Animal Planet:
     file_poster: config/assets/Network/network_animalplanet.jpg
-    template:
-      name: Networks
+    template: { name: network, network: "Animal Planet" }
   BBC America:
     file_poster: config/assets/Network/network_bbcamerica.jpg
     template: { name: network, network: "BBC America" }
@@ -53,7 +52,7 @@ collections:
     file_poster: config/assets/Network/network_disneyjunior.jpg
     template: { name: network, network: "Disney Junior" }
   Disney XD:
-    file_poster: config/assets/Network/disneyxd.jpg
+    file_poster: config/assets/Network/network_disneyxd.jpg
     template: { name: network, network: "Disney XD" }
   FOX:
     file_poster: config/assets/Network/network_fox.jpg
@@ -87,7 +86,7 @@ collections:
     template: { name: network, network: "National Geographic" }
   Nick:
     file_poster: config/assets/Network/network_nick.jpg
-    template: { name: network, network: "Nick" }
+    template: { name: network, network: "Nickelodeon" }
   NickToons:
     file_poster: config/assets/Network/network_nicktoons.jpg
     template: { name: network, network: "Nicktoons" }
@@ -122,14 +121,14 @@ collections:
     file_poster: config/assets/Network/network_thecw.jpg
     template: { name: network, network: "The CW" }
   Travel Channel:
-    file_poster: config/assets/Network/network_travvelchannel.jpg
+    file_poster: config/assets/Network/network_travelchannel.jpg
     template: { name: network, network: "Travel Channel" }
   TruTV:
     file_poster: config/assets/Network/network_trutv.jpg
     template: { name: network, network: "TruTV" }
   USA:
     file_poster: config/assets/Network/network_usa.jpg
-    template: { name: network, network: "USA" }
+    template: { name: network, network: "USA Network" }
   Universal Kids:
     file_poster: config/assets/Network/network_universalkids.jpg
     template: { name: network, network: "Universal Kids" }
