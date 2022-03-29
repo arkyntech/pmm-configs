@@ -85,7 +85,7 @@ collections:
     file_poster: config/assets/Network/network_natgeo.jpg
     template: { name: network, network: "National Geographic" }
   Nick:
-    file_poster: config/assets/Network/network_nick.jpg
+    file_poster: config/assets/Network/network_nickelodeon.jpg
     template: { name: network, network: "Nickelodeon" }
   NickToons:
     file_poster: config/assets/Network/network_nicktoons.jpg
