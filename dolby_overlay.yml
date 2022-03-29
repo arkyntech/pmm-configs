@@ -7,5 +7,7 @@ templates:
 collections:    
   4K-Dolby:
     plex_all: true
-    item_overlay: 4K-Dolby
+    item_overlay:
+      name: 4K-Dolby
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_dv.png
     build_collection: false    
