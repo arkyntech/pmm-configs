@@ -1,55 +1,80 @@
 libraries:
   Movies:
     library_type: movie
+    operations:
+      delete_unmanaged_collections: true
     metadata_path:
-      - file: /yml/movies_awards.yml
-      - file: /yml/movies_bestof.yml
-      - file: /yml/movies_charts.yml
-      - file: /yml/movies_franchises.yml
-      - file: /yml/movies_genre_popular.yml
-      - file: /yml/movies_genre_top.yml
-      - file: /yml/movies_originals.yml
-      - file: /yml/movies_kids.yml
+      - repo: movies_awards
+      - repo: movies_bestof
+      - repo: movies_charts
+      - repo: movies_franchises
+      - repo: movies_genre_popular
+      - repo: movies_genre_top
+      - repo: movies_originals
+      - repo: movies_kids
+      - repo: movies_sports
   Movies - 4K:
     library_type: movie
+    operations:
+      delete_unmanaged_collections: true
     metadata_path:
-      - file: /yml/movies_awards.yml
-      - file: /yml/movies_bestof.yml
-      - file: /yml/movies_charts.yml
-      - file: /yml/movies_genre_popular.yml
-      - file: /yml/movies_genre_top.yml
-      - file: /yml/movies_originals.yml
-      - file: /yml/movies_kids.yml
+      - repo: movies_awards
+      - repo: movies_bestof
+      - repo: movies_charts
+      - repo: movies_franchises
+      - repo: movies_genre_popular
+      - repo: movies_genre_top
+      - repo: movies_originals
+      - repo: movies_kids
   Movies - 4K DV:
     library_type: movie
+    operations:
+      delete_unmanaged_collections: true
     metadata_path:
-      - file: /yml/movies_awards.yml
-      - file: /yml/movies_bestof.yml
-      - file: /yml/movies_charts.yml
-      - file: /yml/movies_genre_popular.yml
-      - file: /yml/movies_genre_top.yml
-      - file: /yml/movies_originals.yml
-      - file: /yml/movies_kids.yml
+      - repo: movies_awards
+      - repo: movies_bestof
+      - repo: movies_charts
+      - repo: movies_franchises
+      - repo: movies_genre_popular
+      - repo: movies_genre_top
+      - repo: movies_originals
+      - repo: movies_kids
   TV Shows:
     library_type: show
+    operations:
+      delete_unmanaged_collections: true
     metadata_path:
-      - file: /yml/shows_awards.yml
-      - file: /yml/shows_bestof.yml
-      - file: /yml/shows_charts.yml
-      - file: /yml/shows_genre_popular.yml
-      - file: /yml/shows_genre_top.yml
-      - file: /yml/shows_networks.yml
-      - file: /yml/shows_kids.yml
+      - repo: shows_awards
+      - repo: shows_bestof
+      - repo: shows_charts
+      - repo: shows_genre_popular
+      - repo: shows_genre_top
+      - repo: shows_networks
+      - repo: shows_kids
   TV Shows - 4K:
     library_type: show
+    operations:
+      delete_unmanaged_collections: true
     metadata_path:
-      - file: /yml/shows_awards.yml
-      - file: /yml/shows_bestof.yml
-      - file: /yml/shows_charts.yml
-      - file: /yml/shows_genre_popular.yml
-      - file: /yml/shows_genre_top.yml
-      - file: /yml/shows_networks.yml
-      - file: /yml/shows_kids.yml
+      - repo: shows_awards
+      - repo: shows_bestof
+      - repo: shows_charts
+      - repo: shows_genre_popular
+      - repo: shows_genre_top
+      - repo: shows_networks
+      - repo: shows_kids
+  TV Shows - 4K DV:
+    library_type: show
+    operations:
+      delete_unmanaged_collections: true
+    metadata_path:
+      - repo: shows_awards
+      - repo: shows_bestof
+      - repo: shows_charts
+      - repo: shows_genre_popular
+      - repo: shows_genre_top
+      - repo: shows_networks
+      - repo: shows_kids
 settings:                                       # Can be individually specified per library as well
   cache: true
   cache_expiration: 60
@@ -87,7 +112,7 @@ settings:                                       # Can be individually specified 
   ignore_imdb_ids:
   playlist_sync_to_users: all
   verify_ssl: true
-  custom_repo:
+  custom_repo: https://github.com/arkyntech/pmm-configs/main/
 plex:                                           # Can be individually specified per library as well
   url: http://plex:32400
   token: XXXXXXXXXXXXX
