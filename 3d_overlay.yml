@@ -6,9 +6,11 @@ templates:
     schedule: hourly(1), hourly(12)
     
 collections:    
-  IMAX_1080P:
+  3d:
     plex_search:
       all:
-        label: 1080PIMAX
-    item_overlay: IMAX_ONLY
+        label: 3d
+    item_overlay:
+      name: 3d
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax_hdr.png
     build_collection: false    
