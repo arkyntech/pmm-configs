@@ -7,7 +7,7 @@ templates:
     
 collections:    
   IMAX_4K:
-     plex_search:
+    plex_search:
       all:
         resolution: 4K
         hdr: false
@@ -16,7 +16,7 @@ collections:
       url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax.png
     build_collection: false
   IMAX_4K_HDR:
-     plex_search:
+    plex_search:
       all:
         resolution: 4K
         hdr: true

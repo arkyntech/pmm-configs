@@ -7,7 +7,7 @@ templates:
     
 collections:    
   IMAX_4K_DV:
-     plex_search:
+    plex_search:
       all:
         resolution: 4K
         hdr: true
