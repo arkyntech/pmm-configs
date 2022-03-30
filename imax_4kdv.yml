@@ -1,0 +1,18 @@
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+    
+collections:    
+  IMAX_4K_DV:
+     plex_search:
+      all:
+        resolution: 4K
+        hdr: true
+    filters:
+      has_dolby_vision: true    
+    item_overlay:
+      name: IMAX-4K-HDR
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax_hdr.png
+    build_collection: false  

@@ -11,15 +11,3 @@ collections:
         label: 1080PIMAX
     item_overlay: IMAX_ONLY
     build_collection: false    
-  4K_IMAX:
-    plex_search:
-      all:
-        label: 4KHDRIMAX
-    item_overlay: IMAX_HDR
-    build_collection: false
-  IMAX_Dolby:
-    plex_search:
-      all:
-        label: 4KDVIMAX
-    item_overlay: IMAX_DOLBY
-    build_collection: false    
