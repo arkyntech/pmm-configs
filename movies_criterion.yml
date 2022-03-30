@@ -7,6 +7,7 @@ templates:
     sync_mode: sync
     collection_mode: hide
     collection_order: custom
+    cache_builders: 7
 collections:
   The Criterion Collection:
     imdb_list: https://www.imdb.com/list/ls090936109

@@ -7,6 +7,7 @@ templates:
     sync_mode: sync
     collection_order: custom
     schedule: monthly(1)
+    cache_builders: 7
 collections:
 ### CHARTS ###
   Top Rated of 2022:

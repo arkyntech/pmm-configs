@@ -10,6 +10,7 @@ templates:
     visible_home: true
     visible_shared: true
     sync_mode: sync
+    cache_builders: 1
 
 collections:
 #####################################

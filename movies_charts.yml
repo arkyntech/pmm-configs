@@ -7,6 +7,7 @@ templates:
     sync_mode: sync
     collection_order: custom
     schedule: daily
+    cache_builders: 1
 collections:
 ### CHARTS ###
   Popular Movies:

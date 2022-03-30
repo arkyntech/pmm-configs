@@ -8,6 +8,7 @@ templates:
     collection_mode: hide
     file_poster: config/assets/Movies/Franchises/<<image>>
     schedule: monthly(1)
+    cache_builders: 7
   TMDB Franchises:
     optional:
       - collections
@@ -26,6 +27,7 @@ templates:
     collection_order: release
     collection_mode: hide
     schedule: monthly(1)
+    cache_builders: 7
   imdb:
     file_poster: config/assets/Movies/Franchises/<<image>>
     summary: <<summary>>
@@ -34,6 +36,7 @@ templates:
     collection_order: release
     collection_mode: hide
     schedule: monthly(1)
+    cache_builders: 7
 collections:
   Marvel Cinematic Universe:
     template: { name: Trakt Franchises, list: marvel-cinematic-universe, image: Marvel Cinematic Universe.png  }

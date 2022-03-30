@@ -8,6 +8,7 @@ templates:
     collection_mode: hide
     collection_order: custom
     schedule: monthly(1)
+    cache_builders: 7
 collections:
   Emmy Award Winners:
     template: {name: Awards, num: 5 }

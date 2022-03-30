@@ -4,6 +4,7 @@ templates:
     sync_mode: sync
     collection_mode: hide  
     collection_order: custom
+    cache_builders: 1
 ######################################################
 #                Genre Collections                   #
 ######################################################
