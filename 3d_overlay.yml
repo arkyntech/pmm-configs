@@ -12,5 +12,5 @@ collections:
         label: 3d
     item_overlay:
       name: 3d
-      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax_hdr.png
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overlay_3d.png
     build_collection: false    
