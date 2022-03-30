@@ -10,7 +10,6 @@ collections:
     plex_search:
       all:
         resolution: 4K
-        hdr: true
     filters:
       has_dolby_vision: true    
     item_overlay:

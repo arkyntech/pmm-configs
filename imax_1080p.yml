@@ -7,8 +7,8 @@ templates:
     
 collections:    
   IMAX_1080P:
-    plex_search:
-      all:
-        label: 1080PIMAX
+    plex_all: true
+    filters:
+      filepath: IMAX    
     item_overlay: IMAX_ONLY
     build_collection: false    
