@@ -15,6 +15,9 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=action&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Shows/tv_popular_action.jpg
+    visible_library: true
+    visible_home: true
+    visible_shared: true
   Adventure:
     template: { name: Genre }
     imdb_list:
@@ -39,6 +42,9 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=comedy&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Shows/tv_popular_comedy.jpg
+    visible_library: true
+    visible_home: true
+    visible_shared: true
   Crime:
     template: { name: Genre }
     imdb_list:
@@ -57,6 +63,9 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=drama&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Shows/tv_popular_drama.jpg
+    visible_library: true
+    visible_home: true
+    visible_shared: true
   Family:
     template: { name: Genre }
     imdb_list:
@@ -129,6 +138,9 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=thriller&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     file_poster: config/assets/Genre/Shows/tv_popular_thriller.jpg
+    visible_library: true
+    visible_home: true
+    visible_shared: true
   War:
     template: { name: Genre }
     imdb_list:
