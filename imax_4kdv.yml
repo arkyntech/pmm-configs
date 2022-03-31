@@ -14,7 +14,7 @@ collections:
       has_dolby_vision: true    
     item_overlay:
       name: IMAX-4K-HDR
-      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax_hdr.png
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax_dv.png
     filters:
       filepath: IMAX   
     build_collection: false  
