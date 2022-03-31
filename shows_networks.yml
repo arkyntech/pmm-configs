@@ -63,6 +63,9 @@ collections:
   Food Network:
     file_poster: config/assets/Network/network_foodnetwork.jpg
     template: { name: network, network: "Food Network" }
+  HBO:
+    file_poster: config/assets/Network/network_hbo.jpg
+    template: { name: network, network: "HBO, HBO Canada, HBO Europe, HBO Latin America, HBO Asia" }  
   HGTV:
     file_poster: config/assets/Network/network_hgtv.jpg
     template: { name: network, network: "HGTV" }
