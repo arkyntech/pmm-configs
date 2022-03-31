@@ -15,7 +15,9 @@ collections:
       name: IMAX-4K
       url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax.png
     filters:
-      filepath: IMAX   
+      filepath: 
+        - IMAX  
+        - HMAX    
     build_collection: false
   IMAX_4K_HDR:
     plex_search:
@@ -26,5 +28,7 @@ collections:
       name: IMAX-4K-HDR
       url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax_hdr.png
     filters:
-      filepath: IMAX   
+      filepath: 
+        - IMAX  
+        - HMAX        
     build_collection: false  
