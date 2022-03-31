@@ -12,7 +12,9 @@ collections:
         resolution: 4K
     filters:
       has_dolby_vision: true 
-      filepath: IMAX        
+      filepath: 
+        - IMAX    
+        - HMAX        
     item_overlay:
       name: IMAX-4K-HDR
       url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax_dv.png 
