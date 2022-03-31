@@ -6,9 +6,8 @@ default_template:
   plex_search:
     all:
       actor: tmdb
-    sort_by: release.desc  
 
 dynamic_collections:
   TMDb Popular People:          # This name is the mapping name
     type: tmdb_popular_people
-    data: 15      
+    data: 30    

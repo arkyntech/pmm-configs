@@ -6,7 +6,7 @@ templates:
     sync_mode: sync
     collection_order: custom
     collection_mode: hide
-    file_poster: config/assets/Movies/Franchises/<<image>>
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/Franchises/<<image>>
     schedule: monthly(1)
     cache_builders: 7
   TMDB Franchises:
@@ -21,15 +21,15 @@ templates:
     tmdb_movie: <<movies>>
     tmdb_summary: <<tmdb_summary>>
     summary: <<summary>>
-    #url_poster: <<poster>>
-    file_poster: config/assets/Movies/Franchises/<<image>>
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/Franchises/<<image>>
+    #file_poster: config/assets/Movies/Franchises/<<image>>
     sort_title: +5_<<collection_name>>
     collection_order: release
     collection_mode: hide
     schedule: monthly(1)
     cache_builders: 7
   imdb:
-    file_poster: config/assets/Movies/Franchises/<<image>>
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/Franchises/<<image>>
     summary: <<summary>>
     sync_mode: sync
     sort_title: +5_<<collection_name>>
