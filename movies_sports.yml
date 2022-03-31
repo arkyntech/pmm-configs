@@ -2,7 +2,6 @@ templates:
   Sports:
     sort_title: +6_<<collection_name>>
     sync_mode: sync
-    collection_order: release.desc
     collection_mode: hide
 
 collections:
@@ -11,10 +10,12 @@ collections:
     smart_filter:
       all:
         title: UFC
+      sort_by: release.desc  
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/UFC.jpeg
   WWE:
     template: { name: Sports, num: 2 }
     smart_filter:
       all:
         title: WWE
+      sort_by: release.desc 
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/WWE%20Network.png    
