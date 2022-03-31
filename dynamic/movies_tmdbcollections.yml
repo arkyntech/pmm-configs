@@ -1,0 +1,12 @@
+######################################################
+#                Dynamic Collections                 #
+######################################################
+default_template:
+  tmdb_collection_details: <<tmdb_collection>>
+  minimum_items: 3
+
+dynamic_collections:
+  TMDb Collections:          # This name is the mapping name
+    type: tmdb_collections
+    remove_suffix: Collection
+    remove_prefix: The
