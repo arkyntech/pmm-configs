@@ -114,10 +114,6 @@ collections:
       - https://www.imdb.com/list/ls068942981/
   "Mission: Impossible":
     template: {name: TMDB Franchises, collections: "87359", tmdb_summary: 87359, image: Mission- Impossible Collection.png }
-#  The Muppets:
-#    template: {name: imdb, summary: "The Muppets Movies", poster: "https://theposterdb.com/api/assets/205"}
-#    imdb_list:
-#      - https://www.imdb.com/list/ls068314869/
   Mummy:
     template: {name: TMDB Franchises, collections: 1733, tmdb_summary: 1733, image: The Mummy Collection.jpg }
   "National Lampoon's Vacation":
@@ -158,5 +154,3 @@ collections:
     template: {name: imdb, summary: "A superhero film series about a team of mutant superheroes based on the Marvel Comics superheroes of the same name.", image: X-Men Collection.png }
     imdb_list:
       - https://www.imdb.com/list/ls024445822/
-#  Teenage Mutant Ninja Turtles:
-#    template: {name: TMDB Franchises, collections: "1582, 401562", movies: "1273", tmdb_summary: 1582, poster: https://theposterdb.com/api/assets/59350}
