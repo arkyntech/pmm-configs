@@ -11,10 +11,10 @@ collections:
     smart_filter:
       all:
         title: UFC
-    file_poster: config/assets/Network/UFC.jpeg  
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/UFC.jpeg
   WWE:
     template: { name: Chart, num: 2 }
     smart_filter:
       all:
         title: WWE
-    file_poster: config/assets/Network/WWE.jpeg      
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/WWE%20Network.png    
