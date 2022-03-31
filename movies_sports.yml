@@ -7,13 +7,13 @@ templates:
 
 collections:
   UFC:
-    template: { name: Chart, num: 2 }
+    template: { name: Sports, num: 2 }
     smart_filter:
       all:
         title: UFC
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/UFC.jpeg
   WWE:
-    template: { name: Chart, num: 2 }
+    template: { name: Sports, num: 2 }
     smart_filter:
       all:
         title: WWE
