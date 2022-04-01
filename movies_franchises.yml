@@ -7,7 +7,6 @@ templates:
     collection_order: custom
     collection_mode: hide
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/Franchises/<<image>>
-    schedule: monthly(1)
     cache_builders: 7
   TMDB Franchises:
     optional:

@@ -6,7 +6,6 @@ templates:
     sort_title: +2_<<num>><<collection_name>>
     sync_mode: sync
     collection_order: custom
-    schedule: monthly(1)
     cache_builders: 7
 collections:
 ### CHARTS ###

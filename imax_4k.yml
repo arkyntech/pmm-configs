@@ -3,7 +3,6 @@ templates:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
     collection_order: custom
-    schedule: hourly(1), hourly(12)
     
 collections:    
   IMAX_4K:

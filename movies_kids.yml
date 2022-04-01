@@ -4,7 +4,6 @@ templates:
     sync_mode: sync
     collection_mode: hide
     collection_order: custom
-    schedule: weekly(monday)
     cache_builders: 6
 ######################################################
 #                Genre Collections                   #
