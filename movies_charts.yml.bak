@@ -22,10 +22,7 @@ collections:
     visible_shared: true
   Most Watched Daily:
     template: { name: Chart, num: 2 }
-    trakt_chart:
-      chart: watched
-       time_period: daily
-       limit: 50
+    trakt_watched_daily: 50
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_daily.jpg   
     visible_library: true
@@ -33,26 +30,17 @@ collections:
     visible_shared: true    
   Most Watched Weekly:
     template: { name: Chart, num: 3 }
-    trakt_chart:
-      chart: watched
-       time_period: weekly
-       limit: 50
+    trakt_watched_weekly: 50
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_weekly.jpg    
   Most Watched Monthly:
     template: { name: Chart, num: 4 }
-    trakt_chart:
-      chart: watched
-       time_period: monthly
-       limit: 50
+    trakt_watched_monthly: 50
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_monthly.jpg  
   Most Watched Yearly:
     template: { name: Chart, num: 5 }
-    trakt_chart:
-      chart: watched
-       time_period: yearly
-       limit: 50
+    trakt_watched_yearly: 50
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_yearly.jpg    
   Popular TV Movies:
