@@ -1,0 +1,29 @@
+overlays:
+  DolbyVision:
+    overlay:
+      name: 4k-dv
+      repo: images/Overlays/overlay_4k_dv.png
+    plex_all: true
+    filters:
+      has_dolby_vision: true
+    
+  4K:
+    overlay:
+      name: 4k
+      repo: images/Overlays/overlay_4k.png
+    plex_search:
+      all:
+        resolution: 4K
+        hdr: false
+    filters:
+      has_dolby_vision: true
+      filepath.regex: (HQ-Remux.*)(?:DV.*)(TrueHD)(| Atmos)( [3-9]\.)
+
+  4K-HDR:
+    overlay:
+      name: 4k
+      repo: images/Overlays/overlay_4k_hdr.png
+    plex_search:
+      all:
+        resolution: 4K
+        hdr: true
