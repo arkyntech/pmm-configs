@@ -14,8 +14,6 @@ overlays:
       all:
         resolution: 4K
         hdr: false
-    filters:
-      has_dolby_vision: true
   4K-HDR:
     overlay:
       name: 4k
