@@ -2,7 +2,7 @@ overlays:
   4K:
     overlay:
       name: 4k
-      repo: images/Overlays/overlay_4k.png
+      repo: images/Overlays/overlay_4k
     plex_search:
       all:
         resolution: 4K
@@ -10,7 +10,7 @@ overlays:
   4K-HDR:
     overlay:
       name: 4k
-      repo: images/Overlays/overlay_4k_hdr.png
+      repo: images/Overlays/overlay_4k_hdr
     plex_search:
       all:
         resolution: 4K
