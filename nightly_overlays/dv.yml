@@ -4,5 +4,3 @@ overlays:
       name: 4k-dv
       repo: images/Overlays/overlay_4k_dv
     plex_all: true
-    filters:
-      has_dolby_vision: true
