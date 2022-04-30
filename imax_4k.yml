@@ -12,7 +12,7 @@ collections:
         hdr: false
     item_overlay:
       name: IMAX-4K
-      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax.png
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overlay_4k_imax.png
     filters:
       filepath: 
         - IMAX  
@@ -25,7 +25,7 @@ collections:
         hdr: true
     item_overlay:
       name: IMAX-4K-HDR
-      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax_hdr.png
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overlay_4k_imax_hdr.png
     filters:
       filepath: 
         - IMAX  

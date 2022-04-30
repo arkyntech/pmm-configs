@@ -16,5 +16,5 @@ collections:
         - HMAX        
     item_overlay:
       name: IMAX-4K-HDR
-      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_imax_dv.png 
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overlay_4k_imax_dv.png 
     build_collection: false  

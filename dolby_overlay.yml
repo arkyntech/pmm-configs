@@ -9,5 +9,5 @@ collections:
     plex_all: true
     item_overlay:
       name: 4K-Dolby
-      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_dv.png
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overlay_4k_dv.png
     build_collection: false    

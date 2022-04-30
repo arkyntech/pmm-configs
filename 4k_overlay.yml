@@ -12,7 +12,7 @@ collections:
         hdr: false
     item_overlay:
       name: 4K
-      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k.png
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overlay_4k.png
     build_collection: false
   4K-HDR Overlay:
     plex_search:
@@ -21,5 +21,5 @@ collections:
         hdr: true
     item_overlay:
       name: 4K-HDR
-      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overylay_4k_hdr.png
+      url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overlay_4k_hdr.png
     build_collection: false    
