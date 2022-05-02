@@ -14,5 +14,6 @@ overlays:
       repo: images/Overlays/overlay_4k_hdr
     plex_search:
       all:
+        added: 1
         resolution: 4K
         hdr: true
