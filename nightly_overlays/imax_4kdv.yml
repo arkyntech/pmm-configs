@@ -5,5 +5,7 @@ overlays:
       repo: images/Overlays/overlay_4k_imax_DV
     plex_all: true
     filters:
-      filepath.regex: '(IMAX.*)(?:HMAX.*)' 
+      filepath: 
+        - IMAX  
+        - HMAX   
       has_dolby_vision: true

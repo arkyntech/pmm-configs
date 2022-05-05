@@ -5,5 +5,7 @@ overlays:
       repo: images/Overlays/overlay_imax
     plex_all: true
     filters:
-      filepath.regex: '(?i)\[IMAX\]'
+      filepath: 
+        - IMAX  
+        - HMAX   
  

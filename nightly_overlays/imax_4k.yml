@@ -8,7 +8,9 @@ overlays:
         resolution: 4K
         hdr: false
     filters:
-      filepath.regex: '(IMAX.*)(?:HMAX.*)'
+      filepath: 
+        - IMAX  
+        - HMAX   
   IMAX_4K_HDR:
     overlay:
       name: IMAX
@@ -18,4 +20,6 @@ overlays:
         resolution: 4K
         hdr: true
     filters:
-      filepath.regex: '(IMAX.*)(?:HMAX.*)' 
+      filepath: 
+        - IMAX  
+        - HMAX   
