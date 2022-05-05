@@ -2,7 +2,7 @@ overlays:
   IMAX_4K_DV:
     overlay:
       name: IMAX
-      repo: images/Overlays/overlay_4k_imax_DV
+      repo: images/Overlays/overlay_4k_imax_dv
     plex_all: true
     filters:
       filepath: 
