@@ -5,4 +5,4 @@ overlays:
       repo: images/Overlays/overlay_4k_dv
     plex_search:
       all:
-        added: 7  
+        added: 7 
