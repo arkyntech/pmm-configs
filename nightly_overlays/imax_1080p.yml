@@ -3,7 +3,9 @@ overlays:
     overlay:
       name: IMAX
       repo: images/Overlays/overlay_imax
-    plex_all: true
+    plex_search:
+      all:
+        added: 2
     filters:
       filepath.regex: '(?i)\[IMAX\]'
  

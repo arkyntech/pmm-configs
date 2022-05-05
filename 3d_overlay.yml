@@ -6,7 +6,9 @@ templates:
     
 collections:    
   3d:
-    plex_all: true
+    plex_search:
+      all:
+        added: 4
     item_overlay:
       name: 3d
       url: https://github.com/arkyntech/pmm-configs/raw/main/images/Overlays/overlay_3d.png

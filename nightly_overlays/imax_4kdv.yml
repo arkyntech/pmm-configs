@@ -3,7 +3,9 @@ overlays:
     overlay:
       name: IMAX
       repo: images/Overlays/overlay_4k_imax_DV
-    plex_all: true
+    plex_search:
+      all:
+        added: 2
     filters:
       filepath.regex: '(IMAX.*)(?:HMAX.*)' 
       has_dolby_vision: true
