@@ -3,7 +3,7 @@ overlays:
     overlay:
       name: 4k-dv
       repo: images/Overlays/overlay_4k_dv
-    plex_all: true
-    #plex_search:
-    #  all:
-    #    added: 7 
+    #plex_all: true
+    plex_search:
+      all:
+        added: 7 

@@ -3,7 +3,11 @@ overlays:
     overlay:
       name: IMAX
       repo: images/Overlays/overlay_imax
-    plex_all: true
+    plex_search:
+      all:
+        resolution: 4K
+        hdr: false
+        added: 1
     filters:
       filepath: 
         - IMAX  
