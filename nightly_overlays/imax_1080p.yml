@@ -7,7 +7,7 @@ overlays:
       all:
         resolution: 4K
         hdr: false
-        tag.not: Overlay
+        label.not: Overlay
     filters:
       filepath: 
         - IMAX  

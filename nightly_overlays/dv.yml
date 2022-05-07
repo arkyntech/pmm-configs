@@ -6,4 +6,4 @@ overlays:
     #plex_all: true
     plex_search:
       all:
-        tag.not: Overlay
+        label.not: Overlay
