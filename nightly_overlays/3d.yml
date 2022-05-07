@@ -5,4 +5,4 @@ overlays:
       repo: images/Overlays/overlay_3d
     plex_search:
       all:
-        added: 1
+        tag.not: Overlay

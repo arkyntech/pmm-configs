@@ -7,7 +7,7 @@ overlays:
       all:
         resolution: 4K
         hdr: false
-        added: 1
+        tag.not: Overlay
     filters:
       filepath: 
         - IMAX  
@@ -20,7 +20,7 @@ overlays:
       all:
         resolution: 4K
         hdr: true
-        added: 1
+        tag.not: Overlay
     filters:
       filepath: 
         - IMAX  
