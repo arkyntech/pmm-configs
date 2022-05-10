@@ -42,7 +42,7 @@ collections:
     template: { name: Chart, num: 4 }
     trakt_chart:
       chart: watched
-      time_period: monthl
+      time_period: monthly
       limit: 50
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_monthly.jpg  
