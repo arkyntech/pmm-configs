@@ -15,10 +15,7 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&languages=en&sort=moviemeter,asc
       limit: 125
     summary: Popular Movies across the internet
-    File_poster: config/assets/Trends/Shows/tv_popular.jpg
-#    visible_library: true
-#    visible_home: true
-#    visible_shared: true   
+    File_poster: config/assets/Trends/Shows/tv_popular.jpg 
   Most Watched Daily:
     template: { name: Chart, num: 2 }
     trakt_chart:
@@ -27,9 +24,6 @@ collections:
       limit: 50
     summary: Movies Trending across the internet
     file_poster: config/assets/Trends/watched_daily.jpg     
-#    visible_library: true
-#    visible_home: true
-#    visible_shared: true   
   Most Watched Weekly:
     template: { name: Chart, num: 3 }
     trakt_chart:
