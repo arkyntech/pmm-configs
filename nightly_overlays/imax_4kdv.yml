@@ -1,7 +1,7 @@
 overlays:
   IMAX_4K_DV:
     overlay:
-      name: IMAX
+      name: IMAX-4K-DV
       repo: images/Overlays/overlay_4k_imax_dv
     plex_search:
       all:

@@ -14,7 +14,7 @@ overlays:
         - HMAX   
   IMAX_4K_HDR:
     overlay:
-      name: IMAX
+      name: IMAX-HDR
       repo: images/Overlays/overlay_4k_imax_hdr
     plex_search:
       all:
