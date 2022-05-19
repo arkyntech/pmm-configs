@@ -6,6 +6,7 @@ overlays:
     plex_search:
       all:
         #label.not: Overlay
+        validate: false
         resolution: 4K
         hdr: false
   4K-HDR:
