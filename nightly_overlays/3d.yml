@@ -3,6 +3,4 @@ overlays:
     overlay:
       name: 3D
       repo: images/Overlays/overlay_3d
-    plex_search:
-      all:
-        label.not: Overlay
+    plex_all: true
