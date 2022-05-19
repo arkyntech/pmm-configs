@@ -9,14 +9,14 @@ overlays:
         #label.not: Overlay
         resolution: 4K
         hdr: false
-  4K-HDR:
-    overlay:
-      name: 4K-HDR
-      repo: images/Overlays/overlay_4k_hdr
-    suppress_overlays:
-      - 4K    
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: true
-        #label.not: Overlay
+#  4K-HDR:
+#    overlay:
+#      name: 4K-HDR
+#      repo: images/Overlays/overlay_4k_hdr
+#    suppress_overlays:
+#      - 4K    
+#    plex_search:
+#      all:
+#        resolution: 4K
+#        hdr: true
+#        #label.not: Overlay
