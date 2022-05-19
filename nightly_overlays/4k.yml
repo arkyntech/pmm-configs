@@ -4,9 +4,9 @@ overlays:
       name: 4K
       repo: images/Overlays/overlay_4k
     plex_search:
+      validate: false
       all:
         #label.not: Overlay
-        validate: false
         resolution: 4K
         hdr: false
   4K-HDR:
