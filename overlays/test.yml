@@ -1,0 +1,236 @@
+# Trash Guides naming scheme and custom formats are recommended, as many overlays utilize filepath searching --> https://trash-guides.info/Radarr/Radarr-recommended-naming-scheme/
+templates:
+  ov:
+    overlay:
+      name: <<overlay_name>>
+      url: https://raw.githubusercontent.com/bradmartti/Plex-Meta-Manager-Configs/master/bradmartti/overlays/<<overlay_name>>.png
+      group: <<g>>
+      weight: <<w>>
+      horizontal_offset: <<x>>
+      vertical_offset: <<y>>
+  res:
+    plex_search:
+      all:
+        resolution: <<res>>
+  dr:
+    plex_search:
+      all:
+        hdr: <<hdr>>
+    filters:
+      has_dolby_vision: <<dv>>
+  lossy:
+    plex_all: true
+    filters:
+      filepath.regex: (?i)(AC3\b|\bOpus\b|MP3|PCM|AAC|DTS)(|-ES|-HD|-HD.HRA|.Atmos)(.<<ch>>\.)
+  lac:
+    plex_all: true
+    filters:
+      filepath.regex: (?i)(TrueHD|DTS-HD.MA|DTS-X|FLAC)(|.Atmos)(.<<ch>>\.)
+  regex:
+    plex_all: true
+    filters:
+      filepath.regex: (?i)<<regex>>
+
+overlays:
+# backdrop gradient to make overlays consistantly readable
+  Gradient:
+    template: { name: ov, g: gradient, w: 100, x: 0, y: 0 }
+    plex_all: true    
+
+# Charts
+  IMDB_Top_250:
+    template: { name: ov, g: charts, w: 1, x: 700, y: 1375 }
+    imdb_chart: top_movies
+  # more to come...
+
+# Source Quality (Enabling renaming of LQ, HQ, HQ-WEBDL, and HQ-Remux source quality formats is required for quality grouping. --> https://trash-guides.info/Radarr/Radarr-collection-of-custom-formats/)
+  # Unknown Quality (white)
+  WEBDL:
+    template:
+      - { name: ov, g: s, w: 1, x: 40, y: 1375 }
+      - { name: regex, regex: ^(?!.*\bHQ\b).*(\bWEBDL) }
+  Bluray:
+    template:
+      - { name: ov, g: s, w: 2, x: 40, y: 1375 }
+      - { name: regex, regex: ^(?!.*\bHQ\b).*(\bBluray) }
+  Remux:
+    template:
+      - { name: ov, g: s, w: 3, x: 40, y: 1375 }
+      - { name: regex, regex: ^(?!.*\bHQ\b).*(\bRemux) }
+    suppress_overlays: Bluray
+
+  # Low Quality (red)
+  LQ-WEBDL:
+    template:
+      - { name: ov, g: lsq, w: 1, x: 40, y: 1375 }
+      - { name: regex, regex: (\bLQ\b).*(\bWEBDL) }
+  LQ-Bluray:
+    template:
+      - { name: ov, g: lsq, w: 2, x: 40, y: 1375 }
+      - { name: regex, regex: (\bLQ\b).*(\bBluray) }
+  LQ-Remux:
+    template:
+      - { name: ov, g: lsq, w: 3, x: 40, y: 1375 }
+      - { name: regex, regex: (\bLQ\b).*(\bRemux) }
+    suppress_overlays: LQ-Bluray
+
+  # High Quality (green)
+  HQ-WEBDL:
+    template:
+      - { name: ov, g: hsq, w: 1, x: 40, y: 1375 }
+      - { name: regex, regex: (\bHQ\b).*(\bWEBDL) }
+  HQ-Bluray:
+    template:
+      - { name: ov, g: hsq, w: 2, x: 40, y: 1375 }
+      - { name: regex, regex: (\bHQ\b).*(\bBluray) }
+  HQ-Remux:
+    template:
+      - { name: ov, g: hsq, w: 3, x: 40, y: 1375 }
+      - { name: regex, regex: (\bHQ\b).*(\bRemux) }
+    suppress_overlays: HQ-Bluray
+
+# Lossy Audio (white)
+  # mono
+  Lossy_1.0:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lossy, ch: 1 }
+  # stereo
+  Lossy_2.0:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lossy, ch: 2 }
+  # common surround
+  Lossy_3.1:
+    template:
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lossy, ch: 3 }
+    suppress_overlays: Lossy_SS
+  Lossy_5.1:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lossy, ch: 5 }
+    suppress_overlays: Lossy_SS
+  Lossy_7.1:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lossy, ch: 7 }
+    suppress_overlays: Lossy_SS
+  # other surround
+  Lossy_SS:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lossy, ch: [3-9] }
+
+# Lossless Audio (green)
+  # mono
+  Lac_1.0:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lac, ch: 1 }
+  # stereo
+  Lac_2.0:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lac, ch: 2 }
+  # common surround
+  Lac_3.1:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lac, ch: 3 }
+    suppress_overlays: Lac_SS
+  Lac_5.1:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lac, ch: 5 }
+    suppress_overlays: Lac_SS
+  Lac_7.1:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lac, ch: 7 }
+    suppress_overlays: Lac_SS
+  # other surround
+  Lac_SS:
+    template: 
+      - { name: ov, g: lossy, w: 1, x: 40, y: 40 }
+      - { name: lac, ch: [3-9] }
+
+# Resolution
+  # standard/low definition (red)
+  SD:
+    template:
+      - { name: ov, g: res, w: 1, x: 200, y: 40 }
+      - { name: res, res: 720p, 480p }
+  # full hd (white)
+  FHD:
+    template:
+      - { name: ov, g: res, w: 1, x: 200, y: 40 }
+      - { name: res, res: 1080p }
+  # ultra hd (green)
+  UHD:
+    template:
+      - { name: ov, g: res, w: 1, x: 200, y: 40 }
+      - { name: res, res: 4K }
+
+# Dynamic Range
+  # standard dynamic range (white)
+  SDR:
+    template:
+      - { name: ov, g: dr, w: 1, x: 395, y: 40 }
+      - { name: dr, hdr: false, dv: false }
+  # high dynamic range (green)
+  HDR-green: # for cases where filenames aren't present
+    template:
+      - { name: ov, g: dr, w: 1, x: 395, y: 40 }
+      - { name: dr, hdr: true, dv: false }
+  PQ10-green:
+    template:
+      - { name: ov, g: dr, w: 1, x: 395, y: 40 }
+      - { name: regex, regex: (\bPQ\b) }
+    suppress_overlays: HDR-green
+  HDR10-green:
+    template:
+      - { name: ov, g: dr, w: 1, x: 395, y: 40 }
+      - { name: regex, regex: ^(?!.*DV|DoVi).*(HDR10) }
+    suppress_overlays: HDR-green
+  HDR10Plus-green:
+    template:
+      - { name: ov, g: dr, w: 1, x: 395, y: 40 }
+      - { name: regex, regex: ^(?!.*DV|DoVi).*(HDR10Plus) }
+    suppress_overlays: 
+      - HDR-green
+      - HDR10-green
+  DV-green: 
+    template:
+      - { name: ov, g: dr, w: 1, x: 395, y: 40 }
+      - { name: dr, hdr: false, dv: true }
+      - { name: regex, regex: ^(?!.*HDR).*(DV|DoVi) }
+  HDR10_DV-green:
+    template:
+      - { name: ov, g: dr, w: 1, x: 395, y: 40 }
+      - { name: regex, regex: (DV|DoVi).*(HDR10) }
+    suppress_overlays: 
+      - DV-green
+      - HDR-green
+
+# Edition Tags (blue)
+  IMAX:
+    template:
+      - { name: ov, g: ed, w: 5, x: 323, y: 1375 }
+      - { name: regex, regex: (\bIMAX\b) }
+  Criterion:
+    template:
+      - { name: ov, g: ed, w: 4, x: 323, y: 1375 }
+      - { name: regex, regex: (\bCriterion.Collection\b) }
+  Remastered:
+    template:
+      - { name: ov, g: ed, w: 3, x: 323, y: 1375 }
+      - { name: regex, regex: (\bRemastered\b) }
+  Special_ED:
+    template:
+      - { name: ov, g: ed, w: 2, x: 323, y: 1375 }
+      - { name: regex, regex: (\bSpecial.Edition\b) }
+  Extended:
+    template:
+      - { name: ov, g: ed, w: 1, x: 323, y: 1375 }
+      - { name: regex, regex: (\bExtended\b) }
