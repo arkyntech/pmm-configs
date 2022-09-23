@@ -1,3 +1,7 @@
-logs/Movies/collections/Most Watched Yearly/collection.log.2
-example configs/config.yml
+*.log
+example configs/**
+example_configs/**
+logs/**
+config.yml
 UUID
+config.cache
