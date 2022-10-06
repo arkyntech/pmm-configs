@@ -21,9 +21,6 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     file_poster: config/assets/Genre/Movies/movies_popular_action.jpg
-    visible_library: true
-    visible_home: true
-    visible_shared: true 
   Popular Adventure:
     template: { name: Genre }
     imdb_list:
@@ -48,9 +45,6 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     file_poster: config/assets/Genre/Movies/movies_popular_comedy.jpg
-#    visible_library: true
-#    visible_home: true
-#    visible_shared: true   
   Popular Crime:
     template: { name: Genre }
     imdb_list:
@@ -68,10 +62,7 @@ collections:
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    file_poster: config/assets/Genre/Movies/movies_popular_drama.jpg
-#    visible_library: true
-#    visible_home: true
-#    visible_shared: true   
+    file_poster: config/assets/Genre/Movies/movies_popular_drama.jpg 
   Popular Family:
     template: { name: Genre }
     imdb_list:
@@ -131,10 +122,7 @@ collections:
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    file_poster: config/assets/Genre/Movies/movies_popular_thriller.jpg
-#    visible_library: true
-#    visible_home: true
-#    visible_shared: true   
+    file_poster: config/assets/Genre/Movies/movies_popular_thriller.jpg  
   Popular War:
     template: { name: Genre }
     imdb_list:
