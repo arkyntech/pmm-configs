@@ -21,7 +21,7 @@ collections:
       all:
         network: Amazon
     summary: A collection of Amazon content
-    file_poster: config/assets/Network/Originals/network_prime.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_prime.jpg
   Apple TV+:
     template: { name: Originals }
     smart_filter:
@@ -29,7 +29,7 @@ collections:
       all:
         network: Apple TV+
     summary: A collection of AppleTV content
-    file_poster: config/assets/Network/Originals/network_appletv.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_appletv.jpg
   Disney Plus:
     template: { name: Originals }
     smart_filter:
@@ -37,7 +37,7 @@ collections:
       all:
         network: Disney+
     summary: A collection of Disney Plus content
-    file_poster: config/assets/Network/Originals/network_disney.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_disney.jpg
   HBO Max:
     template: { name: Originals }
     smart_filter:
@@ -45,7 +45,7 @@ collections:
       all:
         network: HBO Max
     summary: A collection of HBO Max Originals 
-    file_poster: config/assets/Network/Originals/network_hbo.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_hbo.jpg
   Hulu:
     template: { name: Originals }
     smart_filter:
@@ -53,7 +53,7 @@ collections:
       all:
         network: Hulu
     summary: A collection of Hulu content
-    file_poster: config/assets/Network/Originals/network_hulu.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_hulu.jpg
   Netflix:
     template: { name: Originals }
     smart_filter:
@@ -61,7 +61,7 @@ collections:
       all:
         network: Netflix
     summary: A collection of Netflix content
-    file_poster: config/assets/Network/Originals/network_netflix.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_netflix.jpg
   Paramount+:
     template: { name: Originals }
     smart_filter:
@@ -69,7 +69,7 @@ collections:
       all:
         network: Paramount+
     summary: A collection of Paramount+ content
-    file_poster: config/assets/Network/Originals/network_paramount.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_paramount.jpg
   Peacock:
     template: { name: Originals }
     smart_filter:
@@ -77,7 +77,7 @@ collections:
       all:
         network: Peacock
     summary: A collection of Peacock content
-    file_poster: config/assets/Network/Originals/network_peacock.jpg  
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_peacock.jpg  
   Quibi:
     template: { name: Originals }
     smart_filter:
@@ -85,7 +85,7 @@ collections:
       all:
         network: Quibi
     summary: A collection of Quibi content
-    file_poster: config/assets/Network/Originals/network_quibi.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_quibi.jpg
   Stan:
     template: { name: Originals }
     smart_filter:
@@ -93,7 +93,7 @@ collections:
       all:
         network: Stan
     summary: A collection of Stan content
-    file_poster: config/assets/Network/Originals/network_stan.jpg  
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_stan.jpg  
   Starz:
     template: { name: Originals }
     smart_filter:
@@ -101,7 +101,7 @@ collections:
       all:
         network: Starz
     summary: A collection of Starz content
-    file_poster: config/assets/Network/Originals/network_starz.jpg  
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_starz.jpg  
   Youtube:
     template: { name: Originals }
     smart_filter:
@@ -109,4 +109,4 @@ collections:
       all:
         network: Youtube
     summary: A collection of Youtube content
-    file_poster: config/assets/Network/Originals/network_youtube.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_youtube.jpg

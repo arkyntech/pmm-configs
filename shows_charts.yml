@@ -16,7 +16,7 @@ collections:
       limit: 125
     summary: Popular Movies across the internet
     item_refresh: 30
-    File_poster: config/assets/Trends/Shows/tv_popular.jpg 
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_popular.jpg
   Most Watched Daily:
     template: { name: Chart, num: 2 }
     tmdb_trending_daily: 50
@@ -26,7 +26,7 @@ collections:
     #  limit: 50
     summary: Movies Trending across the internet
     item_refresh: 30
-    file_poster: config/assets/Trends/watched_daily.jpg     
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_daily.jpg   
   Most Watched Weekly:
     template: { name: Chart, num: 3 }
     tmdb_trending_weekly: 50
@@ -36,7 +36,7 @@ collections:
     #  limit: 50
     summary: Movies Trending across the internet
     item_refresh: 30
-    file_poster: config/assets/Trends/watched_weekly.jpg    
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_weekly.jpg
 #  Most Watched Monthly:
 #    template: { name: Chart, num: 4 }
 #    tmdb_popular: 50
@@ -46,7 +46,7 @@ collections:
 #    #  limit: 50
 #    summary: Movies Trending across the internet
 #    item_refresh: 30
-#    file_poster: config/assets/Trends/watched_monthly.jpg  
+#    url_poster: config/assets/Trends/watched_monthly.jpg  
 #  Most Watched Yearly:
 #    template: { name: Chart, num: 5 }
 #    trakt_chart:
@@ -55,7 +55,7 @@ collections:
 #      limit: 50
 #    summary: Movies Trending across the internet
 #    item_refresh: 30
-#    file_poster: config/assets/Trends/watched_yearly.jpg      
+#    url_poster: config/assets/Trends/watched_yearly.jpg      
   Top Rated Shows:
     template: { name: Chart, num: 6 } #kids is 7
     imdb_list:
@@ -63,4 +63,4 @@ collections:
       limit: 125
     summary: Top Rated Movies across the internet
     item_refresh: 30
-    file_poster: config/assets/Trends/Shows/tv_toprated.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated.jpg
