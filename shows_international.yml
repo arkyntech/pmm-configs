@@ -14,7 +14,7 @@ collections:
         audio_language:
           - ar
     summary: A collection of Arabic movies.
-    file_poster: config/assets/Languages/language_arabic.jpg
+    url_poster:https://github.com/arkyntech/pmm-configs/raw/main/images/Languages/language_arabic.jpg
   Danish:
     template: {name: Language}
     smart_filter:
@@ -23,7 +23,7 @@ collections:
         audio_language:
           - da
     summary: A collection of Danish movies.
-    file_poster: config/assets/Languages/language_danish.jpg
+    url_poster:https://github.com/arkyntech/pmm-configs/raw/main/images/Languages/language_danish.jpg
   Spanish:
     template: {name: Language}
     smart_filter:
@@ -32,7 +32,7 @@ collections:
         audio_language:
           - es
     summary: A collection of spanish movies.
-    file_poster: config/assets/Languages/language_spanish.jpg 
+    url_poster:https://github.com/arkyntech/pmm-configs/raw/main/images/Languages/language_spanish.jpg 
   Dutch:
     template: {name: Language}
     smart_filter:
@@ -41,7 +41,7 @@ collections:
         audio_language:
           - nl
     summary: A collection of Dutch movies.
-    file_poster: config/assets/Languages/language_dutch.jpg
+    url_poster:https://github.com/arkyntech/pmm-configs/raw/main/images/Languages/language_dutch.jpg
   Norwegian:
     template: {name: Language}
     smart_filter:
@@ -50,7 +50,7 @@ collections:
         audio_language:
           - no
     summary: A collection of Norwegian movies.
-    file_poster: config/assets/Languages/language_norwegian.jpg
+    url_poster:https://github.com/arkyntech/pmm-configs/raw/main/images/Languages/language_norwegian.jpg
   Swedish:
     template: {name: Language}
     smart_filter:
@@ -59,7 +59,7 @@ collections:
         audio_language:
           - sv
     summary: A collection of Swedish movies.
-    file_poster: config/assets/Languages/language_swedish.jpg
+    url_poster:https://github.com/arkyntech/pmm-configs/raw/main/images/Languages/language_swedish.jpg
   Turkish:
     template: {name: Language}
     smart_filter:
@@ -68,4 +68,4 @@ collections:
         audio_language:
           - tr
     summary: A collection of Turkish movies.
-    file_poster: config/assets/Languages/language_turkish.jpg
+    url_poster:https://github.com/arkyntech/pmm-configs/raw/main/images/Languages/language_turkish.jpg

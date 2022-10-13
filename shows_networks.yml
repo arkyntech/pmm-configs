@@ -10,131 +10,131 @@ templates:
 collections:
 ####  Networks ####
   ABC:
-    file_poster: config/assets/Network/network_abc.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_abc.jpg
     template: { name: network, network: "ABC, ABC (AU), ABS (US), ABC Comedy, ABC Family, ABC Me, ABC Spark, ABC.com, ABC1, ABC3" }
   AMC:
-    file_poster: config/assets/Network/network_amc.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_amc.jpg
     template: { name: network, network: "AMC, AMC+" }
   Adult Swim:
-    file_poster: config/assets/Network/network_adultswim.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_adultswim.jpg
     template: { name: network, network: "Adult Swim" }
   Animal Planet:
-    file_poster: config/assets/Network/network_animalplanet.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_animalplanet.jpg
     template: { name: network, network: "Animal Planet" }
   BBC America:
-    file_poster: config/assets/Network/network_bbcamerica.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_bbcamerica.jpg
     template: { name: network, network: "BBC America" }
   BBC One:
-    file_poster: config/assets/Network/network_bbcone.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_bbcone.jpg
     template: { name: network, network: "BBC One" }
   CBS:
-    file_poster: config/assets/Network/network_cbs.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_cbs.jpg
     template: { name: network, network: "CBS, CBS All Access, CBS Reality, CBS Reality (UK), CBS.com" }
   CWSeed:
-    file_poster: config/assets/Network/network_cwseed.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_cwseed.jpg
     template: { name: network, network: "CW Seed" }
   Cartoon Network:
-    file_poster: config/assets/Network/network_cartoonnetwork.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_cartoonnetwork.jpg
     template: { name: network, network: "Cartoon Network" }
   Comedy Central:
-    file_poster: config/assets/Network/network_comedycentral.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_comedycentral.jpg
     template: { name: network, network: "Comedy Central" }
   Discovery Family:
-    file_poster: config/assets/Network/network_discoveryfamily.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_discoveryfamily.jpg
     template: { name: network, network: "Discovery Family" }
   Discovery+:
-    file_poster: config/assets/Network/network_discovery.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_discovery.jpg
     template: { name: network, network: "discovery+" }
   Disney Channel:
-    file_poster: config/assets/Network/network_disneychannel.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_disneychannel.jpg
     template: { name: network, network: "Disney Channel" }
   Disney Junior:
-    file_poster: config/assets/Network/network_disneyjunior.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_disneyjunior.jpg
     template: { name: network, network: "Disney Junior" }
   Disney XD:
-    file_poster: config/assets/Network/network_disneyxd.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_disneyxd.jpg
     template: { name: network, network: "Disney XD" }
   FOX:
-    file_poster: config/assets/Network/network_fox.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_fox.jpg
     template: { name: network, network: "Fox" }
   FX:
-    file_poster: config/assets/Network/network_fx.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_fx.jpg
     template: { name: network, network: "FX" }
   Food Network:
-    file_poster: config/assets/Network/network_foodnetwork.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_foodnetwork.jpg
     template: { name: network, network: "Food Network" }
   HBO:
-    file_poster: config/assets/Network/network_hbo.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_hbo.jpg
     template: { name: network, network: "HBO, HBO Canada, HBO Europe, HBO Latin America, HBO Asia" }  
   HGTV:
-    file_poster: config/assets/Network/network_hgtv.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_hgtv.jpg
     template: { name: network, network: "HGTV" }
   History Channel:
-    file_poster: config/assets/Network/network_history.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_history.jpg
     template: { name: network, network: "History" }
   Investigation Discovery:
-    file_poster: config/assets/Network/network_id.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_id.jpg
     template: { name: network, network: "Investigation Discovery" }
   Lifetime:
-    file_poster: config/assets/Network/network_lifetime.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_lifetime.jpg
     template: { name: network, network: "Lifetime" }
   NBC:
-    file_poster: config/assets/Network/network_nbc.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_nbc.jpg
     template: { name: network, network: "NBC" }
   Nat Geo Wild:
-    file_poster: config/assets/Network/network_natgeowild.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_natgeowild.jpg
     template: { name: network, network: "Nat Geo Wild" }
   National Geographic:
-    file_poster: config/assets/Network/network_natgeo.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_natgeo.jpg
     template: { name: network, network: "National Geographic" }
   Nick:
-    file_poster: config/assets/Network/network_nickelodeon.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_nickelodeon.jpg
     template: { name: network, network: "Nickelodeon" }
   NickToons:
-    file_poster: config/assets/Network/network_nicktoons.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_nicktoons.jpg
     template: { name: network, network: "Nicktoons" }
   PBS:
-    file_poster: config/assets/Network/network_pbs.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_pbs.jpg
     template: { name: network, network: "PBS" }
   PBS Kids:
-    file_poster: config/assets/Network/network_pbskids.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_pbskids.jpg
     template: { name: network, network: "PBS Kids" }
   SYFY:
-    file_poster: config/assets/Network/network_syfy.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_syfy.jpg
     template: { name: network, network: "SYFY" }
   Showtime:
-    file_poster: config/assets/Network/network_showtime.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_showtime.jpg
     template: { name: network, network: "Showtime" }
   Spike:
-    file_poster: config/assets/Network/network_spike.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_spike.jpg
     template: { name: network, network: "Spike" }
   Sundance TV:
-    file_poster: config/assets/Network/network_sundancetv.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_sundancetv.jpg
     template: { name: network, network: "SundanceTV" }
   TBS:
-    file_poster: config/assets/Network/network_tbs.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_tbs.jpg
     template: { name: network, network: "TBS" }
   TLC:
-    file_poster: config/assets/Network/network_tlc.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_tlc.jpg
     template: { name: network, network: "TLC" }
   TNT:
-    file_poster: config/assets/Network/network_tnt.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_tnt.jpg
     template: { name: network, network: "TNT" }
   The CW:
-    file_poster: config/assets/Network/network_thecw.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_thecw.jpg
     template: { name: network, network: "The CW" }
   Travel Channel:
-    file_poster: config/assets/Network/network_travelchannel.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_travelchannel.jpg
     template: { name: network, network: "Travel Channel" }
   TruTV:
-    file_poster: config/assets/Network/network_trutv.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_trutv.jpg
     template: { name: network, network: "TruTV" }
   USA:
-    file_poster: config/assets/Network/network_usa.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_usa.jpg
     template: { name: network, network: "USA Network" }
   Universal Kids:
-    file_poster: config/assets/Network/network_universalkids.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_universalkids.jpg
     template: { name: network, network: "Universal Kids" }
   iTV:
-    file_poster: config/assets/Network/network_itv.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_itv.jpg
     template: { name: network, network: "iTV" }
