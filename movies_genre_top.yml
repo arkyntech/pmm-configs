@@ -15,118 +15,118 @@ collections:
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_action.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_action.jpg
   Top Rated Adventure:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_adventure.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_adventure.jpg
   Top Rated Animation:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_animation.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_animation.jpg
   Top Rated Biography:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_biography.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_biography.jpg
   Top Rated Comedy:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_comedy.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_comedy.jpg
   Top Rated Crime:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_crime.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_crime.jpg
   Top Rated Documentaries:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_documentary.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_documentary.jpg
   Top Rated Drama:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_drama.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_drama.jpg
   Top Rated Family:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_family.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_family.jpg
   Top Rated Fantasy:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=fantasy&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_fantasy.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_fantasy.jpg
   Top Rated History:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_history.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_history.jpg
   Top Rated Horror:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=horror&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_horror.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_horror.jpg
   Top Rated Music:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_music.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_music.jpg
   Top Rated Musicals:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_musicals.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_musicals.jpg
   Top Rated Mystery:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_mystery.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_mystery.jpg
   Top Rated Romance:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_romance.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_romance.jpg
   Top Rated Sci-Fi:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_scifi.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_scifi.jpg
   Top Rated Thriller:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_thriller.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_thriller.jpg
   Top Rated War:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_war.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_war.jpg
   Top Rated Western:
     template: { name: TopRated }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
        limit: 130
-    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/Movies/movies_toprated_western.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_western.jpg
