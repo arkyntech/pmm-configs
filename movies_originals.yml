@@ -51,6 +51,6 @@ collections:
   Shudder:
     template: {name: Network}
     imdb_list:
-      - https://www.imdb.com/list/ls083586544/?sort=moviemeter,asc&title_type=movie
+      - https://www.imdb.com/search/title/?companies=co0602021
     summary: A collection of Shudder Exclusive & Original Content
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_shudder.jpg
