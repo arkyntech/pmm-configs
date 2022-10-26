@@ -63,4 +63,16 @@ collections:
           - Fan Edit Q2
       sort_by: title.asc
     summary: Films released in IMAX 1080P.
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg      
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_fanedits.jpg    
+  Fan Edits:
+    template: { name: Chart, num: 5 }
+    smart_filter:
+      all:
+        edition.is:
+          - Maple Films Edition
+          - Infinity Saga
+          - The Patterson Cut
+          - Fan Edit Q2
+      sort_by: title.asc
+    summary: Films released in IMAX 1080P.
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_starwars778083.jpg         
