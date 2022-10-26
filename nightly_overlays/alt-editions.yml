@@ -107,17 +107,17 @@ overlays:
 #      all:
 #        edition: Directors Cut
 
-  Extended-Edition:
-    template:
-      - name: Edition
-        weight: 140
-        slug: extended
-        overlay: Extended-Edition
-    suppress_overlays:
-      - Extended-Edition-Dovetail
-    plex_search:
-      all:
-        edition.is: Extended Cut
+#  Extended-Edition:
+#    template:
+#      - name: Edition
+#        weight: 140
+#        slug: extended
+#        overlay: Extended-Edition
+#    suppress_overlays:
+#      - Extended-Edition-Dovetail
+#    plex_all: true
+#    filters:
+#      - edition: Extended Cut
 
   Extended-Edition-Dovetail:
     template:
@@ -128,7 +128,6 @@ overlays:
         vertical_offset: 99
         group: Dovetail
         overlay: Extended-Edition
-    plex_search:
-      all:
-        edition.is: Extended Cut
-
+    plex_all: true
+    filters:
+      - edition: Extended Cut
