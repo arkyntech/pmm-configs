@@ -82,30 +82,30 @@ templates:
       vertical_align: <<vertical_align>>
 
 overlays:
-  Directors-Cut:
-    template:
-      - name: Edition
-        weight: 150
-        slug: directorscut
-        overlay: Directors-Cut
-    suppress_overlays:
-      - Directors-Cut-Dovetail
-    plex_search:
-      all:
-        edition: Directors Cut
-
-  Directors-Cut-Dovetail:
-    template:
-      - name: Edition
-        weight: 150
-        slug: directorscut
-        extra: ''
-        vertical_offset: 99
-        group: Dovetail
-        overlay: Directors-Cut
-    plex_search:
-      all:
-        edition: Directors Cut
+#  Directors-Cut:
+#    template:
+#      - name: Edition
+#        weight: 150
+#        slug: directorscut
+#        overlay: Directors-Cut
+#    suppress_overlays:
+#      - Directors-Cut-Dovetail
+#    plex_search:
+#      all:
+#        edition: Directors Cut
+#
+#  Directors-Cut-Dovetail:
+#    template:
+#      - name: Edition
+#        weight: 150
+#        slug: directorscut
+#        extra: ''
+#        vertical_offset: 99
+#        group: Dovetail
+#        overlay: Directors-Cut
+#    plex_search:
+#      all:
+#        edition: Directors Cut
 
   Extended-Edition:
     template:
@@ -117,7 +117,7 @@ overlays:
       - Extended-Edition-Dovetail
     plex_search:
       all:
-        edition: Extended Cut
+        edition.is: Extended Cut
 
   Extended-Edition-Dovetail:
     template:
@@ -130,5 +130,5 @@ overlays:
         overlay: Extended-Edition
     plex_search:
       all:
-        edition: Extended Cut
+        edition.is: Extended Cut
 
