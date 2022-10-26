@@ -8,6 +8,7 @@ templates:
     cache_builders: 1
 collections:
   IMAX 1080p:
+    template: { name: Chart, num: 2 }
     smart_filter:
       all:
         resolution: 1080p
