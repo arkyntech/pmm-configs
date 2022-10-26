@@ -1,0 +1,464 @@
+##############################################################################
+#                         Resolution/Edition Overlay                         #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#                     Credit to Magic815 for base images                     #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#    https://metamanager.wiki/en/latest/defaults/overlays/resolution.html    #
+##############################################################################
+
+external_templates:
+  pmm: templates
+  template_variables:
+    conditionals:
+      suppress_overlays:
+        default: <<overlay_name>>-Dovetail
+        conditions:
+          - type: edition_dovetail
+            value:
+              - 4K-DV
+              - 4K-HDR
+              - 4K
+              - 1080P-DV
+              - 1080P-HDR
+              - 1080P
+              - 720P-DV
+              - 720P-HDR
+              - 720P
+              - 576P-DV
+              - 576P-HDR
+              - 576P
+              - 480P-DV
+              - 480P-HDR
+              - 480P
+              - DV
+              - HDR
+          - type: resolution_dovetail
+            value:
+              - Directors-Cut
+              - Extended-Edition
+              - Uncut-Edition
+              - Unrated-Edition
+              - Special-Edition
+              - Final-Cut
+              - Anniversary-Edition
+              - Collectors-Edition
+              - International-Cut
+              - Theatrical-Cut
+              - Ultimate-Cut
+              - IMAX-E
+              - IMAX
+              - Remastered
+              - Criterion
+              - Infinity Saga
+              - Michaels Story
+              - Vitos Story
+              - The Complete Epic
+              - Colorized
+              - Maple Films Edition
+              - Black & Chrome
+              - The Patterson Cut
+              - Commanche Cut
+              - Despecialized Edition
+              - The More Fun Stuff Edition
+              - Justice is Gray
+              - Fan Edit
+      horizontal_offset:
+        default: 15
+        conditions:
+          - type: resolution_dovetail
+            value: 45
+      vertical_offset:
+        default: 15
+        conditions:
+          - type: edition_dovetail
+            value: 79
+          - type: resolution_dovetail
+            value: 45
+      back_width:
+        conditions:
+          - type: [edition, resolution, edition_dovetail]
+            value: 305
+          - type: resolution_dovetail
+            value: 245
+      back_height:
+        conditions:
+          - type: [edition, resolution]
+            value: 105
+          - type: [resolution_dovetail, edition_dovetail]
+            value: 129
+      back_color:
+        conditions:
+          - type: [edition, resolution, resolution_dovetail]
+            value: "#00000099"
+          - type: edition_dovetail
+            value: "#00000000"
+      back_padding:
+        conditions:
+          - type: resolution_dovetail
+            value: 30
+      back_align:
+        conditions:
+          - type: resolution_dovetail
+            value: top
+      pmm:
+        conditions:
+          - type: [edition, edition_dovetail]
+            value: edition/<<key>>
+          - type: [resolution, resolution_dovetail]
+            value: resolution/<<key>><<alt>>
+      group:
+        conditions:
+          - type: [edition, edition_dovetail]
+            value: edition
+          - type: [resolution, resolution_dovetail]
+            value: resolution
+
+    horizontal_align: left
+    vertical_align: top
+
+templates:
+  edition:
+    conditionals:
+      regex1:
+        conditions:
+          - key: enhanced
+            value: '(?i)\bIMAX Enhanced\b|^(?=.*(DSNP|Disney\+|CORE(?=[ ._-]web[ ._-]?(dl|rip)\b)|\bBC(?=[ ._-]web[ ._-]?(dl|rip)\b)|IMAX[- .]Enhanced)\b)(?=.*\b(IMAX|IMAX[- .]Enhanced)\b).*'
+          - key: imax
+            value: '(?i)\bIMAX\b'
+          - key: criterion
+            value: '(?i)Criterion'
+      regex2:
+        conditions:
+          - key: criterion
+            value: '(?i)\[CC\]'
+    optional:
+      - search
+      - use_<<key>>
+      - use_edition
+      - allowed_libraries
+    allowed_library_types:
+      - <<use_<<key>>>>
+      - <<use_edition>>
+      - <<allowed_libraries>>
+    ignore_blank_results: true
+    plex_all: true
+    filters:
+      - edition: <<search>>
+      - filepath.regex:
+        - <<regex1>>
+        - <<regex2>>
+        - 'edition-(?i)\b(4k )?<<search>>(s|ed)?\b'           # New TRaSH naming
+        - '(?<=[0-9]{4}[)}>\]]\s)\b(4k )?<<search>>(s|ed)?\b' # Original TRaSH naming
+
+  resolution:
+    conditionals:
+      res:
+        conditions:
+          - key: 4k
+            value: "(?i)2160|4k"
+          - key: 1080p
+            value: "(?i)1080|2k"
+          - key: 720p
+            value: "(?i)720|hd"
+          - key: 576p
+            value: "(?i)576"
+          - key: 480p
+            value: "(?i)480|sd"
+      dolby_vision:
+        conditions:
+          - alt: dv
+            value: true
+      hdr:
+        conditions:
+          - alt: hdr
+            value: true
+    optional:
+      - all
+      - use_<<key>>
+      - use_<<alt>>
+      - use_resolution
+      - allowed_libraries
+    allowed_library_types:
+      - <<use_<<key>>>>
+      - <<use_<<alt>>>>
+      - <<allowed_libraries>>
+      - <<use_resolution>>
+    ignore_blank_results: true
+    plex_all: <<all>>
+    plex_search:
+      all:
+        any:
+          resolution.regex: <<res>>
+        hdr: <<hdr>>
+    filters:
+      has_dolby_vision: <<dolby_vision>>
+
+overlays:
+
+  4K-DV-Dovetail:
+    variables: {key: 4k, alt: dv, weight: 150, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  4K-HDR-Dovetail:
+    variables: {key: 4k, alt: hdr, weight: 140, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  4K-Dovetail:
+    variables: {key: 4k, alt: "", weight: 130, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  1080P-DV-Dovetail:
+    variables: {key: 1080p, alt: dv, weight: 120, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  1080P-HDR-Dovetail:
+    variables: {key: 1080p, alt: hdr, weight: 110, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  1080P-Dovetail:
+    variables: {key: 1080p, alt: "", weight: 100, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  720P-DV-Dovetail:
+    variables: {key: 720p, alt: dv, weight: 90, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  720P-HDR-Dovetail:
+    variables: {key: 720p, alt: hdr, weight: 80, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  720P-Dovetail:
+    variables: {key: 720p, alt: "", weight: 70, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  576P-DV-Dovetail:
+    variables: {key: 576p, alt: dv, weight: 60, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  576P-HDR-Dovetail:
+    variables: {key: 576p, alt: hdr, weight: 50, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  576P-Dovetail:
+    variables: {key: 576p, alt: "", weight: 40, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  480P-DV-Dovetail:
+    variables: {key: 480p, alt: dv, weight: 30, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  480P-HDR-Dovetail:
+    variables: {key: 480p, alt: hdr, weight: 20, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  480P-Dovetail:
+    variables: {key: 480p, alt: "", weight: 10, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  DV-Dovetail:
+    variables: {key: "", alt: dv, weight: 5, type: resolution_dovetail, all: true, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+  HDR-Dovetail:
+    variables: {key: "", alt: hdr, weight: 1, type: resolution_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: resolution]
+
+  Directors-Cut-Dovetail:
+    variables: {key: directorscut, weight: 150, search: Director, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Extended-Edition-Dovetail:
+    variables: {key: extended, weight: 140, search: Extend, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Uncut-Edition-Dovetail:
+    variables: {key: uncut, weight: 130, search: Uncut, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Unrated-Edition-Dovetail:
+    variables: {key: unrated, weight: 120, search: Unrat, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Special-Edition-Dovetail:
+    variables: {key: special, weight: 110, search: Special, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Final-Cut-Dovetail:
+    variables: {key: finalcut, weight: 100, search: Final, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Anniversary-Edition-Dovetail:
+    variables: {key: anniversary, weight: 90, search: Anniversary, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Collectors-Edition-Dovetail:
+    variables: {key: collector, weight: 80, search: Collector, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  International-Cut-Dovetail:
+    variables: {key: international, weight: 70, search: International, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Theatrical-Cut-Dovetail:
+    variables: {key: theatrical, weight: 60, search: Theatrical, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Ultimate-Cut-Dovetail:
+    variables: {key: ultimate, weight: 50, search: Ultimate, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  IMAX-E-Dovetail:
+    variables: {key: enhanced, weight: 40, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  IMAX-Dovetail:
+    variables: {key: imax, weight: 30, search: Imax, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Remastered-Dovetail:
+    variables: {key: remastered, weight: 20, search: Remaster, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Criterion-Dovetail:
+    variables: {key: criterion, weight: 10, search: Criterion, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  InfinitySaga-Dovetail:
+    variables: {key: infinity, weight: 10, search: Infinity, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  MichaelsStory-Dovetail:
+    variables: {key: michaels, weight: 10, search: Michaels, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Vitos-Dovetail:
+    variables: {key: vitos, weight: 10, search: vitos, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  completeepic-Dovetail:
+    variables: {key: completeepic, weight: 10, search: Complete Epic, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]    
+  Colorized-Dovetail:
+    variables: {key: colorized, weight: 10, search: colorized, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Maple-Dovetail:
+    variables: {key: maple, weight: 10, search: Maple Films, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]    
+  Black&Chrome-Dovetail:
+    variables: {key: black&chrome, weight: 10, search: Black & Chrome, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]  
+  Patterson-Dovetail:
+    variables: {key: patterson, weight: 10, search: patterson, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]  
+  Commanche-Dovetail:
+    variables: {key: commanche, weight: 10, search: commanche, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition]      
+  Despecialized-Dovetail:
+    variables: {key: despecialized, weight: 10, search: Despecialized, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition] 
+  morefunstuff-Dovetail:
+    variables: {key: morefunstuff, weight: 10, search: The More Fun Stuff, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition] 
+  JusticeIsGray-Dovetail:
+    variables: {key: justiceisgray, weight: 10, search: Justice Is Gray, type: edition_dovetail, allowed_libraries: movie}
+    template: [name: standard, name: edition] 
+
+  4K-DV:
+    variables: {key: 4k, alt: dv, weight: 150, type: resolution}
+    template: [name: standard, name: resolution]
+  4K-HDR:
+    variables: {key: 4k, alt: hdr, weight: 140, type: resolution}
+    template: [name: standard, name: resolution]
+  4K:
+    variables: {key: 4k, alt: "", weight: 130, type: resolution}
+    template: [name: standard, name: resolution]
+  1080P-DV:
+    variables: {key: 1080p, alt: dv, weight: 120, type: resolution}
+    template: [name: standard, name: resolution]
+  1080P-HDR:
+    variables: {key: 1080p, alt: hdr, weight: 110, type: resolution}
+    template: [name: standard, name: resolution]
+  1080P:
+    variables: {key: 1080p, alt: "", weight: 100, type: resolution}
+    template: [name: standard, name: resolution]
+  720P-DV:
+    variables: {key: 720p, alt: dv, weight: 90, type: resolution}
+    template: [name: standard, name: resolution]
+  720P-HDR:
+    variables: {key: 720p, alt: hdr, weight: 80, type: resolution}
+    template: [name: standard, name: resolution]
+  720P:
+    variables: {key: 720p, alt: "", weight: 70, type: resolution}
+    template: [name: standard, name: resolution]
+  576P-DV:
+    variables: {key: 576p, alt: dv, weight: 60, type: resolution}
+    template: [name: standard, name: resolution]
+  576P-HDR:
+    variables: {key: 576p, alt: hdr, weight: 50, type: resolution}
+    template: [name: standard, name: resolution]
+  576P:
+    variables: {key: 576p, alt: "", weight: 40, type: resolution}
+    template: [name: standard, name: resolution]
+  480P-DV:
+    variables: {key: 480p, alt: dv, weight: 30, type: resolution}
+    template: [name: standard, name: resolution]
+  480P-HDR:
+    variables: {key: 480p, alt: hdr, weight: 20, type: resolution}
+    template: [name: standard, name: resolution]
+  480P:
+    variables: {key: 480p, alt: "", weight: 10, type: resolution}
+    template: [name: standard, name: resolution]
+  DV:
+    variables: {key: "", alt: dv, weight: 5, type: resolution, all: true}
+    template: [name: standard, name: resolution]
+  HDR:
+    variables: {key: "", alt: hdr, weight: 1, type: resolution}
+    template: [name: standard, name: resolution]
+
+  Directors-Cut:
+    variables: {key: directorscut, weight: 150, search: Director, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Extended-Edition:
+    variables: {key: extended, weight: 140, search: Extend, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Uncut-Edition:
+    variables: {key: uncut, weight: 130, search: Uncut, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Unrated-Edition:
+    variables: {key: unrated, weight: 120, search: Unrat, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Special-Edition:
+    variables: {key: special, weight: 110, search: Special, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Final-Cut:
+    variables: {key: finalcut, weight: 100, search: Final, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Anniversary-Edition:
+    variables: {key: anniversary, weight: 90, search: Anniversary, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Collectors-Edition:
+    variables: {key: collector, weight: 80, search: Collector, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  International-Cut:
+    variables: {key: international, weight: 70, search: International, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Theatrical-Cut:
+    variables: {key: theatrical, weight: 60, search: Theatrical, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Ultimate-Cut:
+    variables: {key: ultimate, weight: 50, search: Ultimate, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  IMAX-E:
+    variables: {key: enhanced, weight: 40, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  IMAX:
+    variables: {key: imax, weight: 30, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Remastered:
+    variables: {key: remastered, weight: 20, search: Remaster, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Criterion:
+    variables: {key: criterion, weight: 10, search: Criterion, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  InfinitySaga:
+    variables: {key: infinity, weight: 10, search: Infinity, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  MichaelsStory:
+    variables: {key: michaels, weight: 10, search: Michaels, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Vitos:
+    variables: {key: vitos, weight: 10, search: vitos, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  completeepic:
+    variables: {key: completeepic, weight: 10, search: Complete Epic, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]    
+  Colorized:
+    variables: {key: colorized, weight: 10, search: colorized, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]
+  Maple:
+    variables: {key: maple, weight: 10, search: Maple Films, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]    
+  Black&Chrome:
+    variables: {key: black&chrome, weight: 10, search: Black & Chrome, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]  
+  Patterson:
+    variables: {key: patterson, weight: 10, search: patterson, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]  
+  Commanche:
+    variables: {key: commanche, weight: 10, search: commanche, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition]      
+  Despecialized:
+    variables: {key: despecialized, weight: 10, search: Despecialized, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition] 
+  morefunstuff:
+    variables: {key: morefunstuff, weight: 10, search: The More Fun Stuff, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition] 
+  JusticeIsGray:
+    variables: {key: justiceisgray, weight: 10, search: Justice Is Gray, type: edition, allowed_libraries: movie}
+    template: [name: standard, name: edition] 
