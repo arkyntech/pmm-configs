@@ -10,11 +10,10 @@ templates:
 collections:
   IMAX 1080p:
     template: { name: Chart, num: 1 }
-    plex_search:
+    smart_filter:
       all:
         resolution: 1080p
-    filters:
-      edition: IMAX ENHANCED
+        edition: IMAX ENHANCED
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_1080PIMAX.jpg
 #  IMAX 4K HDR:
