@@ -40,15 +40,16 @@ collections:
     template: { name: Chart, num: 1 }
     smart_filter:
       all:
-        edition.isnot: IMAX ENHANCED
-        edition.isnot: Maple Films Edition
-        edition.isnot: 1975 Export Version
-        edition.isnot: Infinity Saga
-        edition.isnot: The Patterson Cut
-        edition.isnot: Project 4K77
-        edition.isnot: Project 4K88
-        edition.isnot: Fan Edit Q2
-        edition.isnot: Grindhouse Scan Edition
+        edition.isnot:
+          - IMAX ENHANCED
+          - Maple Films Edition
+          - 1975 Export Version
+          - Infinity Saga
+          - The Patterson Cut
+          - Project 4K77
+          - Project 4K88
+          - Fan Edit Q2
+          - Grindhouse Scan Edition
       sort_by: title.asc
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg  
