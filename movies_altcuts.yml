@@ -49,6 +49,7 @@ collections:
           - Project 4K88
           - Fan Edit Q2
           - Grindhouse Scan Edition
+          - Despecialized Edition
       sort_by: title.asc
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg  
@@ -61,6 +62,7 @@ collections:
           - Infinity Saga
           - The Patterson Cut
           - Fan Edit Q2
+          - Despecialized Edition
       sort_by: title.asc
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_fanedits.jpg    
