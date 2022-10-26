@@ -55,7 +55,7 @@ collections:
   Fan Edits:
     template: { name: Chart, num: 5 }
     smart_filter:
-      all:
+      any:
         edition.is:
           - Maple Films Edition
           - Infinity Saga
@@ -67,7 +67,7 @@ collections:
   Project 4K:
     template: { name: Chart, num: 5 }
     smart_filter:
-      all:
+      any:
         edition.is:
           - Maple Films Edition
           - Infinity Saga
