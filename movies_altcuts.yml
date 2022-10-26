@@ -10,27 +10,27 @@ templates:
 collections:
   IMAX 1080p:
     template: { name: Chart, num: 1 }
-    plex_all: true
-    filters:
-      - edition: IMAX ENHANCED
-      - resolution: 1080
+    plex_search:
+      all:
+        resolution: 1080p
+        edition: IMAX ENHANCED
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_1080PIMAX.jpg
-  IMAX 4K HDR:
-    template: { name: Chart, num: 2 }
-    plex_search: 
-      resolution: 4K
-    filters:
-      edition.is: IMAX ENHANCED
-      has_dolby_vision: false
-    summary: Films released in IMAX 4K HDR.
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KIMAX.jpg
-  IMAX 4K DV:
-    template: { name: Chart, num: 2 }
-    plex_search: 
-      resolution: 4K
-    filters:
-      edition.is: IMAX ENHANCED
-      has_dolby_vision: true     
-    summary: Films released in IMAX 4K DV.
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KDVIMAX.jpg   
+#  IMAX 4K HDR:
+#    template: { name: Chart, num: 2 }
+#    plex_search: 
+#      resolution: 4K
+#    filters:
+#      edition.is: IMAX ENHANCED
+#      has_dolby_vision: false
+#    summary: Films released in IMAX 4K HDR.
+#    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KIMAX.jpg
+#  IMAX 4K DV:
+#    template: { name: Chart, num: 2 }
+#    plex_search: 
+#      resolution: 4K
+#    filters:
+#      edition.is: IMAX ENHANCED
+#      has_dolby_vision: true     
+#    summary: Films released in IMAX 4K DV.
+#    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KDVIMAX.jpg   
