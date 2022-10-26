@@ -5,7 +5,7 @@ templates:
   Chart:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
-    collection_order: custom
+
     cache_builders: 1
 collections:
   IMAX 1080p:
