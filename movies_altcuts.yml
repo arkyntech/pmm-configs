@@ -37,7 +37,7 @@ collections:
     summary: Films released in IMAX 4K DV.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KDVIMAX.jpg   
   Alternate Cuts:
-    template: { name: Chart, num: 1 }
+    template: { name: Chart, num: 4 }
     smart_filter:
       all:
         edition.isnot:
