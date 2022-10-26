@@ -14,8 +14,6 @@ collections:
       all:
         resolution: 1080p
         edition.is: IMAX ENHANCED
-    filters:
-      edition: IMAX ENHANCED    
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_1080PIMAX.jpg
 #  IMAX 4K HDR:
