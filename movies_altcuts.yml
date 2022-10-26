@@ -1,0 +1,36 @@
+######################################################
+#                Popular / Top Rated                 #
+######################################################
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+    cache_builders: 1
+collections:
+  IMAX 1080p:
+    template: { name: Chart, num: 1 }
+    plex_all: true
+    filters:
+      - edition: IMAX ENHANCED
+      - resolution: 1080
+    summary: Films released in IMAX 1080P.
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_1080PIMAX.jpg
+  IMAX 4K HDR:
+    template: { name: Chart, num: 2 }
+    plex_search: 
+      resolution: 4K
+    filters:
+      edition.is: IMAX ENHANCED
+      has_dolby_vision: false
+    summary: Films released in IMAX 4K HDR.
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KIMAX.jpg
+  IMAX 4K DV:
+    template: { name: Chart, num: 2 }
+    plex_search: 
+      resolution: 4K
+    filters:
+      edition.is: IMAX ENHANCED
+      has_dolby_vision: true     
+    summary: Films released in IMAX 4K DV.
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KDVIMAX.jpg   
