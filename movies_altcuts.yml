@@ -8,7 +8,7 @@ templates:
     cache_builders: 1
 collections:
   IMAX 1080p:
-    template: { name: Chart, num: 2 }
+    template: { name: Chart, num: 1 }
     smart_filter:
       all:
         resolution: 1080p
@@ -27,7 +27,7 @@ collections:
     summary: Films released in IMAX 4K HDR.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KIMAX.jpg
   IMAX 4K DV:
-    template: { name: Chart, num: 2 }
+    template: { name: Chart, num: 3 }
     smart_filter:
       all:
         resolution: 4K
