@@ -127,7 +127,7 @@ overlays:
         extra: ''
         vertical_offset: 99
         group: Dovetail
-        overlay: Extended-Edition
+        overlay: Extended-Edition-Box
     plex_all: true
     filters:
       - edition: Extended Cut
