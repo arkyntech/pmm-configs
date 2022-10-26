@@ -117,7 +117,7 @@ overlays:
       - Extended-Edition-Dovetail
     plex_search:
       all:
-        edition: Directors Cut
+        edition: Extended Cut
 
   Extended-Edition-Dovetail:
     template:
@@ -130,7 +130,7 @@ overlays:
         overlay: Extended-Edition
     plex_search:
       all:
-        edition: Directors Cut
+        edition: Extended Cut
 
 #  Uncut-Edition:
 #    template:
