@@ -59,6 +59,7 @@ collections:
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg  
   Fan Edits:
     template: { name: Chart, num: 5 }
+    smart_label: title.asc    
     plex_all: true
     smart_filter:
       any:
@@ -68,17 +69,16 @@ collections:
           - The Patterson Cut
           - Fan Edit Q2
           - Despecialized Edition
-      sort_by: title.asc
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_fanedits.jpg    
   Project 4K:
     template: { name: Chart, num: 5 }
+    smart_label: title.asc
     smart_filter:
       any:
         edition.is:
           - Project 4K77
           - Project 4K88
           - Grindhouse Scan Edition
-      sort_by: title.asc
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_starwars778083.jpg         
