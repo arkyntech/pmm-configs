@@ -9,7 +9,7 @@ templates:
 collections:
   IMAX 1080p:
     template: { name: Chart, num: 1 }
-    smart_filter:
+    smart_label:
       all:
         resolution: 1080p
     #filters:
