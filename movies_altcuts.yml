@@ -60,8 +60,7 @@ collections:
     template: { name: Chart, num: 5 }
     smart_label: title.asc    
     plex_all: true
-    smart_filter:
-      any:
+    filters:
         edition.is:
           - Maple Films Edition
           - Infinity Saga
@@ -73,8 +72,7 @@ collections:
   Project 4K:
     template: { name: Chart, num: 5 }
     smart_label: title.asc
-    smart_filter:
-      any:
+   filters:
         edition.is:
           - Project 4K77
           - Project 4K88
