@@ -42,7 +42,7 @@ collections:
   Alternate Cuts:
     template: { name: Chart, num: 4 }
     smart_label: title.asc
-    plex_all:
+    plex_all: true
     filters:
       edition.not: 
           - IMAX ENHANCED
@@ -59,8 +59,7 @@ collections:
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg  
   Fan Edits:
     template: { name: Chart, num: 5 }
-    plex_search:
-      resolution: 1080p    
+    plex_all: true
     smart_filter:
       any:
         edition.is:
