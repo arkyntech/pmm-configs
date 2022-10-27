@@ -12,10 +12,10 @@ collections:
     smart_label: 
       sort_by: title.asc
       all: true
-    filters:
-      edition: 
-         - IMAX
-      has_dolby_vision: true   
+    #filters:
+    #  edition: 
+    #     - IMAX
+    #  has_dolby_vision: true   
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_1080PIMAX.jpg
     
