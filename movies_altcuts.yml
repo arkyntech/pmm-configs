@@ -42,10 +42,9 @@ collections:
   Alternate Cuts:
     template: { name: Chart, num: 4 }
     smart_label: title.asc
-    plex_search:
-      resolution: 1080p
+    plex_all:
     filters:
-      edition.isnot: 
+      edition.not: 
           - IMAX ENHANCED
           - Maple Films Edition
           - Infinity Saga
@@ -60,6 +59,8 @@ collections:
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg  
   Fan Edits:
     template: { name: Chart, num: 5 }
+    plex_search:
+      resolution: 1080p    
     smart_filter:
       any:
         edition.is:
