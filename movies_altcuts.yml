@@ -9,71 +9,81 @@ templates:
 collections:
   IMAX 1080p:
     template: { name: Chart, num: 1 }
-    smart_filter:
+    #smart_filter:
+    #  all:
+    #    resolution: 1080p
+    #    edition.is: IMAX ENHANCED
+    #  sort_by: title.asc
+    smart_label:
+      sort_by: title.asc
       all:
         resolution: 1080p
-        edition.is: IMAX ENHANCED
-      sort_by: title.asc
+    filters:
+      edition: 
+         - IMAX
+      has_dolby_vision: true   
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_1080PIMAX.jpg
-  IMAX 4K HDR:
-    template: { name: Chart, num: 2 }
-    smart_filter:
-      all:
-        resolution: 4K
-        edition.is: IMAX ENHANCED
-        HDR: True
-      sort_by: title.asc  
-    summary: Films released in IMAX 4K HDR.
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KIMAX.jpg
-  IMAX 4K DV:
-    template: { name: Chart, num: 3 }
-    smart_filter:
-      all:
-        resolution: 4K
-        edition.is: IMAX ENHANCED
-        HDR: False      
-      sort_by: title.asc        
-    summary: Films released in IMAX 4K DV.
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KDVIMAX.jpg   
-  Alternate Cuts:
-    template: { name: Chart, num: 4 }
-    smart_filter:
-      all:
-        edition.isnot:
-          - IMAX ENHANCED
-          - Maple Films Edition
-          - Infinity Saga
-          - The Patterson Cut
-          - Project 4K77
-          - Project 4K88
-          - Fan Edit Q2
-          - Grindhouse Scan Edition
-          - Despecialized Edition
-      sort_by: title.asc
-    summary: Films released in IMAX 1080P.
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg  
-  Fan Edits:
-    template: { name: Chart, num: 5 }
-    smart_filter:
-      any:
-        edition.is:
-          - Maple Films Edition
-          - Infinity Saga
-          - The Patterson Cut
-          - Fan Edit Q2
-          - Despecialized Edition
-      sort_by: title.asc
-    summary: Films released in IMAX 1080P.
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_fanedits.jpg    
-  Project 4K:
-    template: { name: Chart, num: 5 }
-    smart_filter:
-      any:
-        edition.is:
-          - Project 4K77
-          - Project 4K88
-          - Grindhouse Scan Edition
-      sort_by: title.asc
-    summary: Films released in IMAX 1080P.
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_starwars778083.jpg         
+    
+    
+#  IMAX 4K HDR:
+#    template: { name: Chart, num: 2 }
+#    smart_filter:
+#      all:
+#        resolution: 4K
+#        edition.is: IMAX ENHANCED
+#        HDR: True
+#      sort_by: title.asc  
+#    summary: Films released in IMAX 4K HDR.
+#    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KIMAX.jpg
+#  IMAX 4K DV:
+#    template: { name: Chart, num: 3 }
+#    smart_filter:
+#      all:
+#        resolution: 4K
+#        edition.is: IMAX ENHANCED
+#        HDR: False      
+#      sort_by: title.asc        
+#    summary: Films released in IMAX 4K DV.
+#    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_4KDVIMAX.jpg   
+#  Alternate Cuts:
+#    template: { name: Chart, num: 4 }
+#    smart_filter:
+#      all:
+#        edition.isnot:
+#          - IMAX ENHANCED
+#          - Maple Films Edition
+#          - Infinity Saga
+#          - The Patterson Cut
+#          - Project 4K77
+#          - Project 4K88
+#          - Fan Edit Q2
+#          - Grindhouse Scan Edition
+#          - Despecialized Edition
+#      sort_by: title.asc
+#    summary: Films released in IMAX 1080P.
+#    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg  
+#  Fan Edits:
+#    template: { name: Chart, num: 5 }
+#    smart_filter:
+#      any:
+#        edition.is:
+#          - Maple Films Edition
+#          - Infinity Saga
+#          - The Patterson Cut
+#          - Fan Edit Q2
+#          - Despecialized Edition
+#      sort_by: title.asc
+#    summary: Films released in IMAX 1080P.
+#    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_fanedits.jpg    
+#  Project 4K:
+#    template: { name: Chart, num: 5 }
+#    smart_filter:
+#      any:
+#        edition.is:
+#          - Project 4K77
+#          - Project 4K88
+#          - Grindhouse Scan Edition
+#      sort_by: title.asc
+#    summary: Films released in IMAX 1080P.
+#    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_starwars778083.jpg         
