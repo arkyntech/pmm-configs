@@ -11,8 +11,7 @@ collections:
     template: { name: Chart, num: 1 }
     smart_filter:
       all:
-        actor: Dave Chappelle
-        genre: Comedy
+        resolution: 1080p
     #filters:
     #  edition: 
     #     - IMAX
