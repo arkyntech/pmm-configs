@@ -54,7 +54,6 @@ collections:
           - Fan Edit Q2
           - Grindhouse Scan Edition
           - Despecialized Edition
-      sort_by: title.asc
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg  
   Fan Edits:
