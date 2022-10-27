@@ -72,6 +72,7 @@ collections:
   Project 4K:
     template: { name: Chart, num: 5 }
     smart_label: title.asc
+    plex_all: true
     filters:
         edition.is:
           - Project 4K77
