@@ -9,15 +9,10 @@ templates:
 collections:
   IMAX 1080p:
     template: { name: Chart, num: 1 }
-    #smart_filter:
-    #  all:
-    #    resolution: 1080p
-    #    edition.is: IMAX ENHANCED
-    #  sort_by: title.asc
-    smart_label:
-      sort_by: title.asc
+    smart_filter:
       all:
-        resolution: 1080p
+        actor: Dave Chappelle
+        genre: Comedy
     #filters:
     #  edition: 
     #     - IMAX
