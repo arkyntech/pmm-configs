@@ -9,13 +9,11 @@ templates:
 collections:
   IMAX 1080p:
     template: { name: Chart, num: 1 }
-    smart_label:
-      all:
-        resolution: 1080p
-    #filters:
-    #  edition: 
-    #     - IMAX
-    #  has_dolby_vision: true   
+    smart_label: title.asc
+    filters:
+      edition: 
+         - IMAX
+      has_dolby_vision: true   
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_1080PIMAX.jpg
     
