@@ -44,16 +44,24 @@ collections:
     smart_label: title.asc
     plex_all: true
     filters:
-      edition.not: 
-          - IMAX ENHANCED
-          - Maple Films Edition
-          - Infinity Saga
-          - The Patterson Cut
-          - Project 4K77
-          - Project 4K88
-          - Fan Edit Q2
-          - Grindhouse Scan Edition
-          - Despecialized Edition
+      edition: 
+          - Directors
+          - Uncut
+          - Special
+          - Unreated
+          - Uncensored
+          - Extended
+          - Ultimate
+          - The Rogue Cut
+          - The More Fun Stuff
+          - Commanche
+          - Colorized
+          - Magical Movie Mode
+          - Complete Epic
+          - Michaels Story
+          - Coda
+          - Vitos
+          - Argento
     summary: Films released in IMAX 1080P.
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/misc_altcuts.jpg  
   Fan Edits:
