@@ -1,0 +1,52 @@
+##############################################################################
+#                            Video Format Overlay                            #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#                     Credit to Magic815 for base images                     #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#   https://metamanager.wiki/en/latest/defaults/overlays/video_format.html   #
+##############################################################################
+
+external_templates:
+  pmm: templates
+  template_variables:
+    default:
+      text_<<key>>: <<overlay_name>>
+    group: quality
+    horizontal_offset: 15
+    horizontal_align: left
+    vertical_offset: 30
+    vertical_align: bottom
+    back_color: "#00000099"
+    back_width: 305
+    back_height: 105
+    final_name: text(<<text_<<key>>>>)
+
+templates:
+  video_format:
+    conditionals:
+      filepath:
+        conditions:
+          - key: remux
+            value: '(?i)\[Remux'
+          - key: bluray
+            value: '(?i)\[Blu[ ._-]?ray|\[BD|\[BR|\[HD[ ._-]?DVD'
+          - key: web
+            value: '(?i)Web[ ._-]?(dl|rip)'
+    ignore_blank_results: true
+    plex_all: true
+    filters:
+      filepath.regex: <<filepath>>
+
+overlays:
+
+  REMUX:
+    variables: {key: remux, weight: 60}
+    template: [name: standard, name: video_format]
+
+  BLU-RAY:
+    variables: {key: bluray, weight: 50}
+    template: [name: standard, name: video_format]
+
+  WEB:
+    variables: {key: web, weight: 40}
+    template: [name: standard, name: video_format]
