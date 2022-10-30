@@ -18,18 +18,6 @@ external_templates:
               - 4K-DV
               - 4K-HDR
               - 4K
-              - 1080P-DV
-              - 1080P-HDR
-              - 1080P
-              - 720P-DV
-              - 720P-HDR
-              - 720P
-              - 576P-DV
-              - 576P-HDR
-              - 576P
-              - 480P-DV
-              - 480P-HDR
-              - 480P
               - DV
               - HDR
           - type: resolution_dovetail
@@ -156,14 +144,6 @@ templates:
         conditions:
           - key: 4k
             value: "(?i)2160|4k"
-          - key: 1080p
-            value: "(?i)1080|2k"
-          - key: 720p
-            value: "(?i)720|hd"
-          - key: 576p
-            value: "(?i)576"
-          - key: 480p
-            value: "(?i)480|sd"
       dolby_vision:
         conditions:
           - alt: dv
@@ -204,24 +184,6 @@ overlays:
   4K-Dovetail:
     variables: {key: 4k, alt: "", weight: 130, type: resolution_dovetail, allowed_libraries: movie}
     template: [name: standard, name: resolution]
-  1080P-DV-Dovetail:
-    variables: {key: 1080p, alt: dv, weight: 120, type: resolution_dovetail, allowed_libraries: movie}
-    template: [name: standard, name: resolution]
-  1080P-HDR-Dovetail:
-    variables: {key: 1080p, alt: hdr, weight: 110, type: resolution_dovetail, allowed_libraries: movie}
-    template: [name: standard, name: resolution]
-  1080P-Dovetail:
-    variables: {key: 1080p, alt: "", weight: 100, type: resolution_dovetail, allowed_libraries: movie}
-    template: [name: standard, name: resolution]
-  720P-DV-Dovetail:
-    variables: {key: 720p, alt: dv, weight: 90, type: resolution_dovetail, allowed_libraries: movie}
-    template: [name: standard, name: resolution]
-  720P-HDR-Dovetail:
-    variables: {key: 720p, alt: hdr, weight: 80, type: resolution_dovetail, allowed_libraries: movie}
-    template: [name: standard, name: resolution]
-  720P-Dovetail:
-    variables: {key: 720p, alt: "", weight: 70, type: resolution_dovetail, allowed_libraries: movie}
-    template: [name: standard, name: resolution]
   DV-Dovetail:
     variables: {key: "", alt: dv, weight: 5, type: resolution_dovetail, all: true, allowed_libraries: movie}
     template: [name: standard, name: resolution]
@@ -238,24 +200,6 @@ overlays:
     template: [name: standard, name: resolution]
   4K:
     variables: {key: 4k, alt: "", weight: 130, type: resolution}
-    template: [name: standard, name: resolution]
-  1080P-DV:
-    variables: {key: 1080p, alt: dv, weight: 120, type: resolution}
-    template: [name: standard, name: resolution]
-  1080P-HDR:
-    variables: {key: 1080p, alt: hdr, weight: 110, type: resolution}
-    template: [name: standard, name: resolution]
-  1080P:
-    variables: {key: 1080p, alt: "", weight: 100, type: resolution}
-    template: [name: standard, name: resolution]
-  720P-DV:
-    variables: {key: 720p, alt: dv, weight: 90, type: resolution}
-    template: [name: standard, name: resolution]
-  720P-HDR:
-    variables: {key: 720p, alt: hdr, weight: 80, type: resolution}
-    template: [name: standard, name: resolution]
-  720P:
-    variables: {key: 720p, alt: "", weight: 70, type: resolution}
     template: [name: standard, name: resolution]
   HDR:
     variables: {key: "", alt: hdr, weight: 1, type: resolution}

@@ -5,7 +5,6 @@ templates:
   Chart:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
-    cache_builders: 1
 collections:
   IMAX 1080p:
     template: { name: Chart, num: 1 }
