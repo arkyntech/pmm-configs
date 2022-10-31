@@ -15,7 +15,6 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&languages=en&sort=moviemeter,asc
       limit: 125
     summary: Popular Movies across the internet
-    item_refresh: 30
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_popular.jpg
   Most Watched Daily:
     template: { name: Chart, num: 2 }
@@ -25,7 +24,6 @@ collections:
     #  time_period: daily
     #  limit: 50
     summary: Movies Trending across the internet
-    item_refresh: 30
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_daily.jpg   
   Most Watched Weekly:
     template: { name: Chart, num: 3 }
@@ -35,7 +33,6 @@ collections:
     #  time_period: weekly
     #  limit: 50
     summary: Movies Trending across the internet
-    item_refresh: 30
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_weekly.jpg
 #  Most Watched Monthly:
 #    template: { name: Chart, num: 4 }
@@ -62,5 +59,4 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&user_rating=5.0,10.0&num_votes=100000,&languages=en&sort=user_rating,desc
       limit: 125
     summary: Top Rated Movies across the internet
-    item_refresh: 30
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated.jpg
