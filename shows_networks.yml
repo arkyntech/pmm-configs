@@ -6,6 +6,7 @@ templates:
       any:
         network: <<network>>
     sort_title: +5_<<collection_name>>  
+    collection_mode: hide
 
 collections:
 ####  Networks ####

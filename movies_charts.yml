@@ -32,6 +32,7 @@ collections:
       limit: 125
     summary: Popular Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Movies/movies_popular_tvmovies.jpg
+    collection_mode: hide
   Top Rated Movies:
     template: { name: Chart, num: 8 }
     imdb_list:
@@ -39,3 +40,4 @@ collections:
       limit: 125
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Movies/movies_toprated.jpg
+    collection_mode: hide

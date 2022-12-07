@@ -11,6 +11,7 @@ templates:
     collection_mode: hide    
   Originals:
     sort_title: +3_<<collection_name>>    
+    collection_mode: hide
 
 collections:
 #### ORIGINALS ####
