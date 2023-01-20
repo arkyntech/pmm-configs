@@ -8,7 +8,7 @@ collections:
     smart_filter:
       all:
         added.not: 1s
-        added: 14
+        added: 30
       sort_by: added.desc
       limit: 100
     summary: Recently Added Shows
@@ -20,8 +20,8 @@ collections:
     smart_filter:
       all:
         release.not: 1s
-        release: 14
-      sort_by: added.desc
+        release: 30
+      sort_by: episode_release.desc
       limit: 100
     summary: Recently Released Shows
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Trends/tv_recentlyreleased.jpg?raw=true

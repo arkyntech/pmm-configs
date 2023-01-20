@@ -8,7 +8,7 @@ collections:
     smart_filter:
       all:
         added.not: 1s
-        added: 14
+        added: 30
       sort_by: added.desc
       limit: 100
     summary: Recently Added Movies
@@ -20,8 +20,8 @@ collections:
     smart_filter:
       all:
         release.not: 1s
-        release: 14
-      sort_by: added.desc
+        release: 30
+      sort_by: release.desc
       limit: 100
     summary: Recently Released Movies
     url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/movies_recentlyreleased.jpg
