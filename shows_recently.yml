@@ -14,6 +14,9 @@ collections:
       sort_by: added.desc
       limit: 100
     summary: Recently Added Shows
+    url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Trends/tv_recentlyreleased.jpg?raw=true
+    visible_shared: true
+    visible_home: true
   Recently Released Shows:
     smart_filter:
       all:
@@ -22,3 +25,6 @@ collections:
       sort_by: added.desc
       limit: 100
     summary: Recently Released Shows
+    url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Trends/tv_recentlyreleased.jpg?raw=true
+    visible_shared: true
+    visible_home: true

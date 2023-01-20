@@ -14,6 +14,9 @@ collections:
       sort_by: added.desc
       limit: 100
     summary: Recently Added Movies
+    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/movies_recentlyreleased.jpg
+    visible_shared: true
+    visible_home: true
   Recently Released Movies:
     smart_filter:
       all:
@@ -22,3 +25,6 @@ collections:
       sort_by: added.desc
       limit: 100
     summary: Recently Released Movies
+    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Trends/movies_recentlyreleased.jpg
+    visible_shared: true
+    visible_home: true
