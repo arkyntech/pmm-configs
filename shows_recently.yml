@@ -1,0 +1,24 @@
+templates:
+  Chart:
+    sort_title: +11_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+    cache_builders: 1
+collections:
+  Recently Added Shows:
+  template: { name: Chart, num: 1 }
+    smart_filter:
+      all:
+        added.not: 1s
+        added: 14
+      sort_by: added.desc
+      limit: 100
+    summary: Recently Added Shows
+  Recently Released Shows:
+    smart_filter:
+      all:
+        release.not: 1s
+        release: 14
+      sort_by: added.desc
+      limit: 100
+    summary: Recently Released Shows
