@@ -14,8 +14,10 @@ collections:
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&languages=en&sort=moviemeter,asc
       limit: 125
+      sort_by: tmdbpopular.desc
     summary: Popular Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Movies/movies_popular.jpg
+    visible_shared: true
   Most Watched Daily:
     template: { name: Chart, num: 2 }
     tmdb_trending_daily: 50
