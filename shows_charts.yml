@@ -18,6 +18,7 @@ collections:
     summary: Popular Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_popular.jpg
     visible_shared: true
+    visible_home: true
   Most Watched Daily:
     template: { name: Chart, num: 2 }
     tmdb_trending_daily: 50
