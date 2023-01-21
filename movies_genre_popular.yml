@@ -47,13 +47,13 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_comedy.jpg
+    visible_library: true
   Popular Crime:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_crime.jpg
-    visible_library: true
   Popular Documentaries:
     template: { name: Genre }
     imdb_list:
