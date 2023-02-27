@@ -15,7 +15,7 @@ collections:
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Trends/tv_recentlyreleased.jpg?raw=true
     visible_shared: true
     visible_home: true
-  Recently Released Shows:
+  Recently Released Episodes:
     template: { name: Chart, num: 1 }
     smart_filter:
       type: episodes
