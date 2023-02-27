@@ -18,6 +18,7 @@ collections:
   Recently Released Shows:
     template: { name: Chart, num: 1 }
     smart_filter:
+      type: episodes
       all:
         release.not: 1s
         release: 30
