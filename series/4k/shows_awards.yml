@@ -1,0 +1,39 @@
+######################################################
+#                BAFTA Collections                   #
+######################################################
+templates:
+  Awards:
+    sort_title: +2_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_mode: hide
+    collection_order: custom
+    cache_builders: 7
+collections:
+  Emmy Award Winners 4K:
+    template: {name: Awards, num: 5 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=emmy_winner&languages=en&sort=release_date,desc
+      limit: 75
+    summary: A collection of Emmy Award Winners
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_winners.jpg  
+  Emmy Award Nominees 4K:
+    template: {name: Awards, num: 6 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=emmy_nominee&languages=en&sort=release_date,desc
+      limit: 75
+    summary: A collection of Emmy Awards Nominees
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_nominated.jpg
+  Golden Globes Winners 4K:
+    template: {name: Awards, num: 7 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=golden_globe_winner&languages=en&sort=release_date,desc
+      limit: 75
+    summary: A collection of Golden Globes Winners
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes.jpg    
+  Golden Globes Nominees 4K:
+    template: {name: Awards, num: 8 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=golden_globe_nominee&languages=en&sort=release_date,desc
+      limit: 75
+    summary: A collection of Golden Globes Nominees
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes_nominated.jpg        

@@ -1,0 +1,113 @@
+templates:
+  Networks:
+    sort_title: '+5_<<collection_name>>'
+    sync_mode: sync
+    collection_order: alpha
+    collection_mode: hide
+    plex_search:
+      limit: 75
+  Plex Networks:
+    sort_title: +5_<<collection_name>> 
+    collection_mode: hide    
+  Originals:
+    sort_title: +3_<<collection_name>>    
+    collection_mode: hide
+
+collections:
+#### ORIGINALS ####
+  Amazon Prime 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Amazon
+    summary: A collection of Amazon content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_prime.jpg
+  Apple TV+ 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Apple TV+
+    summary: A collection of AppleTV content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_appletv.jpg
+  Disney Plus 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Disney+
+    summary: A collection of Disney Plus content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_disney.jpg
+  HBO Max 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: title.asc
+      all:
+        network: HBO Max
+    summary: A collection of HBO Max Originals 
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_hbo.jpg
+  Hulu 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Hulu
+    summary: A collection of Hulu content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_hulu.jpg
+  Netflix 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Netflix
+    summary: A collection of Netflix content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_netflix.jpg
+  Paramount+ 4K
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Paramount+
+    summary: A collection of Paramount+ content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_paramount.jpg
+  Peacock 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Peacock
+    summary: A collection of Peacock content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_peacock.jpg  
+  Quibi 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Quibi
+    summary: A collection of Quibi content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_quibi.jpg
+  Stan 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Stan
+    summary: A collection of Stan content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_stan.jpg  
+  Starz 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Starz
+    summary: A collection of Starz content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_starz.jpg  
+  Youtube 4K:
+    template: { name: Originals }
+    smart_filter:
+      sort_by: originally_available.desc
+      all:
+        network: Youtube
+    summary: A collection of Youtube content
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_youtube.jpg
