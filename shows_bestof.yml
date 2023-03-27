@@ -12,14 +12,14 @@ collections:
   Top Rated of 2022:
     template: { name: Chart, num: 1 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2022-01-01,&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2022-01-01,2022-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2022.jpg
   Top Rated of 2021:
     template: { name: Chart, num: 2 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2021-01-01,&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2021-01-01,2021-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2021.jpg
