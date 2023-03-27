@@ -1,0 +1,39 @@
+######################################################
+#                Popular / Top Rated                 #
+######################################################
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+    cache_builders: 1
+collections:
+### CHARTS ###
+  Popular 4K Shows:
+    template: { name: Chart, num: 1 }
+    mdblist_list:
+      url: https://mdblist.com/lists/fuzi0n/tv-shows-popular
+      limit: 125
+      sort_by: tmdbpopular.desc
+    summary: Popular Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_popular.jpg
+    visible_shared: true
+    visible_home: true
+  Most Watched 4K Daily:
+    template: { name: Chart, num: 2 }
+    tmdb_trending_daily: 50
+    summary: Movies Trending across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_daily.jpg   
+  Most Watched 4K Weekly:
+    template: { name: Chart, num: 3 }
+    tmdb_trending_weekly: 50
+    summary: Movies Trending across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_weekly.jpg 
+  Top Rated 4K Shows:
+    template: { name: Chart, num: 6 } #kids is 7
+    mdblist_list:
+      url: https://mdblist.com/lists/fuzi0n/tv-shows-top-rated
+      limit: 125
+      sort_by: tmdbpopular.desc
+    summary: Top Rated Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated.jpg

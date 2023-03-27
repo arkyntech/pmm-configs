@@ -1,0 +1,141 @@
+templates: 
+  network:
+    smart_filter:
+      sort_by: title.asc
+      validate: false
+      any:
+        network: <<network>>
+    sort_title: +5_<<collection_name>>  
+    collection_mode: hide
+
+collections:
+####  Networks ####
+  ABC 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_abc.jpg
+    template: { name: network, network: "ABC, ABC (AU), ABS (US), ABC Comedy, ABC Family, ABC Me, ABC Spark, ABC.com, ABC1, ABC3" }
+  AMC 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_amc.jpg
+    template: { name: network, network: "AMC, AMC+" }
+  Adult Swim 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_adultswim.jpg
+    template: { name: network, network: "Adult Swim" }
+  Animal Planet 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_animalplanet.jpg
+    template: { name: network, network: "Animal Planet" }
+  BBC America 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_bbcamerica.jpg
+    template: { name: network, network: "BBC America" }
+  BBC One 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_bbcone.jpg
+    template: { name: network, network: "BBC One" }
+  CBS 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_cbs.jpg
+    template: { name: network, network: "CBS, CBS All Access, CBS Reality, CBS Reality (UK), CBS.com" }
+  CWSeed 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_cwseed.jpg
+    template: { name: network, network: "CW Seed" }
+  Cartoon Network 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_cartoonnetwork.jpg
+    template: { name: network, network: "Cartoon Network" }
+  Comedy Central 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_comedycentral.jpg
+    template: { name: network, network: "Comedy Central" }
+  Discovery Family 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_discoveryfamily.jpg
+    template: { name: network, network: "Discovery Family" }
+  Discovery+ 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_discovery.jpg
+    template: { name: network, network: "discovery+" }
+  Disney Channel 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_disneychannel.jpg
+    template: { name: network, network: "Disney Channel" }
+  Disney Junior 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_disneyjunior.jpg
+    template: { name: network, network: "Disney Junior" }
+  Disney XD 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_disneyxd.jpg
+    template: { name: network, network: "Disney XD" }
+  FOX 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_fox.jpg
+    template: { name: network, network: "Fox" }
+  FX 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_fx.jpg
+    template: { name: network, network: "FX" }
+  Food Network 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_foodnetwork.jpg
+    template: { name: network, network: "Food Network" }
+  HBO 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_hbo.jpg
+    template: { name: network, network: "HBO, HBO Canada, HBO Europe, HBO Latin America, HBO Asia" }  
+  HGTV 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_hgtv.jpg
+    template: { name: network, network: "HGTV" }
+  History Channel 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_history.jpg
+    template: { name: network, network: "History" }
+  Investigation Discovery 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_id.jpg
+    template: { name: network, network: "Investigation Discovery" }
+  Lifetime 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_lifetime.jpg
+    template: { name: network, network: "Lifetime" }
+  NBC 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_nbc.jpg
+    template: { name: network, network: "NBC" }
+  Nat Geo Wild 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_natgeowild.jpg
+    template: { name: network, network: "Nat Geo Wild" }
+  National Geographic 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_natgeo.jpg
+    template: { name: network, network: "National Geographic" }
+  Nick 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_nickelodeon.jpg
+    template: { name: network, network: "Nickelodeon" }
+  NickToons 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_nicktoons.jpg
+    template: { name: network, network: "Nicktoons" }
+  PBS 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_pbs.jpg
+    template: { name: network, network: "PBS" }
+  PBS Kids 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_pbskids.jpg
+    template: { name: network, network: "PBS Kids" }
+  SYFY 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_syfy.jpg
+    template: { name: network, network: "SYFY" }
+  Showtime 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_showtime.jpg
+    template: { name: network, network: "Showtime" }
+  Spike 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_spike.jpg
+    template: { name: network, network: "Spike" }
+  Sundance TV 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_sundancetv.jpg
+    template: { name: network, network: "SundanceTV" }
+  TBS 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_tbs.jpg
+    template: { name: network, network: "TBS" }
+  TLC 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_tlc.jpg
+    template: { name: network, network: "TLC" }
+  TNT 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_tnt.jpg
+    template: { name: network, network: "TNT" }
+  The CW 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_thecw.jpg
+    template: { name: network, network: "The CW" }
+  Travel Channel 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_travelchannel.jpg
+    template: { name: network, network: "Travel Channel" }
+  TruTV 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_trutv.jpg
+    template: { name: network, network: "TruTV" }
+  USA 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_usa.jpg
+    template: { name: network, network: "USA Network" }
+  Universal Kids 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_universalkids.jpg
+    template: { name: network, network: "Universal Kids" }
+  iTV 4K:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/network_itv.jpg
+    template: { name: network, network: "iTV" }

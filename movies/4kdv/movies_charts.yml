@@ -1,0 +1,46 @@
+######################################################
+#                Popular / Top Rated                 #
+######################################################
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+    cache_builders: 1
+collections:
+### CHARTS ###
+  Popular 4K DV Movies:
+    template: { name: Chart, num: 1 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature&languages=en&sort=moviemeter,asc
+      limit: 125
+      sort_by: tmdbpopular.desc
+    summary: Popular Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Movies/movies_popular.jpg
+    visible_shared: true
+    visible_home: true
+  Most Watched 4K DV Daily:
+    template: { name: Chart, num: 2 }
+    tmdb_trending_daily: 50
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_daily.jpg 
+  Most Watched 4K DV Weekly:
+    template: { name: Chart, num: 3 }
+    tmdb_trending_weekly: 50
+    summary: Movies Trending across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_weekly.jpg 
+  Popular TV 4K DV Movies:
+    template: { name: Chart, num: 7 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_movie&languages=en&sort=moviemeter,asc
+      limit: 125
+    summary: Popular Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Movies/movies_popular_tvmovies.jpg
+    collection_mode: hide
+  Top Rated 4K DV Movies:
+    template: { name: Chart, num: 8 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=100000,&languages=en&sort=user_rating,desc
+      limit: 125
+    summary: Top Rated Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Movies/movies_toprated.jpg
+    collection_mode: hide
