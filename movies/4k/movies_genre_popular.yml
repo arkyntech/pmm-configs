@@ -15,127 +15,127 @@ templates:
 #                Genre Collections                   #
 ######################################################
 collections:
-  Popular 4K Action:
+  popular Action:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_action.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_action.jpg
     visible_library: true
-  Popular 4K Adventure:
+  popular Adventure:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_adventure.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_adventure.jpg
     visible_library: true
-  Popular 4K Animation:
+  popular Animation:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_animation.jpg
-  Popular 4K Biography:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_animation.jpg
+  popular Biography:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_biography.jpg
-  Popular 4K Comedy:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_biography.jpg
+  popular Comedy:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_comedy.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_comedy.jpg
     visible_library: true
-  Popular 4K Crime:
+  popular Crime:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_crime.jpg
-  Popular 4K Documentaries:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_crime.jpg
+  popular Documentaries:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_documentary.jpg
-  Popular 4K Drama:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_documentary.jpg
+  popular Drama:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_drama.jpg 
-  Popular 4K Family:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_drama.jpg 
+  popular Family:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_family.jpg
-  Popular 4K Fantasy:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_family.jpg
+  popular Fantasy:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=fantasy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_fantasy.jpg
-  Popular 4K History:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_fantasy.jpg
+  popular History:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_history.jpg
-  Popular 4K Horror:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_history.jpg
+  popular Horror:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=horror&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_horror.jpg
-  Popular 4K Music:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_horror.jpg
+  popular Music:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_music.jpg
-  Popular 4K Musicals:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_music.jpg
+  popular Musicals:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_musicals.jpg
-  Popular 4K Mystery:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_musicals.jpg
+  popular Mystery:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_mystery.jpg
-  Popular 4K Romance:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_mystery.jpg
+  popular Romance:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_romance.jpg
-  Popular 4K Sci-Fi:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_romance.jpg
+  popular Sci-Fi:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_scifi.jpg
-  Popular 4K Thriller:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_scifi.jpg
+  popular Thriller:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_thriller.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_thriller.jpg
     visible_library: true
-  Popular 4K War:
+  popular War:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_war.jpg
-  Popular 4K Western:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_war.jpg
+  popular Western:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_Popular 4K_western.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_western.jpg
