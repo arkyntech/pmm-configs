@@ -3,13 +3,13 @@ templates:
     sort_title: +4_1<<collection_name>>
     sync_mode: sync
     collection_mode: hide
-    collection_order: custom
+    collection_order: release
     cache_builders: 7
   BestOf:
     sort_title: +4_<<collection_name>>
     sync_mode: sync
     collection_mode: hide  
-    collection_order: custom
+    collection_order: release
     cache_builders: 7
 ######################################################
 #                Genre Collections                   #
