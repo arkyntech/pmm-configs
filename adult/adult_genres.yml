@@ -4,27 +4,33 @@
 ##########################################
 collections:
   Adorable:
+    file_poster: /opt/pmm-configs/adult/images/genre/adorable.jpg
     smart_filter:
       all:
         genre: Adorable
       sort_by: release.desc
     template:
       name: Genre
-  Adult:
-    smart_filter:
-      all:
-        genre: Adult
-      sort_by: release.desc
-    template:
-      name: Genre
   Adultery:
+    file_poster: /opt/pmm-configs/adult/images/genre/adultery.jpg
     smart_filter:
       all:
         genre: Adultery
       sort_by: release.desc
     template:
       name: Genre
+  Air Tight:
+    file_poster: /opt/pmm-configs/adult/images/genre/airtight.jpg
+    smart_filter:
+      all:
+        genre:
+          - Air Tight
+          - Airtight
+      sort_by: release.desc
+    template:
+      name: Genre
   Alt:
+    file_poster: /opt/pmm-configs/adult/images/genre/alternative.jpg
     smart_filter:
       any:
         genre:
@@ -34,13 +40,31 @@ collections:
     template:
       name: Genre
   Anal:
+    file_poster: /opt/pmm-configs/adult/images/genre/anal.jpeg
     smart_filter:
       all:
         genre: Anal
       sort_by: release.desc
     template:
       name: Genre
+  Anal Fingering:
+    file_poster: /opt/pmm-configs/adult/images/genre/anal_fingering.jpeg
+    smart_filter:
+      all:
+        genre: Anal Fingering
+      sort_by: release.desc
+    template:
+      name: Genre
+  Anal Fisting:
+    file_poster: /opt/pmm-configs/adult/images/genre/anal_fisting.jpeg
+    smart_filter:
+      all:
+        genre: Anal Fisting
+      sort_by: release.desc
+    template:
+      name: Genre
   Arabic:
+    file_poster: /opt/pmm-configs/adult/images/genre/arabic.jpeg
     smart_filter:
       all:
         genre: Arabic
@@ -48,6 +72,7 @@ collections:
     template:
       name: Genre
   Asian:
+    file_poster: /opt/pmm-configs/adult/images/genre/asian.jpeg
     smart_filter:
       all:
         genre: Asian
@@ -55,6 +80,7 @@ collections:
     template:
       name: Genre
   BBC:
+    file_poster: /opt/pmm-configs/adult/images/genre/bbc.jpg
     smart_filter:
       all:
         genre: BBC
@@ -62,6 +88,7 @@ collections:
     template:
       name: Genre
   BBW:
+    file_poster: /opt/pmm-configs/adult/images/genre/bbw.jpg
     smart_filter:
       all:
         genre: BBW
@@ -69,6 +96,7 @@ collections:
     template:
       name: Genre
   BDSM:
+    file_poster: /opt/pmm-configs/adult/images/genre/bdsm.jpeg
     smart_filter:
       all:
         genre: BDSM
@@ -76,6 +104,7 @@ collections:
     template:
       name: Genre
   Babe:
+    file_poster: /opt/pmm-configs/adult/images/genre/babe.jpeg
     smart_filter:
       all:
         genre: Babe
@@ -83,6 +112,7 @@ collections:
     template:
       name: Genre
   Babysitter:
+    file_poster: /opt/pmm-configs/adult/images/genre/babysittter.jpg
     smart_filter:
       all:
         genre: Babysitter
@@ -90,6 +120,7 @@ collections:
     template:
       name: Genre
   Big Ass:
+    file_poster: /opt/pmm-configs/adult/images/genre/big_ass.jpg
     smart_filter:
       all:
         genre: Big Ass
@@ -97,6 +128,7 @@ collections:
     template:
       name: Genre
   Big Dick:
+    file_poster: /opt/pmm-configs/adult/images/genre/big_dick.jpg
     smart_filter:
       all:
         genre: Big Dick
@@ -104,13 +136,23 @@ collections:
     template:
       name: Genre
   Big Tits:
+    file_poster: /opt/pmm-configs/adult/images/genre/big_tits.jpeg
     smart_filter:
       all:
         genre: ig Tits
       sort_by: release.desc
     template:
       name: Genre
+  Blindfold:
+    file_poster: /opt/pmm-configs/adult/images/genre/blindfolded.jpg
+    smart_filter:
+      all:
+        genre: Blindfold
+      sort_by: release.desc
+    template:
+      name: Genre
   Blonde:
+    file_poster: /opt/pmm-configs/adult/images/genre/blonde.jpeg
     smart_filter:
       all:
         genre: Blonde
@@ -118,6 +160,7 @@ collections:
     template:
       name: Genre
   Blowjob:
+    file_poster: /opt/pmm-configs/adult/images/genre/blowjob.jpeg
     smart_filter:
       all:
         genre: Blowjob
@@ -125,6 +168,7 @@ collections:
     template:
       name: Genre
   Bondage:
+    file_poster: /opt/pmm-configs/adult/images/genre/bondage.jpeg
     smart_filter:
       all:
         genre: Bondage
@@ -132,6 +176,7 @@ collections:
     template:
       name: Genre
   Brazilian:
+    file_poster: /opt/pmm-configs/adult/images/genre/brazilian.jpeg
     smart_filter:
       all:
         genre: Brazilian
@@ -139,6 +184,7 @@ collections:
     template:
       name: Genre
   Brunette:
+    file_poster: /opt/pmm-configs/adult/images/genre/brunette.jpeg
     smart_filter:
       all:
         genre: Brunette
@@ -146,6 +192,7 @@ collections:
     template:
       name: Genre
   Bukkake:
+    file_poster: /opt/pmm-configs/adult/images/genre/bukkake.jpeg
     smart_filter:
       all:
         genre: Bukkake
@@ -153,6 +200,7 @@ collections:
     template:
       name: Genre
   Car:
+    file_poster: /opt/pmm-configs/adult/images/genre/car.jpg
     smart_filter:
       all:
         genre: Car
@@ -160,6 +208,7 @@ collections:
     template:
       name: Genre
   Casting:
+    file_poster: /opt/pmm-configs/adult/images/genre/casting.jpg
     smart_filter:
       all:
         genre: Casting
@@ -167,6 +216,7 @@ collections:
     template:
       name: Genre
   College:
+    file_poster: /opt/pmm-configs/adult/images/genre/college.jpg
     smart_filter:
       all:
         genre: College
@@ -174,6 +224,7 @@ collections:
     template:
       name: Genre
   Cosplay:
+    file_poster: /opt/pmm-configs/adult/images/genre/cosplay.webp
     smart_filter:
       all:
         genre: Cosplay
@@ -181,6 +232,7 @@ collections:
     template:
       name: Genre
   Creampie:
+    file_poster: /opt/pmm-configs/adult/images/genre/creampie.jpeg
     smart_filter:
       all:
         genre: Creampie
@@ -188,27 +240,39 @@ collections:
     template:
       name: Genre
   Cuckold:
+    file_poster: /opt/pmm-configs/adult/images/genre/cuckold.jpg
     smart_filter:
       all:
         genre: Cuckold
       sort_by: release.desc
     template:
       name: Genre
+  Cum On Tits:
+    file_poster: /opt/pmm-configs/adult/images/genre/cumontits.jpg
+    smart_filter:
+      all:
+        genre: Cum On Tits
+      sort_by: release.desc
+    template:
+      name: Genre
   Cumshot:
+    file_poster: /opt/pmm-configs/adult/images/genre/cumshot.jpg
     smart_filter:
       all:
         genre: Cumshot
       sort_by: release.desc
     template:
       name: Genre
-  DP:
+  Deepthroat:
+    file_poster: /opt/pmm-configs/adult/images/genre/deepthroat.jpeg
     smart_filter:
       all:
-        genre: DP
+        genre: Deepthroat
       sort_by: release.desc
     template:
       name: Genre
   Double Penetration:
+    file_poster: /opt/pmm-configs/adult/images/genre/double-penetration.jpg
     smart_filter:
       all:
         genre: Double Penetration
@@ -216,27 +280,51 @@ collections:
     template:
       name: Genre
   Ebony:
+    file_poster: /opt/pmm-configs/adult/images/genre/ebony.jpg
     smart_filter:
       all:
         genre: Ebony
       sort_by: release.desc
     template:
       name: Genre
-  European:
+  Erotic:
+    file_poster: /opt/pmm-configs/adult/images/genre/erotic.jpg
     smart_filter:
       all:
-        genre: European
+        genre: Erotica
+      sort_by: release.desc
+    template:
+      name: Genre
+  Fake Tits:
+    file_poster: /opt/pmm-configs/adult/images/genre/faketits.jpg
+    smart_filter:
+      all:
+        genre:
+          - Fake Boobs
+          - Fake Tits
+          - Boobs - Natural
+          - Huge Boobs
       sort_by: release.desc
     template:
       name: Genre
   Feet:
+    file_poster: /opt/pmm-configs/adult/images/genre/feet.jpeg
     smart_filter:
       all:
         genre: Feet
       sort_by: release.desc
     template:
       name: Genre
+  Female Domination:
+    file_poster: /opt/pmm-configs/adult/images/genre/femdom.jpeg
+    smart_filter:
+      all:
+        genre: Female Domination
+      sort_by: release.desc
+    template:
+      name: Genre
   Fetish:
+    file_poster: /opt/pmm-configs/adult/images/genre/fetish.jpg
     smart_filter:
       all:
         genre: Fetish
@@ -244,6 +332,7 @@ collections:
     template:
       name: Genre
   Fingering:
+    file_poster: /opt/pmm-configs/adult/images/genre/fingering.jpeg
     smart_filter:
       all:
         genre: Fingering
@@ -251,6 +340,7 @@ collections:
     template:
       name: Genre
   Fisting:
+    file_poster: /opt/pmm-configs/adult/images/genre/fisting.jpeg
     smart_filter:
       all:
         genre: Fisting
@@ -258,27 +348,51 @@ collections:
     template:
       name: Genre
   Flexible:
+    file_poster: /opt/pmm-configs/adult/images/genre/flexible.jpg
     smart_filter:
       all:
         genre: Flexible
       sort_by: release.desc
     template:
       name: Genre
+  Free Use:
+    file_poster: /opt/pmm-configs/adult/images/genre/freeuse.jpeg
+    smart_filter:
+      all:
+        genre:
+          - Free Use
+          - freeuse
+      sort_by: release.desc
+    template:
+      name: Genre
   Gangbang:
+    file_poster: /opt/pmm-configs/adult/images/genre/gangbang.jpeg
     smart_filter:
       all:
         genre: Gangbang
       sort_by: release.desc
     template:
       name: Genre
+  Gaping:
+    file_poster: /opt/pmm-configs/adult/images/genre/gaping.jpeg
+    smart_filter:
+      all:
+        genre:
+          - Gaping
+          - Gaping Asshole
+      sort_by: release.desc
+    template:
+      name: Genre
   Girlfriend:
+    file_poster: /opt/pmm-configs/adult/images/genre/girlfriend.jpg
     smart_filter:
       all:
         genre: Girlfriend
       sort_by: release.desc
     template:
       name: Genre
-  Hangjob:
+  Handjob:
+    file_poster: /opt/pmm-configs/adult/images/genre/handjob.jpeg
     smart_filter:
       all:
         genre: Bondage
@@ -286,13 +400,23 @@ collections:
     template:
       name: Genre
   Hardcore:
+    file_poster: /opt/pmm-configs/adult/images/genre/hardcore.jpg
     smart_filter:
       all:
         genre: Hardcore
       sort_by: release.desc
     template:
       name: Genre
+  Homemade:
+    file_poster: /opt/pmm-configs/adult/images/genre/homemade.jpg
+    smart_filter:
+      all:
+        genre: Homemade
+      sort_by: release.desc
+    template:
+      name: Genre
   Interracial:
+    file_poster: /opt/pmm-configs/adult/images/genre/interracial.jpeg
     smart_filter:
       all:
         genre: Interracial
@@ -300,6 +424,7 @@ collections:
     template:
       name: Genre
   Japanese:
+    file_poster: /opt/pmm-configs/adult/images/genre/japanese.jpg
     smart_filter:
       all:
         genre: Japanese
@@ -307,6 +432,7 @@ collections:
     template:
       name: Genre
   Latina:
+    file_poster: /opt/pmm-configs/adult/images/genre/latina.jpeg
     smart_filter:
       all:
         genre: Latina
@@ -314,6 +440,7 @@ collections:
     template:
       name: Genre
   Lesbian:
+    file_poster: /opt/pmm-configs/adult/images/genre/lesbian.jpeg
     smart_filter:
       all:
         genre: Lesbian
@@ -321,6 +448,7 @@ collections:
     template:
       name: Genre
   Lingerie:
+    file_poster: /opt/pmm-configs/adult/images/genre/lingerie.jpg
     smart_filter:
       all:
         genre: Lingerie
@@ -328,6 +456,7 @@ collections:
     template:
       name: Genre
   Massage:
+    file_poster: /opt/pmm-configs/adult/images/genre/massage.jpg
     smart_filter:
       all:
         genre: Massage
@@ -335,6 +464,7 @@ collections:
     template:
       name: Genre
   Masturbation:
+    file_poster: /opt/pmm-configs/adult/images/genre/masturbation.jpg
     smart_filter:
       all:
         genre: Masturbation
@@ -342,13 +472,28 @@ collections:
     template:
       name: Genre
   Mature:
+    file_poster: /opt/pmm-configs/adult/images/genre/mature.jpeg
     smart_filter:
       all:
         genre: Mature
       sort_by: release.desc
     template:
       name: Genre
+  Natural:
+    file_poster: /opt/pmm-configs/adult/images/genre/natural.jpeg
+    smart_filter:
+      all:
+        genre:
+          - All Natural
+          - Big Boobs - Natural
+          - Boobs - Natural
+          - Natural Tits
+          - Natural Boobs
+      sort_by: release.desc
+    template:
+      name: Genre
   Orgasm:
+    file_poster: /opt/pmm-configs/adult/images/genre/orgasm.jpg
     smart_filter:
       all:
         genre: Orgasm
@@ -356,6 +501,7 @@ collections:
     template:
       name: Genre
   Orgy:
+    file_poster: /opt/pmm-configs/adult/images/genre/orgy.jpeg
     smart_filter:
       all:
         genre: Orgy
@@ -363,6 +509,7 @@ collections:
     template:
       name: Genre
   POV:
+    file_poster: /opt/pmm-configs/adult/images/genre/pov.jpg
     smart_filter:
       all:
         genre: POV
@@ -370,6 +517,7 @@ collections:
     template:
       name: Genre
   Parody:
+    file_poster: /opt/pmm-configs/adult/images/genre/parody.jpeg
     smart_filter:
       all:
         genre: Parody
@@ -377,6 +525,7 @@ collections:
     template:
       name: Genre
   Party:
+    file_poster: /opt/pmm-configs/adult/images/genre/party.jpg
     smart_filter:
       all:
         genre: Party
@@ -384,20 +533,15 @@ collections:
     template:
       name: Genre
   Pornstar:
+    file_poster: /opt/pmm-configs/adult/images/genre/pornstar.webp
     smart_filter:
       all:
         genre: Pornstar
       sort_by: release.desc
     template:
       name: Genre
-  Pov:
-    smart_filter:
-      all:
-        genre: Pov
-      sort_by: release.desc
-    template:
-      name: Genre
   Public Nudity:
+    file_poster: /opt/pmm-configs/adult/images/genre/public.jpg
     smart_filter:
       all:
         genre: Public Nudity
@@ -405,6 +549,7 @@ collections:
     template:
       name: Genre
   Punishment:
+    file_poster: /opt/pmm-configs/adult/images/genre/punishment.jpg
     smart_filter:
       all:
         genre: Punishment
@@ -412,6 +557,7 @@ collections:
     template:
       name: Genre
   Redhead:
+    file_poster: /opt/pmm-configs/adult/images/genre/redhead.jpeg
     smart_filter:
       all:
         genre: Redhead
@@ -419,6 +565,7 @@ collections:
     template:
       name: Genre
   Roleplay:
+    file_poster: /opt/pmm-configs/adult/images/genre/roleplay.jpg
     smart_filter:
       all:
         genre: Roleplay
@@ -426,6 +573,7 @@ collections:
     template:
       name: Genre
   Romantic:
+    file_poster: /opt/pmm-configs/adult/images/genre/romantic.jpg
     smart_filter:
       all:
         genre: Romantic
@@ -433,6 +581,7 @@ collections:
     template:
       name: Genre
   Rough Sex:
+    file_poster: /opt/pmm-configs/adult/images/genre/rough.jpg
     smart_filter:
       all:
         genre: Rough Sex
@@ -440,6 +589,7 @@ collections:
     template:
       name: Genre
   School:
+    file_poster: /opt/pmm-configs/adult/images/genre/schoolgirl.jpeg
     smart_filter:
       any:
         genre:
@@ -449,6 +599,7 @@ collections:
     template:
       name: Genre
   Shaved Pussy:
+    file_poster: /opt/pmm-configs/adult/images/genre/shaved.jpg
     smart_filter:
       all:
         genre: Shaved Pussy
@@ -456,20 +607,15 @@ collections:
     template:
       name: Genre
   Small Titts:
+    file_poster: /opt/pmm-configs/adult/images/genre/smalltits.jpg
     smart_filter:
       all:
         genre: Small Titts
       sort_by: release.desc
     template:
       name: Genre
-  Smoking:
-    smart_filter:
-      all:
-        genre: Smoking
-      sort_by: release.desc
-    template:
-      name: Genre
   Solo:
+    file_poster: /opt/pmm-configs/adult/images/genre/solo_female.jpg
     smart_filter:
       all:
         genre: Solo
@@ -477,6 +623,7 @@ collections:
     template:
       name: Genre
   Squirting:
+    file_poster: /opt/pmm-configs/adult/images/genre/squirting.jpeg
     smart_filter:
       all:
         genre: Squirting
@@ -484,6 +631,7 @@ collections:
     template:
       name: Genre
   Step Sister:
+    file_poster: /opt/pmm-configs/adult/images/genre/family.jpeg
     smart_filter:
       any:
         genre:
@@ -497,6 +645,7 @@ collections:
     template:
       name: Genre
   Taboo:
+    file_poster: /opt/pmm-configs/adult/images/genre/taboo.jpg
     smart_filter:
       all:
         genre: Taboo
@@ -504,6 +653,7 @@ collections:
     template:
       name: Genre
   Tattoos:
+    file_poster: /opt/pmm-configs/adult/images/genre/tattoos.jpeg
     smart_filter:
       all:
         genre: Tattoos
@@ -511,6 +661,7 @@ collections:
     template:
       name: Genre
   Tease:
+    file_poster: /opt/pmm-configs/adult/images/genre/tease.webp
     smart_filter:
       all:
         genre: Tease
@@ -518,6 +669,7 @@ collections:
     template:
       name: Genre
   Teen:
+    file_poster: /opt/pmm-configs/adult/images/genre/teen.jpeg
     smart_filter:
       all:
         genre: Teen
@@ -525,6 +677,7 @@ collections:
     template:
       name: Genre
   Threesome:
+    file_poster: /opt/pmm-configs/adult/images/genre/threesome.jpg
     smart_filter:
       all:
         genre: Threesome
@@ -532,6 +685,7 @@ collections:
     template:
       name: Genre
   Toys:
+    file_poster: /opt/pmm-configs/adult/images/genre/toys.jpeg
     smart_filter:
       any:
         genre:
@@ -546,34 +700,15 @@ collections:
     template:
       name: Genre
   Trans:
+    file_poster: /opt/pmm-configs/adult/images/genre/trans.jpeg
     smart_filter:
       all:
         genre: Trans
       sort_by: release.desc
     template:
       name: Genre
-  Tutoring:
-    smart_filter:
-      all:
-        genre: Tutoring
-      sort_by: release.desc
-    template:
-      name: Genre
-  VR:
-    smart_filter:
-      all:
-        genre: VR
-      sort_by: release.desc
-    template:
-      name: Genre
-  Vintage:
-    smart_filter:
-      all:
-        genre: Vintage
-      sort_by: release.desc
-    template:
-      name: Genre
   Voyeur:
+    file_poster: /opt/pmm-configs/adult/images/genre/voyeur.jpg
     smart_filter:
       all:
         genre: Voyeur
@@ -581,6 +716,7 @@ collections:
     template:
       name: Genre
   Young:
+    file_poster: /opt/pmm-configs/adult/images/genre/young.jpg
     smart_filter:
       all:
         genre: Young
