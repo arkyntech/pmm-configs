@@ -15,104 +15,87 @@ collections:
     smart_filter:
       all:
         genre: Lesbian
-    url_poster: placeholder
   Latina:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Latina
-    url_poster: placeholder
   Ebony:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Ebony
-    url_poster: placeholder
   Asian:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Asian
-    url_poster: placeholder
   Threesome:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Threesome
-    url_poster: placeholder
   Creampie:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Creampie
-    url_poster: placeholder
   Teen:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Teen
-    url_poster: placeholder
   Anal:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Anal
-    url_poster: placeholder
   BDSM:
     template: { name: Genre }
     smart_filter:
       all:
         genre: BDSM
-    url_poster: placeholder
   Vintage:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Vintage
-    url_poster: placeholder
   European:
     template: { name: Genre }
     smart_filter:
       all:
         genre: European
-    url_poster: placeholder
   Interracial:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Interracial
-    url_poster: placeholder
   POV:
     template: { name: Genre }
     smart_filter:
       all:
         genre: POV
-    url_poster: placeholder
   Fetish:
     template: { name: Genre }
     smart_filter:
       all:
         genre: Fetish
-    url_poster: placeholder
   Voyeur:
      template: { name: Genre }
      smart_filter:
        all:
           genre: Voyeur
-     url_poster: placeholder
-  Gangbang:
+   Gangbang:
      template: { name: Genre }
      smart_filter:
        all:
          genre: Gangbang
-     url_poster: placeholder
-  DP:
+   DP:
      template: { name: Genre }
      smart_filter:
        all:
          genre: DP
-     url_poster: placeholder
-  VR:
+   VR:
      template: { name: Genre }
      smart_filter:
        all:
@@ -123,8 +106,7 @@ collections:
      smart_filter:
        all:
          genre: Cosplay
-     url_poster: placeholder
-  Solo:
+   Solo:
      template: { name: Genre }
      smart_filter:
        all:
