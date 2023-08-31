@@ -3,7 +3,6 @@ templates:
     sort_title: +1_<<collection_name>>
     sync_mode: sync
     collection_mode: hide  
-    sort_by: year.desc
 
 ##########################################
 #               Top Rated                #       
