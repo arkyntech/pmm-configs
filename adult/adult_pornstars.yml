@@ -118,12 +118,6 @@ collections:
       all:
         genre: Danika Mori
     url_poster: placeholder
-  Mia Malkova:
-    template: { name: TopRated }
-    smart_filter:
-      all:
-        genre: Mia Malkova
-    url_poster: placeholder
   Gina Valentina:
     template: { name: TopRated }
     smart_filter:
