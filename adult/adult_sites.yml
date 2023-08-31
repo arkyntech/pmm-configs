@@ -1,9 +1,9 @@
 templates:
-  Genre:
+  Sites:
     sort_title: +1_<<collection_name>>
     sync_mode: sync
     collection_mode: hide  
-    collection_order: custom
+    sort_by: release.desc
     cache_builders: 7
 
 ##########################################
