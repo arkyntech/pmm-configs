@@ -1,159 +1,42 @@
 ---
 ##########################################
-#               Top Rated                #       
+#               Top Rated                #
 ##########################################
 collections:
+  Adorable:
+    smart_filter:
+      all:
+        genre: Adorable
+      sort_by: release.desc
+    template:
+      name: Genre
+  Adult:
+    smart_filter:
+      all:
+        genre: Adult
+      sort_by: release.desc
+    template:
+      name: Genre
+  Adultery:
+    smart_filter:
+      all:
+        genre: Adultery
+      sort_by: release.desc
+    template:
+      name: Genre
+  Alt:
+    smart_filter:
+      any:
+        genre:
+          - Alt Fetish
+          - AltFetich
+      sort_by: release.desc
+    template:
+      name: Genre
   Anal:
     smart_filter:
       all:
         genre: Anal
-      sort_by: release.desc
-    template:
-      name: Genre
-  Asian:
-    smart_filter:
-      all:
-        genre: Asian
-      sort_by: release.desc
-    template:
-      name: Genre
-  BDSM:
-    smart_filter:
-      all:
-        genre: BDSM
-      sort_by: release.desc
-    template:
-      name: Genre
-  Cosplay:
-    smart_filter:
-      all:
-        genre: Cosplay
-      sort_by: release.desc
-    template:
-      name: Genre
-  Creampie:
-    smart_filter:
-      all:
-        genre: Creampie
-      sort_by: release.desc
-    template:
-      name: Genre
-  DP:
-    smart_filter:
-      all:
-        genre: DP
-      sort_by: release.desc
-    template:
-      name: Genre
-  Ebony:
-    smart_filter:
-      all:
-        genre: Ebony
-      sort_by: release.desc
-    template:
-      name: Genre
-  European:
-    smart_filter:
-      all:
-        genre: European
-      sort_by: release.desc
-    template:
-      name: Genre
-  Fetish:
-    smart_filter:
-      all:
-        genre: Fetish
-      sort_by: release.desc
-    template:
-      name: Genre
-  Gangbang:
-    smart_filter:
-      all:
-        genre: Gangbang
-      sort_by: release.desc
-    template:
-      name: Genre
-  Interracial:
-    smart_filter:
-      all:
-        genre: Interracial
-      sort_by: release.desc
-    template:
-      name: Genre
-  Latina:
-    smart_filter:
-      all:
-        genre: Latina
-      sort_by: release.desc
-    template:
-      name: Genre
-  Lesbian:
-    smart_filter:
-      all:
-        genre: Lesbian
-      sort_by: release.desc
-    template:
-      name: Genre
-  POV:
-    smart_filter:
-      all:
-        genre: POV
-      sort_by: release.desc
-    template:
-      name: Genre
-  Solo:
-    smart_filter:
-      all:
-        genre: Solo
-      sort_by: release.desc
-    template:
-      name: Genre
-  Teen:
-    smart_filter:
-      all:
-        genre: Teen
-      sort_by: release.desc
-    template:
-      name: Genre
-  Threesome:
-    smart_filter:
-      all:
-        genre: Threesome
-      sort_by: release.desc
-    template:
-      name: Genre
-  VR:
-    smart_filter:
-      all:
-        genre: VR
-      sort_by: release.desc
-    template:
-      name: Genre
-  Vintage:
-    smart_filter:
-      all:
-        genre: Vintage
-      sort_by: release.desc
-    template:
-      name: Genre
-  Voyeur:
-    smart_filter:
-      all:
-        genre: Voyeur
-      sort_by: release.desc
-    template:
-      name: Genre
-  Mature:
-    smart_filter:
-      all:
-        genre: Mature
-      sort_by: release.desc
-    template:
-      name: Genre
-  Japanese:
-    smart_filter:
-      all:
-        genre: Japanese
       sort_by: release.desc
     template:
       name: Genre
@@ -164,17 +47,17 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
-  Babysitter:
+  Asian:
     smart_filter:
       all:
-        genre: Babysitter
+        genre: Asian
       sort_by: release.desc
     template:
       name: Genre
-  Babe:
+  BBC:
     smart_filter:
       all:
-        genre: Babe
+        genre: BBC
       sort_by: release.desc
     template:
       name: Genre
@@ -185,10 +68,45 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
+  BDSM:
+    smart_filter:
+      all:
+        genre: BDSM
+      sort_by: release.desc
+    template:
+      name: Genre
+  Babe:
+    smart_filter:
+      all:
+        genre: Babe
+      sort_by: release.desc
+    template:
+      name: Genre
+  Babysitter:
+    smart_filter:
+      all:
+        genre: Babysitter
+      sort_by: release.desc
+    template:
+      name: Genre
+  Big Ass:
+    smart_filter:
+      all:
+        genre: Big Ass
+      sort_by: release.desc
+    template:
+      name: Genre
   Big Dick:
     smart_filter:
       all:
         genre: Big Dick
+      sort_by: release.desc
+    template:
+      name: Genre
+  Big Tits:
+    smart_filter:
+      all:
+        genre: ig Tits
       sort_by: release.desc
     template:
       name: Genre
@@ -213,20 +131,6 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
-  Big Ass:
-    smart_filter:
-      all:
-        genre: Big Ass
-      sort_by: release.desc
-    template:
-      name: Genre
-  Big Tits:
-    smart_filter:
-      all:
-        genre: ig Tits
-      sort_by: release.desc
-    template:
-      name: Genre
   Brazilian:
     smart_filter:
       all:
@@ -248,6 +152,13 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
+  Car:
+    smart_filter:
+      all:
+        genre: Car
+      sort_by: release.desc
+    template:
+      name: Genre
   Casting:
     smart_filter:
       all:
@@ -259,6 +170,20 @@ collections:
     smart_filter:
       all:
         genre: College
+      sort_by: release.desc
+    template:
+      name: Genre
+  Cosplay:
+    smart_filter:
+      all:
+        genre: Cosplay
+      sort_by: release.desc
+    template:
+      name: Genre
+  Creampie:
+    smart_filter:
+      all:
+        genre: Creampie
       sort_by: release.desc
     template:
       name: Genre
@@ -276,10 +201,10 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
-  Feet:
+  DP:
     smart_filter:
       all:
-        genre: Feet
+        genre: DP
       sort_by: release.desc
     template:
       name: Genre
@@ -290,10 +215,24 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
-  Orgasm:
+  Ebony:
     smart_filter:
       all:
-        genre: Orgasm
+        genre: Ebony
+      sort_by: release.desc
+    template:
+      name: Genre
+  European:
+    smart_filter:
+      all:
+        genre: European
+      sort_by: release.desc
+    template:
+      name: Genre
+  Feet:
+    smart_filter:
+      all:
+        genre: Feet
       sort_by: release.desc
     template:
       name: Genre
@@ -318,10 +257,24 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
+  Flexible:
+    smart_filter:
+      all:
+        genre: Flexible
+      sort_by: release.desc
+    template:
+      name: Genre
   Gangbang:
     smart_filter:
       all:
         genre: Gangbang
+      sort_by: release.desc
+    template:
+      name: Genre
+  Girlfriend:
+    smart_filter:
+      all:
+        genre: Girlfriend
       sort_by: release.desc
     template:
       name: Genre
@@ -346,6 +299,34 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
+  Japanese:
+    smart_filter:
+      all:
+        genre: Japanese
+      sort_by: release.desc
+    template:
+      name: Genre
+  Latina:
+    smart_filter:
+      all:
+        genre: Latina
+      sort_by: release.desc
+    template:
+      name: Genre
+  Lesbian:
+    smart_filter:
+      all:
+        genre: Lesbian
+      sort_by: release.desc
+    template:
+      name: Genre
+  Lingerie:
+    smart_filter:
+      all:
+        genre: Lingerie
+      sort_by: release.desc
+    template:
+      name: Genre
   Massage:
     smart_filter:
       all:
@@ -360,10 +341,31 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
+  Mature:
+    smart_filter:
+      all:
+        genre: Mature
+      sort_by: release.desc
+    template:
+      name: Genre
+  Orgasm:
+    smart_filter:
+      all:
+        genre: Orgasm
+      sort_by: release.desc
+    template:
+      name: Genre
   Orgy:
     smart_filter:
       all:
         genre: Orgy
+      sort_by: release.desc
+    template:
+      name: Genre
+  POV:
+    smart_filter:
+      all:
+        genre: POV
       sort_by: release.desc
     template:
       name: Genre
@@ -384,7 +386,7 @@ collections:
   Pornstar:
     smart_filter:
       all:
-        genre: BonPornstarage
+        genre: Pornstar
       sort_by: release.desc
     template:
       name: Genre
@@ -399,6 +401,13 @@ collections:
     smart_filter:
       all:
         genre: Public Nudity
+      sort_by: release.desc
+    template:
+      name: Genre
+  Punishment:
+    smart_filter:
+      all:
+        genre: Punishment
       sort_by: release.desc
     template:
       name: Genre
@@ -433,8 +442,16 @@ collections:
   School:
     smart_filter:
       any:
-        genre: School
-        genre: Schoolgirl
+        genre:
+          - School
+          - Schoolgirl
+      sort_by: release.desc
+    template:
+      name: Genre
+  Shaved Pussy:
+    smart_filter:
+      all:
+        genre: Shaved Pussy
       sort_by: release.desc
     template:
       name: Genre
@@ -469,82 +486,20 @@ collections:
   Step Sister:
     smart_filter:
       any:
-        genre: Step Siblings
-        genre: Step Brother
-        genre: Step Sis
-        genre: Stepbrother
-        genre: Stepsister
-        genre: Sister
+        genre:
+          - Step Siblings
+          - Step Brother
+          - Step Sis
+          - Stepbrother
+          - Stepsister
+          - Sister
       sort_by: release.desc
     template:
       name: Genre
-  Toys:
-    smart_filter:
-      any:
-        genre: Anal Toys
-        genre: Sextoys
-        genre: Toys
-        genre: Toys / Other
-        genre: Toys / Vibrators
-        genre: Fuck Toys
-        genre: BDSM Toys
-      sort_by: release.desc
-    template:
-      name: Genre
-  Trans:
+  Taboo:
     smart_filter:
       all:
-        genre: Trans
-      sort_by: release.desc
-    template:
-      name: Genre
-  Adorable:
-    smart_filter:
-      all:
-        genre: Adorable
-      sort_by: release.desc
-    template:
-      name: Genre
-  Alt:
-    smart_filter:
-      any:
-        genre: Alt Fetish
-        genre: AltFetich
-      sort_by: release.desc
-    template:
-      name: Genre
-  Girlfriend:
-    smart_filter:
-      all:
-        genre: Girlfriend
-      sort_by: release.desc
-    template:
-      name: Genre
-  Young:
-    smart_filter:
-      all:
-        genre: Young
-      sort_by: release.desc
-    template:
-      name: Genre
-  BBC:
-    smart_filter:
-      all:
-        genre: BBC
-      sort_by: release.desc
-    template:
-      name: Genre
-  Shaved Pussy:
-    smart_filter:
-      all:
-        genre: Shaved Pussy
-      sort_by: release.desc
-    template:
-      name: Genre
-  Lingerie:
-    smart_filter:
-      all:
-        genre: Lingerie
+        genre: Taboo
       sort_by: release.desc
     template:
       name: Genre
@@ -562,45 +517,38 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
-  Car:
+  Teen:
     smart_filter:
       all:
-        genre: Car
+        genre: Teen
       sort_by: release.desc
     template:
       name: Genre
-  Adultery:
+  Threesome:
     smart_filter:
       all:
-        genre: Adultery
+        genre: Threesome
       sort_by: release.desc
     template:
       name: Genre
-  Adult:
+  Toys:
     smart_filter:
-      all:
-        genre: Adult
+      any:
+        genre:
+          - Anal Toys
+          - Sextoys
+          - Toys
+          - Toys / Other
+          - Toys / Vibrators
+          - Fuck Toys
+          - BDSM Toys
       sort_by: release.desc
     template:
       name: Genre
-  Flexible:
+  Trans:
     smart_filter:
       all:
-        genre: Flexible
-      sort_by: release.desc
-    template:
-      name: Genre
-  Punishment:
-    smart_filter:
-      all:
-        genre: Punishment
-      sort_by: release.desc
-    template:
-      name: Genre
-  Taboo:
-    smart_filter:
-      all:
-        genre: Taboo
+        genre: Trans
       sort_by: release.desc
     template:
       name: Genre
@@ -608,6 +556,34 @@ collections:
     smart_filter:
       all:
         genre: Tutoring
+      sort_by: release.desc
+    template:
+      name: Genre
+  VR:
+    smart_filter:
+      all:
+        genre: VR
+      sort_by: release.desc
+    template:
+      name: Genre
+  Vintage:
+    smart_filter:
+      all:
+        genre: Vintage
+      sort_by: release.desc
+    template:
+      name: Genre
+  Voyeur:
+    smart_filter:
+      all:
+        genre: Voyeur
+      sort_by: release.desc
+    template:
+      name: Genre
+  Young:
+    smart_filter:
+      all:
+        genre: Young
       sort_by: release.desc
     template:
       name: Genre
