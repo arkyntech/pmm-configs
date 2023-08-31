@@ -143,6 +143,474 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
+  Mature:
+    smart_filter:
+      all:
+        genre: Mature
+      sort_by: release.desc
+    template:
+      name: Genre
+  Japanese:
+    smart_filter:
+      all:
+        genre: Japanese
+      sort_by: release.desc
+    template:
+      name: Genre
+  Arabic:
+    smart_filter:
+      all:
+        genre: Arabic
+      sort_by: release.desc
+    template:
+      name: Genre
+  Babysitter:
+    smart_filter:
+      all:
+        genre: Babysitter
+      sort_by: release.desc
+    template:
+      name: Genre
+  Babe:
+    smart_filter:
+      all:
+        genre: Babe
+      sort_by: release.desc
+    template:
+      name: Genre
+  BBW:
+    smart_filter:
+      all:
+        genre: BBW
+      sort_by: release.desc
+    template:
+      name: Genre
+  Big Dick:
+    smart_filter:
+      all:
+        genre: Big Dick
+      sort_by: release.desc
+    template:
+      name: Genre
+  Blonde:
+    smart_filter:
+      all:
+        genre: Blonde
+      sort_by: release.desc
+    template:
+      name: Genre
+  Blowjob:
+    smart_filter:
+      all:
+        genre: Blowjob
+      sort_by: release.desc
+    template:
+      name: Genre
+  Bondage:
+    smart_filter:
+      all:
+        genre: Bondage
+      sort_by: release.desc
+    template:
+      name: Genre
+  Big Ass:
+    smart_filter:
+      all:
+        genre: Big Ass
+      sort_by: release.desc
+    template:
+      name: Genre
+  Big Tits:
+    smart_filter:
+      all:
+        genre: ig Tits
+      sort_by: release.desc
+    template:
+      name: Genre
+  Brazilian:
+    smart_filter:
+      all:
+        genre: Brazilian
+      sort_by: release.desc
+    template:
+      name: Genre
+  Brunette:
+    smart_filter:
+      all:
+        genre: Brunette
+      sort_by: release.desc
+    template:
+      name: Genre
+  Bukkake:
+    smart_filter:
+      all:
+        genre: Bukkake
+      sort_by: release.desc
+    template:
+      name: Genre
+  Casting:
+    smart_filter:
+      all:
+        genre: Casting
+      sort_by: release.desc
+    template:
+      name: Genre
+  College:
+    smart_filter:
+      all:
+        genre: College
+      sort_by: release.desc
+    template:
+      name: Genre
+  Cuckold:
+    smart_filter:
+      all:
+        genre: Cuckold
+      sort_by: release.desc
+    template:
+      name: Genre
+  Cumshot:
+    smart_filter:
+      all:
+        genre: Cumshot
+      sort_by: release.desc
+    template:
+      name: Genre
+  Feet:
+    smart_filter:
+      all:
+        genre: Feet
+      sort_by: release.desc
+    template:
+      name: Genre
+  Double Penetration:
+    smart_filter:
+      all:
+        genre: Double Penetration
+      sort_by: release.desc
+    template:
+      name: Genre
+  Orgasm:
+    smart_filter:
+      all:
+        genre: Orgasm
+      sort_by: release.desc
+    template:
+      name: Genre
+  Fetish:
+    smart_filter:
+      all:
+        genre: Fetish
+      sort_by: release.desc
+    template:
+      name: Genre
+  Fingering:
+    smart_filter:
+      all:
+        genre: Fingering
+      sort_by: release.desc
+    template:
+      name: Genre
+  Fisting:
+    smart_filter:
+      all:
+        genre: Fisting
+      sort_by: release.desc
+    template:
+      name: Genre
+  Gangbang:
+    smart_filter:
+      all:
+        genre: Gangbang
+      sort_by: release.desc
+    template:
+      name: Genre
+  Hangjob:
+    smart_filter:
+      all:
+        genre: Bondage
+      sort_by: release.desc
+    template:
+      name: Genre
+  Hardcore:
+    smart_filter:
+      all:
+        genre: Hardcore
+      sort_by: release.desc
+    template:
+      name: Genre
+  Interracial:
+    smart_filter:
+      all:
+        genre: Interracial
+      sort_by: release.desc
+    template:
+      name: Genre
+  Massage:
+    smart_filter:
+      all:
+        genre: Massage
+      sort_by: release.desc
+    template:
+      name: Genre
+  Masturbation:
+    smart_filter:
+      all:
+        genre: Masturbation
+      sort_by: release.desc
+    template:
+      name: Genre
+  Orgy:
+    smart_filter:
+      all:
+        genre: Orgy
+      sort_by: release.desc
+    template:
+      name: Genre
+  Parody:
+    smart_filter:
+      all:
+        genre: Parody
+      sort_by: release.desc
+    template:
+      name: Genre
+  Party:
+    smart_filter:
+      all:
+        genre: Party
+      sort_by: release.desc
+    template:
+      name: Genre
+  Pornstar:
+    smart_filter:
+      all:
+        genre: BonPornstarage
+      sort_by: release.desc
+    template:
+      name: Genre
+  Pov:
+    smart_filter:
+      all:
+        genre: Pov
+      sort_by: release.desc
+    template:
+      name: Genre
+  Public Nudity:
+    smart_filter:
+      all:
+        genre: Public Nudity
+      sort_by: release.desc
+    template:
+      name: Genre
+  Redhead:
+    smart_filter:
+      all:
+        genre: Redhead
+      sort_by: release.desc
+    template:
+      name: Genre
+  Roleplay:
+    smart_filter:
+      all:
+        genre: Roleplay
+      sort_by: release.desc
+    template:
+      name: Genre
+  Romantic:
+    smart_filter:
+      all:
+        genre: Romantic
+      sort_by: release.desc
+    template:
+      name: Genre
+  Rough Sex:
+    smart_filter:
+      all:
+        genre: Rough Sex
+      sort_by: release.desc
+    template:
+      name: Genre
+  School:
+    smart_filter:
+      any:
+        genre: School
+        genre: Schoolgirl
+      sort_by: release.desc
+    template:
+      name: Genre
+  Small Titts:
+    smart_filter:
+      all:
+        genre: Small Titts
+      sort_by: release.desc
+    template:
+      name: Genre
+  Smoking:
+    smart_filter:
+      all:
+        genre: Smoking
+      sort_by: release.desc
+    template:
+      name: Genre
+  Solo:
+    smart_filter:
+      all:
+        genre: Solo
+      sort_by: release.desc
+    template:
+      name: Genre
+  Squirting:
+    smart_filter:
+      all:
+        genre: Squirting
+      sort_by: release.desc
+    template:
+      name: Genre
+  Step Sister:
+    smart_filter:
+      any:
+        genre: Step Siblings
+        genre: Step Brother
+        genre: Step Sis
+        genre: Stepbrother
+        genre: Stepsister
+        genre: Sister
+      sort_by: release.desc
+    template:
+      name: Genre
+  Toys:
+    smart_filter:
+      any:
+        genre: Anal Toys
+        genre: Sextoys
+        genre: Toys
+        genre: Toys / Other
+        genre: Toys / Vibrators
+        genre: Fuck Toys
+        genre: BDSM Toys
+      sort_by: release.desc
+    template:
+      name: Genre
+  Trans:
+    smart_filter:
+      all:
+        genre: Trans
+      sort_by: release.desc
+    template:
+      name: Genre
+  Adorable:
+    smart_filter:
+      all:
+        genre: Adorable
+      sort_by: release.desc
+    template:
+      name: Genre
+  Alt:
+    smart_filter:
+      any:
+        genre: Alt Fetish
+        genre: AltFetich
+      sort_by: release.desc
+    template:
+      name: Genre
+  Girlfriend:
+    smart_filter:
+      all:
+        genre: Girlfriend
+      sort_by: release.desc
+    template:
+      name: Genre
+  Young:
+    smart_filter:
+      all:
+        genre: Young
+      sort_by: release.desc
+    template:
+      name: Genre
+  BBC:
+    smart_filter:
+      all:
+        genre: BBC
+      sort_by: release.desc
+    template:
+      name: Genre
+  Shaved Pussy:
+    smart_filter:
+      all:
+        genre: Shaved Pussy
+      sort_by: release.desc
+    template:
+      name: Genre
+  Lingerie:
+    smart_filter:
+      all:
+        genre: Lingerie
+      sort_by: release.desc
+    template:
+      name: Genre
+  Tattoos:
+    smart_filter:
+      all:
+        genre: Tattoos
+      sort_by: release.desc
+    template:
+      name: Genre
+  Tease:
+    smart_filter:
+      all:
+        genre: Tease
+      sort_by: release.desc
+    template:
+      name: Genre
+  Car:
+    smart_filter:
+      all:
+        genre: Car
+      sort_by: release.desc
+    template:
+      name: Genre
+  Adultery:
+    smart_filter:
+      all:
+        genre: Adultery
+      sort_by: release.desc
+    template:
+      name: Genre
+  Adult:
+    smart_filter:
+      all:
+        genre: Adult
+      sort_by: release.desc
+    template:
+      name: Genre
+  Flexible:
+    smart_filter:
+      all:
+        genre: Flexible
+      sort_by: release.desc
+    template:
+      name: Genre
+  Punishment:
+    smart_filter:
+      all:
+        genre: Punishment
+      sort_by: release.desc
+    template:
+      name: Genre
+  Taboo:
+    smart_filter:
+      all:
+        genre: Taboo
+      sort_by: release.desc
+    template:
+      name: Genre
+  Tutoring:
+    smart_filter:
+      all:
+        genre: Tutoring
+      sort_by: release.desc
+    template:
+      name: Genre
 templates:
   Genre:
     collection_mode: hide
