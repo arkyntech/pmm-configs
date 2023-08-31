@@ -3,8 +3,7 @@ templates:
     sort_title: +2_<<collection_name>>
     sync_mode: sync
     collection_mode: hide  
-    sort_by: release.desc
-    cache_builders: 7
+    sort_by: year.desc
 
 ##########################################
 #               Top Rated                #       
