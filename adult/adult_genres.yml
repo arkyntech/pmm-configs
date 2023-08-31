@@ -1,0 +1,132 @@
+templates:
+  Genre:
+    sort_title: +2_<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide  
+    collection_order: custom
+    cache_builders: 7
+
+##########################################
+#               Top Rated                #       
+##########################################
+collections:
+  Lesbian:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Lesbian
+    url_poster: placeholder
+  Latina:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Latina
+    url_poster: placeholder
+  Ebony:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Ebony
+    url_poster: placeholder
+  Asian:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Asian
+    url_poster: placeholder
+  Threesome:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Threesome
+    url_poster: placeholder
+  Creampie:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Creampie
+    url_poster: placeholder
+  Teen:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Teen
+    url_poster: placeholder
+  Anal:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Anal
+    url_poster: placeholder
+  BDSM:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: BDSM
+    url_poster: placeholder
+  Vintage:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Vintage
+    url_poster: placeholder
+  European:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: European
+    url_poster: placeholder
+  Interracial:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Interracial
+    url_poster: placeholder
+  POV:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: POV
+    url_poster: placeholder
+  Fetish:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Fetish
+    url_poster: placeholder
+  Voyeur:
+     template: { name: TopRated }
+     smart_filter:
+       all:
+          genre: Voyeur
+     url_poster: placeholder
+  Gangbang:
+     template: { name: TopRated }
+     smart_filter:
+       all:
+         genre: Gangbang
+     url_poster: placeholder
+  DP:
+     template: { name: TopRated }
+     smart_filter:
+       all:
+         genre: DP
+     url_poster: placeholder
+  VR:
+     template: { name: TopRated }
+     smart_filter:
+       all:
+          genre: VR
+     url_poster: placeholder 
+  Cosplay:
+     template: { name: TopRated }
+     smart_filter:
+       all:
+         genre: Cosplay
+     url_poster: placeholder
+  Solo:
+     template: { name: TopRated }
+     smart_filter:
+       all:
+         genre: Solo
+     url_poster: placeholder    

@@ -1,0 +1,18 @@
+templates:
+  Genre:
+    sort_title: +1_<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide  
+    collection_order: custom
+    cache_builders: 7
+
+##########################################
+#               Top Rated                #       
+##########################################
+collections:
+  Lesbian:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Lesbian
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_toprated_action.jpg

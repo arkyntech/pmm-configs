@@ -1,0 +1,187 @@
+templates:
+  Genre:
+    sort_title: +1_<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide  
+    collection_order: custom
+    cache_builders: 7
+
+##########################################
+#               Top Rated                #       
+##########################################
+collections:
+  Abella Danger:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Abella Danger
+    url_poster: placeholder
+  Riley Reid:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Riley Reid
+    url_poster: placeholder
+  Lana Rhoades:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Lana Rhoades
+    url_poster: placeholder
+  Violet Myers:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Violet Myers
+    url_poster: placeholder
+  Angela White:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Angela White
+    url_poster: placeholder
+  Eva Elfie:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Eva Elfie
+    url_poster: placeholder
+  Mia Malkova:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Mia Malkova
+    url_poster: placeholder
+  Alex Adams:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Alex Adams
+    url_poster: placeholder
+  Johnny Sins:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Johnny Sins
+    url_poster: placeholder
+  Emily Willis:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Emily Willis
+    url_poster: placeholder
+  Cory Chase:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Cory Chase
+    url_poster: placeholder
+  Lena Paul:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Lena Paul
+    url_poster: placeholder
+  Lexi Luna:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Lexi Luna
+    url_poster: placeholder
+  Eliza Ibarra:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Eliza Ibarra
+    url_poster: placeholder
+  Else Jean:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Elsa Jean
+    url_poster: placeholder
+  Skylar Vox:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Skylar Vox
+    url_poster: placeholder
+  James Dean:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: James Dean
+    url_poster: placeholder
+  Danika Mori:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Danika Mori
+    url_poster: placeholder
+  Mia Malkova:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Mia Malkova
+    url_poster: placeholder
+  Gina Valentina:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Gina Valentina
+    url_poster: placeholder
+  Dillion Harper:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Dillion Harper
+    url_poster: placeholder
+  Dani Daniels:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Dani Daniels
+    url_poster: placeholder
+  Luna Star:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Luna Star
+    url_poster: placeholder
+  Kristen Scott:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Angela
+    url_poster: placeholder
+  Asa Akira:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Asa Akira
+    url_poster: placeholder
+  Kira Noir:
+    template: { name: TopRated }
+    smart_filter:
+      all:
+        genre: Kira Noir
+    url_poster: placeholder
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
