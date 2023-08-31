@@ -94,7 +94,7 @@ collections:
       all:
         Actor: Eliza Ibarra
     url_poster: placeholder
-  Else Jean:
+  Elsa Jean:
     template: { name: Pornstar }
     smart_filter:
       all:
