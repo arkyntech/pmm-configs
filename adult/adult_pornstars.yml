@@ -1,204 +1,210 @@
-templates:
-  Pornstar:
-    sort_title: +1_<<collection_name>>
-    sync_mode: sync
-    collection_mode: hide  
-
+---
 ##########################################
 #               Top Rated                #       
 ##########################################
 collections:
   Abella Danger:
-    template: { name: Pornstar }
     file_poster: /opt/pmm-configs/adult/images/pornstars/abella-danger.webp
     smart_filter:
-      sort_by: release.desc
       all:
         Actor: Abella Danger
-  Riley Reid:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/riley-reid.webp
-    smart_filter:
       sort_by: release.desc
-      all:
-        Actor: Riley Reid
-  Lana Rhoades:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/lana-rhoades.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Lana Rhoades
-  Violet Myers:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/violet-myers.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Violet Myers
-  Angela White:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/angela-white.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Angela White
-  Eva Elfie:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/eva-elfie.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Eva Elfie
-  Mia Malkova:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/mia-malkova.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Mia Malkova
+    template:
+      name: Pornstar
   Alex Adams:
-    template: { name: Pornstar }
     file_poster: /opt/pmm-configs/adult/images/pornstars/alex-adams.webp
     smart_filter:
-      sort_by: release.desc
       all:
         Actor: Alex Adams
-  Johnny Sins:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/johnny-sins.webp
-    smart_filter:
       sort_by: release.desc
-      all:
-        Actor: Johnny Sins
-  Emily Willis:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/emily-willis.webp
+    template:
+      name: Pornstar
+  Angela White:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/angela-white.webp
     smart_filter:
-      sort_by: release.desc
       all:
-        Actor: Emily Willis
-  Cory Chase:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/cory-chase.webp
-    smart_filter:
+        Actor: Angela White
       sort_by: release.desc
-      all:
-        Actor: Cory Chase
-  Lena Paul:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/lena-paul.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Lena Paul
-  Lexi Luna:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/lexi-luna.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Lexi Luna
-  Eliza Ibarra:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/eziza-ibarra.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Eliza Ibarra
-  Elsa Jean:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/elsa-jean.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Elsa Jean
-  Skylar Vox:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/skylar-vox.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Skylar Vox
-  James Deen:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/james-dean.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: James Deen
-  Danika Mori:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/danika-mori.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Danika Mori
-  Gina Valentina:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/gina-valentina.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Gina Valentina
-  Dillion Harper:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/dillion-harper.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Dillion Harper
-  Dani Daniels:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/dani-daniels.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Dani Daniels
-  Luna Star:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/luna-star.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Luna Star
-  Kristen Scott:
-    template: { name: Pornstar }
-    file_poster: /opt/pmm-configs/adult/images/pornstars/kristen-scott.webp
-    smart_filter:
-      sort_by: release.desc
-      all:
-        Actor: Angela
+    template:
+      name: Pornstar
   Asa Akira:
-    template: { name: Pornstar }
     file_poster: /opt/pmm-configs/adult/images/pornstars/asa-akira.webp
     smart_filter:
-      sort_by: release.desc
       all:
         Actor: Asa Akira
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Cory Chase:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/cory-chase.webp
+    smart_filter:
+      all:
+        Actor: Cory Chase
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Dani Daniels:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/dani-daniels.webp
+    smart_filter:
+      all:
+        Actor: Dani Daniels
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Danika Mori:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/danika-mori.webp
+    smart_filter:
+      all:
+        Actor: Danika Mori
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Dillion Harper:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/dillion-harper.webp
+    smart_filter:
+      all:
+        Actor: Dillion Harper
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Eliza Ibarra:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/eziza-ibarra.webp
+    smart_filter:
+      all:
+        Actor: Eliza Ibarra
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Elsa Jean:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/elsa-jean.webp
+    smart_filter:
+      all:
+        Actor: Elsa Jean
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Emily Willis:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/emily-willis.webp
+    smart_filter:
+      all:
+        Actor: Emily Willis
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Eva Elfie:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/eva-elfie.webp
+    smart_filter:
+      all:
+        Actor: Eva Elfie
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Gina Valentina:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/gina-valentina.webp
+    smart_filter:
+      all:
+        Actor: Gina Valentina
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  James Deen:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/james-dean.webp
+    smart_filter:
+      all:
+        Actor: James Deen
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Johnny Sins:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/johnny-sins.webp
+    smart_filter:
+      all:
+        Actor: Johnny Sins
+      sort_by: release.desc
+    template:
+      name: Pornstar
   Kira Noir:
-    template: { name: Pornstar }
     file_poster: /opt/pmm-configs/adult/images/pornstars/kira-noir.webp
     smart_filter:
-      sort_by: release.desc
       all:
         Actor: Kira Noir
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Kristen Scott:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/kristen-scott.webp
+    smart_filter:
+      all:
+        Actor: Angela
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Lana Rhoades:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/lana-rhoades.webp
+    smart_filter:
+      all:
+        Actor: Lana Rhoades
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Lena Paul:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/lena-paul.webp
+    smart_filter:
+      all:
+        Actor: Lena Paul
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Lexi Luna:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/lexi-luna.webp
+    smart_filter:
+      all:
+        Actor: Lexi Luna
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Luna Star:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/luna-star.webp
+    smart_filter:
+      all:
+        Actor: Luna Star
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Mia Malkova:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/mia-malkova.webp
+    smart_filter:
+      all:
+        Actor: Mia Malkova
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Riley Reid:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/riley-reid.webp
+    smart_filter:
+      all:
+        Actor: Riley Reid
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Skylar Vox:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/skylar-vox.webp
+    smart_filter:
+      all:
+        Actor: Skylar Vox
+      sort_by: release.desc
+    template:
+      name: Pornstar
+  Violet Myers:
+    file_poster: /opt/pmm-configs/adult/images/pornstars/violet-myers.webp
+    smart_filter:
+      all:
+        Actor: Violet Myers
+      sort_by: release.desc
+    template:
+      name: Pornstar
+templates:
+  Pornstar:
+    collection_mode: hide
+    sort_title: +1_<<collection_name>>
+    sync_mode: sync

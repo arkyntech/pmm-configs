@@ -1,130 +1,150 @@
-templates:
-  Genre:
-    sort_title: +2_<<collection_name>>
-    sync_mode: sync
-    collection_mode: hide  
-
+---
 ##########################################
 #               Top Rated                #       
 ##########################################
 collections:
-  Lesbian:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Lesbian
-  Latina:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Latina
-  Ebony:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Ebony
-  Asian:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Asian
-  Threesome:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Threesome
-  Creampie:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Creampie
-  Teen:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Teen
   Anal:
-    template: { name: Genre }
     smart_filter:
-      sort_by: release.desc
       all:
         genre: Anal
-  BDSM:
-    template: { name: Genre }
-    smart_filter:
       sort_by: release.desc
+    template:
+      name: Genre
+  Asian:
+    smart_filter:
+      all:
+        genre: Asian
+      sort_by: release.desc
+    template:
+      name: Genre
+  BDSM:
+    smart_filter:
       all:
         genre: BDSM
-  Vintage:
-    template: { name: Genre }
-    smart_filter:
       sort_by: release.desc
-      all:
-        genre: Vintage
-  European:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: European
-  Interracial:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Interracial
-  POV:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: POV
-  Fetish:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Fetish
-  Voyeur:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Voyeur
-  Gangbang:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: Gangbang
-  DP:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: DP
-  VR:
-    template: { name: Genre }
-    smart_filter:
-      sort_by: release.desc
-      all:
-        genre: VR
+    template:
+      name: Genre
   Cosplay:
-    template: { name: Genre }
     smart_filter:
-      sort_by: release.desc
       all:
         genre: Cosplay
-  Solo:
-    template: { name: Genre }
-    smart_filter:
       sort_by: release.desc
+    template:
+      name: Genre
+  Creampie:
+    smart_filter:
+      all:
+        genre: Creampie
+      sort_by: release.desc
+    template:
+      name: Genre
+  DP:
+    smart_filter:
+      all:
+        genre: DP
+      sort_by: release.desc
+    template:
+      name: Genre
+  Ebony:
+    smart_filter:
+      all:
+        genre: Ebony
+      sort_by: release.desc
+    template:
+      name: Genre
+  European:
+    smart_filter:
+      all:
+        genre: European
+      sort_by: release.desc
+    template:
+      name: Genre
+  Fetish:
+    smart_filter:
+      all:
+        genre: Fetish
+      sort_by: release.desc
+    template:
+      name: Genre
+  Gangbang:
+    smart_filter:
+      all:
+        genre: Gangbang
+      sort_by: release.desc
+    template:
+      name: Genre
+  Interracial:
+    smart_filter:
+      all:
+        genre: Interracial
+      sort_by: release.desc
+    template:
+      name: Genre
+  Latina:
+    smart_filter:
+      all:
+        genre: Latina
+      sort_by: release.desc
+    template:
+      name: Genre
+  Lesbian:
+    smart_filter:
+      all:
+        genre: Lesbian
+      sort_by: release.desc
+    template:
+      name: Genre
+  POV:
+    smart_filter:
+      all:
+        genre: POV
+      sort_by: release.desc
+    template:
+      name: Genre
+  Solo:
+    smart_filter:
       all:
         genre: Solo
+      sort_by: release.desc
+    template:
+      name: Genre
+  Teen:
+    smart_filter:
+      all:
+        genre: Teen
+      sort_by: release.desc
+    template:
+      name: Genre
+  Threesome:
+    smart_filter:
+      all:
+        genre: Threesome
+      sort_by: release.desc
+    template:
+      name: Genre
+  VR:
+    smart_filter:
+      all:
+        genre: VR
+      sort_by: release.desc
+    template:
+      name: Genre
+  Vintage:
+    smart_filter:
+      all:
+        genre: Vintage
+      sort_by: release.desc
+    template:
+      name: Genre
+  Voyeur:
+    smart_filter:
+      all:
+        genre: Voyeur
+      sort_by: release.desc
+    template:
+      name: Genre
+templates:
+  Genre:
+    collection_mode: hide
+    sort_title: +2_<<collection_name>>
+    sync_mode: sync
