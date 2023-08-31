@@ -11,102 +11,122 @@ collections:
   Lesbian:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Lesbian
   Latina:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Latina
   Ebony:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Ebony
   Asian:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Asian
   Threesome:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Threesome
   Creampie:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Creampie
   Teen:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Teen
   Anal:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Anal
   BDSM:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: BDSM
   Vintage:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Vintage
   European:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: European
   Interracial:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Interracial
   POV:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: POV
   Fetish:
     template: { name: Genre }
     smart_filter:
+      sort_by: release.desc
       all:
         genre: Fetish
   Voyeur:
      template: { name: Genre }
      smart_filter:
+      sort_by: release.desc
        all:
           genre: Voyeur
    Gangbang:
      template: { name: Genre }
      smart_filter:
+      sort_by: release.desc
        all:
          genre: Gangbang
    DP:
      template: { name: Genre }
      smart_filter:
+      sort_by: release.desc
        all:
          genre: DP
    VR:
      template: { name: Genre }
      smart_filter:
+      sort_by: release.desc
        all:
           genre: VR
      url_poster: placeholder 
   Cosplay:
      template: { name: Genre }
      smart_filter:
+      sort_by: release.desc
        all:
          genre: Cosplay
    Solo:
      template: { name: Genre }
      smart_filter:
+      sort_by: release.desc
        all:
          genre: Solo
      url_poster: placeholder    
