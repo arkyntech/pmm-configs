@@ -104,12 +104,12 @@ collections:
       sort_by: release.desc
       all:
         Actor: Skylar Vox
-  James Dean:
+  James Deen:
     template: { name: Pornstar }
     smart_filter:
       sort_by: release.desc
       all:
-        Actor: James Dean
+        Actor: James Deen
   Danika Mori:
     template: { name: Pornstar }
     smart_filter:
