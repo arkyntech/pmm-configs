@@ -1,8 +1,3 @@
----
-##########################################
-#               Top Rated                #       
-##########################################
-collections:
 collections:
   A J Applegate:
     smart_filter:
@@ -61980,3 +61975,8 @@ collections:
     template:
       name: Pornstar
     url_poster: https://cdn.metadataapi.net/performer/0a/5d/0b/dda3645ae0064aac3d989452389fb93/poster/10d0dad2bcc631bd112e4015f5cc6fc0076480bb
+templates:
+  Pornstar:
+    collection_mode: hide
+    sort_title: +1_<<collection_name>>
+    sync_mode: sync
