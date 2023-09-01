@@ -272,7 +272,7 @@ collections:
     template:
       name: Genre
   Double Penetration:
-    file_poster: /opt/pmm-configs/adult/images/genre/double-penetration.jpg
+    file_poster: /opt/pmm-configs/adult/images/genre/double-penetration.jpeg
     smart_filter:
       all:
         genre: Double Penetration
@@ -308,7 +308,7 @@ collections:
     template:
       name: Genre
   Feet:
-    file_poster: /opt/pmm-configs/adult/images/genre/feet.jpeg
+    file_poster: /opt/pmm-configs/adult/images/genre/feet.jpg
     smart_filter:
       all:
         genre: Feet
@@ -472,7 +472,7 @@ collections:
     template:
       name: Genre
   Mature:
-    file_poster: /opt/pmm-configs/adult/images/genre/mature.jpeg
+    file_poster: /opt/pmm-configs/adult/images/genre/mature.jpg
     smart_filter:
       all:
         genre: Mature
@@ -525,7 +525,7 @@ collections:
     template:
       name: Genre
   Party:
-    file_poster: /opt/pmm-configs/adult/images/genre/party.jpg
+    file_poster: /opt/pmm-configs/adult/images/genre/party.png
     smart_filter:
       all:
         genre: Party
