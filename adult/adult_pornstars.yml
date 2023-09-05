@@ -340,14 +340,6 @@ collections:
     template:
       name: Pornstar
     url_poster: https://cdn.metadataapi.net/performer/88/14/00/d83ecb37be09721e4fbc24460a2454e/poster/alex-de-la-flor.webp
-  Alex Duca:
-    smart_filter:
-      all:
-        Actor: Alex Duca
-      sort_by: release.desc
-    template:
-      name: Pornstar
-    url_poster: https://cdn.metadataapi.net/performer/00/c3/c7/642eaf809ca51336c65862d9c1a27c2/poster/36fce66c22c93f0a823adcdc61bbd191deda6752
   Alex Grey:
     smart_filter:
       all:
