@@ -1,7 +1,7 @@
 templates:
   Pornstar:
     collection_mode: hide
-    sort_title: +1_<<collection_name>>
+    sort_title: +2_<<collection_name>>
     sync_mode: sync
 collections:
   AJ Applegate:

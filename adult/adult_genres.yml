@@ -1,7 +1,8 @@
----
-##########################################
-#               Top Rated                #
-##########################################
+templates:
+  Genre:
+    collection_mode: hide
+    sort_title: +1_<<collection_name>>
+    sync_mode: sync
 collections:
   Adorable:
     file_poster: /opt/pmm-configs/adult/images/genre/adorable.jpg
@@ -723,8 +724,3 @@ collections:
       sort_by: release.desc
     template:
       name: Genre
-templates:
-  Genre:
-    collection_mode: hide
-    sort_title: +2_<<collection_name>>
-    sync_mode: sync
