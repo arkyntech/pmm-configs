@@ -15,14 +15,12 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=action&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_action.jpg
-    visible_library: true
   Adventure:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=adventure&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_adventure.jpg
-    visible_library: true
   Animation:
     template: { name: Genre }
     imdb_list:
@@ -41,7 +39,6 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=comedy&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_comedy.jpg
-    visible_library: true
   Crime:
     template: { name: Genre }
     imdb_list:
