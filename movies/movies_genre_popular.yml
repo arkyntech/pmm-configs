@@ -21,14 +21,12 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_action.jpg
-    visible_library: true
   Popular Adventure:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_adventure.jpg
-    visible_library: true
   Popular Animation:
     template: { name: Genre }
     imdb_list:
@@ -47,7 +45,6 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_comedy.jpg
-    visible_library: true
   Popular Crime:
     template: { name: Genre }
     imdb_list:
@@ -126,7 +123,6 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_popular_thriller.jpg
-    visible_library: true
   Popular War:
     template: { name: Genre }
     imdb_list:
