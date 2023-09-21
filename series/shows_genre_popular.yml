@@ -132,7 +132,6 @@ collections:
      - url: https://www.imdb.com/search/title/?genres=thriller&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_thriller.jpg
-    visible_library: true
   War:
     template: { name: Genre }
     imdb_list:
