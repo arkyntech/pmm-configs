@@ -15,7 +15,7 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2023-01-01,2023-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2022.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2023.jpg
   Top Rated of 2022:
     template: { name: Chart, num: 2 }
     imdb_list:
