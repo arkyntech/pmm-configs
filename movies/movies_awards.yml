@@ -15,14 +15,14 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_winner&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Oscar Winners
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_academyawards.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards.jpg?raw=true
   Oscar Nominees:
     template: {name: Awards, num: 7 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_nominee&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Oscar Nominees
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_academyawards_nominated.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards_nominated.jpg?raw=true
   Emmy Award Winners:
     template: {name: Awards, num: 8 }
     imdb_list:
