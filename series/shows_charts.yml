@@ -17,6 +17,14 @@ collections:
       sort_by: tmdbpopular.desc
     summary: Popular Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular.jpg?raw=true
+  Trending Shows:
+    template: { name: Chart, num: 1 }
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/tv-shows-trakt-trending-wimrs7mfi5
+      limit: 125
+      sort_by: tmdbpopular.desc
+    summary: Popular Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_trending.jpg?raw=true
   Most Watched Daily:
     template: { name: Chart, num: 2 }
     tmdb_trending_daily: 50
