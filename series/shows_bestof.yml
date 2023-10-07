@@ -9,38 +9,45 @@ templates:
     cache_builders: 7
 collections:
 ### CHARTS ###
+  Top Rated of 2023:
+    template: { name: Chart, num: 1 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2023-01-01,2023-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+      limit: 75
+    summary: Top Rated Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2022.jpg
   Top Rated of 2022:
     template: { name: Chart, num: 1 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2022-01-01,2022-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2022.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2022.jpg
   Top Rated of 2021:
     template: { name: Chart, num: 2 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2021-01-01,2021-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2021.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2021.jpg
   Top Rated of 2020:
     template: { name: Chart, num: 3 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2020-01-01,2020-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2020.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2020.jpg
   Top Rated of 2019:
     template: { name: Chart, num: 4 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2019-01-01,2019-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2019.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2019.jpg
   Top Rated of 2018:
     template: { name: Chart, num: 5 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2018-01-01,2018-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
       limit: 75
     summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2018.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2018.jpg

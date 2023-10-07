@@ -16,17 +16,17 @@ collections:
       limit: 125
       sort_by: tmdbpopular.desc
     summary: Popular Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_popular.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular.jpg?raw=true
   Most Watched Daily:
     template: { name: Chart, num: 2 }
     tmdb_trending_daily: 50
     summary: Movies Trending across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_daily.jpg   
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/watched_tv_daily.jpg?raw=true 
   Most Watched Weekly:
     template: { name: Chart, num: 3 }
     tmdb_trending_weekly: 50
     summary: Movies Trending across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/watched_weekly.jpg 
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/watched_tv_weekly.jpg?raw=true 
   Top Rated Shows:
     template: { name: Chart, num: 6 } #kids is 7
     mdblist_list:
@@ -34,4 +34,4 @@ collections:
       limit: 125
       sort_by: tmdbpopular.desc
     summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated.jpg

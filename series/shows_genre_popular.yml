@@ -14,130 +14,130 @@ collections:
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=action&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_action.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_action.jpg?raw=true
   Adventure:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=adventure&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_adventure.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_adventure.jpg?raw=true
   Animation:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_animation.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_animation.jpg?raw=true
   Biography:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=biography&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_biography.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_biography.jpg?raw=true
   Comedy:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=comedy&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_comedy.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_comedy.jpg?raw=true
   Crime:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=crime&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_crime.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_crime.jpg?raw=true
   Documentaries:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=documentary&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_documentary.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_documentary.jpg?raw=true
   Drama:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=drama&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_drama.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_drama.jpg?raw=true
   Family:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=family&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_family.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_family.jpg?raw=true
   Fantasy:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=fantasy&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_fantasy.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_fantasy.jpg?raw=true
   History:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_history.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_history.jpg?raw=true
   Horror:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=horror&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_horror.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_horror.jpg?raw=true
   Music:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=music&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_music.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_music.jpg?raw=true
   Musicals:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=musical&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_musicals.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_musicals.jpg?raw=true
   Mystery:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=mystery&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_mystery.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_mystery.jpg?raw=true
   Romance:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=romance&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_romance.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_romance.jpg?raw=true
   Sci-Fi:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_scifi.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_scifi.jpg?raw=true
   Shorts:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=short&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_shorts.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_shorts.jpg?raw=true
   Sport:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=sport&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_sport.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_sport.jpg?raw=true
   Thriller:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=thriller&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_thriller.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_thriller.jpg?raw=true
   War:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=war&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_war.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_war.jpg?raw=true
   Western:
     template: { name: Genre }
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=western&title_type=tv_series,tv_special,tv_miniseries,tv_short&languages=en&sort=moviemeter,asc
        limit: 125
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Shows/tv_popular_western.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_western.jpg?raw=true
