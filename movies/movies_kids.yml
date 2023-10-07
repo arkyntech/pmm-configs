@@ -22,4 +22,4 @@ collections:
       limit: 1500
     summary: Popular movies for your Kid(s)!
     item_label: Kids
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Genre/Movies/movies_kids.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_kids.jpg?raw=true
