@@ -116,7 +116,7 @@ collections:
     imdb_list:
      - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_scifi.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_sci-fi.jpg?raw=true
   Popular Thriller:
     template: { name: Genre }
     imdb_list:
