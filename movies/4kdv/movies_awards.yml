@@ -9,43 +9,43 @@ templates:
     collection_order: custom
     cache_builders: 7
 collections:
-  Oscar Winners 4K DV:
-    template: {name: Awards, num: 6 }
+  4K DV Oscar Winners:
+    template: {name: Awards, num: 7 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_winner&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Oscar Winners
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_academyawards.jpg
-  Oscar Nominees 4K DV:
-    template: {name: Awards, num: 7 }
+    url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards.jpg?raw=true
+  4K DV Oscar Nominees:
+    template: {name: Awards, num: 8 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_nominee&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Oscar Nominees
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_academyawards_nominated.jpg
-  Emmy Award Winners 4K DV:
-    template: {name: Awards, num: 8 }
+    url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards_nominated.jpg?raw=true
+  4K DV Emmy Award Winners:
+    template: {name: Awards, num: 9 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_winner&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Emmy Award Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_winners.jpg  
-  Emmy Award Nominees 4K DV:
-    template: {name: Awards, num: 9 }
+  4K DV Emmy Award Nominees:
+    template: {name: Awards, num: 10 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_nominee&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Emmy Awards Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_nominated.jpg
-  Golden Globes Winners 4K DV:
-    template: {name: Awards, num: 10 }
+  4K DV Golden Globes Winners:
+    template: {name: Awards, num: 11 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_winner&languages=en&sort=release_date,desc
       limit: 75
     summary: A collection of Golden Globes Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes.jpg    
-  Golden Globes Nominees 4K DV:
-    template: {name: Awards, num: 11 }
+  4K DV Golden Globes Nominees:
+    template: {name: Awards, num: 12 }
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_nominee&languages=en&sort=release_date,desc
       limit: 75

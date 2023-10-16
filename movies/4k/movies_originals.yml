@@ -1,56 +1,56 @@
 templates:
-  Network:
+  Networks:
     sort_title: +3_<<collection_name>>
     sync_mode: sync
     collection_mode: hide
     collection_order: custom
     cache_builders: 1
 collections:
-  Apple TV+ 4K:
-    template: {name: Network}
+  4K Apple TV+:
+    template: {name: Networks}
     imdb_list:
       - https://www.imdb.com/list/ls093244821/?sort=moviemeter,asc&title_type=movie
     summary: A collection of Apple TV+ Original Content
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_appletv.jpg
-  Disney Plus Originals 4K:
-    template: {name: Network}
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_appletv.jpg?raw=true
+  4K Disney Plus Originals:
+    template: {name: Networks}
     imdb_list:
       - https://www.imdb.com/list/ls095817432/?sort=moviemeter,asc&title_type=movie
     summary: A collection of Disney Plus Original content 
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_disney.jpg   
-  HBO Max Originals 4K:
-    template: {name: Network}
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_disney.jpg?raw=true   
+  4K HBO Max Originals:
+    template: {name: Networks}
     imdb_list:
       - https://www.imdb.com/list/ls099598259/?sort=moviemeter,asc&title_type=movie
     summary: A collection of HBO Max Original content 
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_hbo.jpg
-  Hulu Originals 4K:
-    template: {name: Network}
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_hbo.jpg?raw=true
+  4K Hulu Originals:
+    template: {name: Networks}
     imdb_list:
       - https://www.imdb.com/list/ls080881065/?sort=moviemeter,asc&title_type=movie
     summary: A collection of Hulu Original content
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_hulu.jpg 
-  Netflix Originals 4K:
-    template: {name: Network}
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_hulu.jpg?raw=true 
+  4K Netflix Originals:
+    template: {name: Networks}
     imdb_list:
       - https://www.imdb.com/list/ls093350982/?sort=moviemeter,asc&title_type=movie
     summary: A collection of Netflix Originals 
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_netflix.jpg      
-  Peacock Originals 4K:
-    template: {name: Network}
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_netflix.jpg?raw=true      
+  4K Peacock Originals:
+    template: {name: Networks}
     imdb_list:
       - https://www.imdb.com/list/ls099006994/?sort=moviemeter,asc&title_type=movie
     summary: A collection of Peacock Original content 
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_peacock.jpg     
-  Prime Originals 4K:
-    template: {name: Network}
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_peacock.jpg?raw=true     
+  4K Prime Originals:
+    template: {name: Networks}
     trakt_list:
       - https://trakt.tv/users/mri8879/lists/amazon-prime-video-exclusive-original-content
     summary: A collection of Amazon Original content 
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_prime.jpg    
-  Shudder 4K:
-    template: {name: Network}
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_prime.jpg?raw=true    
+  4K Shudder:
+    template: {name: Networks}
     imdb_list:
       - https://www.imdb.com/search/title/?companies=co0602021
     summary: A collection of Shudder Exclusive & Original Content
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Network/Originals/network_shudder.jpg
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_shudder.jpg?raw=true

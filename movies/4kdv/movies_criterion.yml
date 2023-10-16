@@ -9,7 +9,7 @@ templates:
     collection_order: custom
     cache_builders: 7
 collections:
-  The Criterion Collection 4K DV:
+  The Criterion Collection 4K:
     imdb_list: https://www.imdb.com/list/ls090936109
     item_assets: true
     sync_mode: append
