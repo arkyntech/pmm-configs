@@ -11,8 +11,8 @@ collections:
 ### CHARTS ###
   Popular Movies:
     template: { name: Chart, num: 1 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&languages=en&sort=moviemeter,asc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/movies-popular
       limit: 125
       sort_by: tmdbpopular.desc
     summary: Popular Movies across the internet
@@ -28,15 +28,15 @@ collections:
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/watched_movies_weekly.jpg?raw=true
   Popular TV Movies:
     template: { name: Chart, num: 7 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_movie&languages=en&sort=moviemeter,asc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/movies-popular-tv-movies
       limit: 125
     summary: Popular Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_tvmovies.jpg?raw=true
   Top Rated Movies:
     template: { name: Chart, num: 8 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=100000,&languages=en&sort=user_rating,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/movies-top-2500
       limit: 125
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated.jpg?raw=true
