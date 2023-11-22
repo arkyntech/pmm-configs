@@ -1,5 +1,5 @@
 ######################################################
-#                Popular / Top Rated                 #
+#                Popular / Top Rated 4K                 #
 ######################################################
 templates:
   Chart:
@@ -9,38 +9,38 @@ templates:
     cache_builders: 7
 collections:
 ### CHARTS ###
-  Top Rated 4K of 2022:
+  Top Rated 4K of 2023:
     template: { name: Chart, num: 1 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2022-01-01,&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-2023
       limit: 75
-    summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2022.jpg
-  Top Rated 4K of 2021:
+    summary: Top Rated 4K Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2023.jpg
+  Top Rated 4K of 2022:
     template: { name: Chart, num: 2 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2021-01-01,&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-2022
       limit: 75
-    summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2021.jpg
-  Top Rated 4K of 2020:
+    summary: Top Rated 4K Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2022.jpg
+  Top Rated 4K of 2021:
     template: { name: Chart, num: 3 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2020-01-01,2020-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-2021
       limit: 75
-    summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2020.jpg
-  Top Rated 4K of 2019:
+    summary: Top Rated 4K Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2021.jpg
+  Top Rated 4K of 2020:
     template: { name: Chart, num: 4 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2019-01-01,2019-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-2020
       limit: 75
-    summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2019.jpg
-  Top Rated 4K of 2018:
+    summary: Top Rated 4K Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2020.jpg
+  Top Rated 4K of 2019:
     template: { name: Chart, num: 5 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&release_date=2018-01-01,2018-12-31&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-2019
       limit: 75
-    summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Trends/Shows/tv_toprated_2018.jpg
+    summary: Top Rated 4K Movies across the internet
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2019.jpg
