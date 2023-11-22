@@ -36,7 +36,7 @@ collections:
   Top Rated Movies:
     template: { name: Chart, num: 8 }
     mdblist_list:
-      url: https://mdblist.com/lists/quickflix/movies-top-2500
+      url: https://mdblist.com/lists/quickflix/tmdb-top-rated
       limit: 125
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated.jpg?raw=true
