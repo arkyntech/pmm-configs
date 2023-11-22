@@ -1,132 +1,137 @@
 templates:
-  TopRated:
+  Genre:
+    sort_title: +4_1<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide
+    collection_order: release.desc
+    cache_builders: 7
+  BestOf:
     sort_title: +4_<<collection_name>>
     sync_mode: sync
     collection_mode: hide  
-    collection_order: custom
+    collection_order: release.desc
     cache_builders: 7
-
-##########################################
-#               Top Rated 4K                #       
-##########################################
+######################################################
+#                Genre Collections                   #
+######################################################
 collections:
   Top Rated 4K Action:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-action
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_action.jpg?raw=true
   Top Rated 4K Adventure:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-adventure
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_adventure.jpg?raw=true
   Top Rated 4K Animation:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-animation
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_animation.jpg?raw=true
   Top Rated 4K Biography:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-biography
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_biography.jpg?raw=true
   Top Rated 4K Comedy:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-comedy
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_comedy.jpg?raw=true
   Top Rated 4K Crime:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-crime
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_crime.jpg?raw=true
   Top Rated 4K Documentaries:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-documentaries
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_documentary.jpg?raw=true
   Top Rated 4K Drama:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-drama
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_drama.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_drama.jpg?raw=true 
   Top Rated 4K Family:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-family
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_family.jpg?raw=true
   Top Rated 4K Fantasy:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=fantasy&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-fantasy
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_fantasy.jpg?raw=true
   Top Rated 4K History:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-history
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_history.jpg?raw=true
   Top Rated 4K Horror:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=horror&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-horror
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_horror.jpg?raw=true
   Top Rated 4K Music:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-music
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_music.jpg?raw=true
   Top Rated 4K Musicals:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-musicals
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_musicals.jpg?raw=true
   Top Rated 4K Mystery:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-mystery
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_mystery.jpg?raw=true
   Top Rated 4K Romance:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-romance
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_romance.jpg?raw=true
   Top Rated 4K Sci-Fi:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-sci-fi
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_scifi.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_sci-fi.jpg?raw=true
   Top Rated 4K Thriller:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-thriller
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_thriller.jpg?raw=true
   Top Rated 4K War:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-war
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_war.jpg?raw=true
   Top Rated 4K Western:
-    template: { name: TopRated }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&user_rating=5.0,10.0&num_votes=10000,&languages=en&sort=user_rating,desc
+    template: { name: Genre }
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-top-rated-western
        limit: 130
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_western.jpg?raw=true

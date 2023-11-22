@@ -17,121 +17,121 @@ templates:
 collections:
   Popular 4K Action:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=action&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-action
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_action.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_action.jpg?raw=true
   Popular 4K Adventure:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=adventure&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-adventure
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_adventure.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_adventure.jpg?raw=true
   Popular 4K Animation:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=animation&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-animation
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_animation.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_animation.jpg?raw=true
   Popular 4K Biography:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=biography&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-biography
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_biography.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_biography.jpg?raw=true
   Popular 4K Comedy:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=comedy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-comedy
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_comedy.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_comedy.jpg?raw=true
   Popular 4K Crime:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=crime&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-crime
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_crime.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_crime.jpg?raw=true
   Popular 4K Documentaries:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=documentary&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-documentaries
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_documentary.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_documentary.jpg?raw=true
   Popular 4K Drama:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=drama&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-drama
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_drama.jpg?raw=true 
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_drama.jpg?raw=true 
   Popular 4K Family:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=family&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-family
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_family.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_family.jpg?raw=true
   Popular 4K Fantasy:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=fantasy&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-fantasy
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_fantasy.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_fantasy.jpg?raw=true
   Popular 4K History:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=history&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-history
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_history.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_history.jpg?raw=true
   Popular 4K Horror:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=horror&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-horror
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_horror.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_horror.jpg?raw=true
   Popular 4K Music:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=music&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-music
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_music.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_music.jpg?raw=true
   Popular 4K Musicals:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=musical&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-musicals
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_musicals.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_musicals.jpg?raw=true
   Popular 4K Mystery:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=mystery&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-mystery
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_mystery.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_mystery.jpg?raw=true
   Popular 4K Romance:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=romance&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-romance
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_romance.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_romance.jpg?raw=true
   Popular 4K Sci-Fi:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=sci-fi&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-sci-fi
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_sci-fi.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_sci-fi.jpg?raw=true
   Popular 4K Thriller:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=thriller&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-thriller
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_thriller.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_thriller.jpg?raw=true
   Popular 4K War:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=war&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-war
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_war.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_war.jpg?raw=true
   Popular 4K Western:
     template: { name: Genre }
-    imdb_list:
-     - url: https://www.imdb.com/search/title/?genres=western&title_type=feature,tv_movie,documentary,short&languages=en&sort=moviemeter,asc
+    mdblist_list:
+     - url: https://mdblist.com/lists/quickflix/movies-Popular 4K-western
        limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_western.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_Popular 4K_western.jpg?raw=true
