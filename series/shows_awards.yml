@@ -11,29 +11,29 @@ templates:
 collections:
   Emmy Award Winners:
     template: {name: Awards, num: 6 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=emmy_winner&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20855
       limit: 75
     summary: A collection of Emmy Award Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/awards_emmy_winners.jpg  
   Emmy Award Nominees:
     template: {name: Awards, num: 7 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=emmy_nominee&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20856
       limit: 75
     summary: A collection of Emmy Awards Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/awards_emmy_nominated.jpg
   Golden Globes Winners:
     template: {name: Awards, num: 8 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=golden_globe_winner&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20857
       limit: 75
     summary: A collection of Golden Globes Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/awards_goldenglobes_tv.jpg    
   Golden Globes Nominees:
     template: {name: Awards, num: 9 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_special,tv_miniseries&groups=golden_globe_nominee&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20858
       limit: 75
     summary: A collection of Golden Globes Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/awards_goldenglobes_nominated_tv.jpg        

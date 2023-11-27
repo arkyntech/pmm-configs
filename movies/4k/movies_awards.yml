@@ -11,43 +11,43 @@ templates:
 collections:
   4K Oscar Winners:
     template: {name: Awards, num: 7 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_winner&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20836
       limit: 75
     summary: A collection of Oscar Winners
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards.jpg?raw=true
   4K Oscar Nominees:
     template: {name: Awards, num: 8 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_nominee&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20837
       limit: 75
     summary: A collection of Oscar Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards_nominated.jpg?raw=true
   4K Emmy Award Winners:
     template: {name: Awards, num: 9 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_winner&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20838
       limit: 75
     summary: A collection of Emmy Award Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_winners.jpg  
   4K Emmy Award Nominees:
     template: {name: Awards, num: 10 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=emmy_nominee&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20839
       limit: 75
     summary: A collection of Emmy Awards Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_nominated.jpg
   4K Golden Globes Winners:
     template: {name: Awards, num: 11 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_winner&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20840
       limit: 75
     summary: A collection of Golden Globes Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes.jpg    
   4K Golden Globes Nominees:
     template: {name: Awards, num: 12 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_nominee&languages=en&sort=release_date,desc
+    mdblist_list:
+      url: https://mdblist.com/lists/quickflix/external/20841
       limit: 75
     summary: A collection of Golden Globes Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes_nominated.jpg        
