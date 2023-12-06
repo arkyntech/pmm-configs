@@ -6,123 +6,123 @@ templates:
     collection_order: custom    
     cache_builders: 1
 ##########################################
-#              Top Rated                 #       
+#              Popular                 #       
 ##########################################
 collections:
-  Top Rated Action:
+  Popular Action:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-action
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_action.jpg?raw=true
-  Top Rated Adventure:
+  Popular Adventure:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-adventure
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_adventure.jpg?raw=true
-  Top Rated Animation:
+  Popular Animation:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-animation
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_animation.jpg?raw=true
-  Top Rated Biography:
+  Popular Biography:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-biography
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_biography.jpg?raw=true
-  Top Rated Comedy:
+  Popular Comedy:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-comedy
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_comedy.jpg?raw=true
-  Top Rated Crime:
+  Popular Crime:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-crime
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_crime.jpg?raw=true
-  Top Rated Documentaries:
+  Popular Documentaries:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-documentaries
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_documentary.jpg?raw=true
-  Top Rated Drama:
+  Popular Drama:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-drama
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_drama.jpg?raw=true
-  Top Rated Family:
+  Popular Family:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-family
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_family.jpg?raw=true
-  Top Rated Fantasy:
+  Popular Fantasy:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-fantasy
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_fantasy.jpg?raw=true
-  Top Rated History:
+  Popular History:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-history
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_history.jpg?raw=true
-  Top Rated Horror:
+  Popular Horror:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-horror
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_horror.jpg?raw=true
-  Top Rated Music:
+  Popular Music:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-music
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_music.jpg?raw=true
-  Top Rated Musicals:
+  Popular Musicals:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-musicals
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_musicals.jpg?raw=true
-  Top Rated Mystery:
+  Popular Mystery:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-mystery
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_mystery.jpg?raw=true
-  Top Rated Romance:
+  Popular Romance:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-romance
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_romance.jpg?raw=true
-  Top Rated Sci-Fi:
+  Popular Sci-Fi:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-sci-fi
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_scifi.jpg?raw=true
-  Top Rated Thriller:
+  Popular Thriller:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-thriller
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_thriller.jpg?raw=true
-  Top Rated War:
+  Popular War:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-war
        limit: 125
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular_war.jpg?raw=true
-  Top Rated Western:
+  Popular Western:
     template: { name: TopRated }
     mdblist_list:
      - url: https://mdblist.com/lists/quickflix/tv-shows-popular-western
