@@ -31,21 +31,21 @@ collections:
     summary: A collection of Emmy Award Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_winners.jpg  
   4K Emmy Award Nominees:
-    template: {name: Awards, num: 11 }
+    template: {name: Awards, num: 91 }
     mdblist_list:
       url: https://mdblist.com/lists/quickflix/external/20839
       limit: 75
     summary: A collection of Emmy Awards Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_nominated.jpg
   4K Golden Globes Winners:
-    template: {name: Awards, num: 12 }
+    template: {name: Awards, num: 92 }
     mdblist_list:
       url: https://mdblist.com/lists/quickflix/external/20840
       limit: 75
     summary: A collection of Golden Globes Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes.jpg    
   4K Golden Globes Nominees:
-    template: {name: Awards, num: 13 }
+    template: {name: Awards, num: 93 }
     mdblist_list:
       url: https://mdblist.com/lists/quickflix/external/20841
       limit: 75
