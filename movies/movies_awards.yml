@@ -24,7 +24,7 @@ collections:
     summary: A collection of Oscar Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards_nominated.jpg?raw=true
   Emmy Award Winners:
-    template: {name: Awards, num: 9 }
+    template: {name: Awards, num: 90 }
     mdblist_list:
       url: https://mdblist.com/lists/quickflix/external/20838
       limit: 75
