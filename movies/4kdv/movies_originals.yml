@@ -44,8 +44,8 @@ collections:
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_peacock.jpg?raw=true     
   4K DV Prime Originals:
     template: {name: Networks}
-    trakt_list:
-      - https://trakt.tv/users/mri8879/lists/amazon-prime-video-exclusive-original-content
+    mdblist_list:
+      - https://mdblist.com/lists/jonfinley/amazon-prime-originals
     summary: A collection of Amazon Original content 
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Networks/network_prime.jpg?raw=true    
   4K DV Shudder:
