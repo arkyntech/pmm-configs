@@ -11,43 +11,79 @@ collections:
 ### CHARTS ###
   Top Rated of 2023:
     template: { name: Chart, num: 1 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/movies-top-rated-2023
-      limit: 75
+    imdb_search:
+      type: movie
+      sort_by: rating.desc
+      limit: 125
+      language: eng
+      votes.gte: 30000
+      release.after: 2023-01-01
+      release.before: 2023-12-31
+      adult: false
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_2023.jpg?raw=true
   Top Rated of 2022:
     template: { name: Chart, num: 2 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/movies-top-rated-2022
-      limit: 75
+    imdb_search:
+      type: movie
+      sort_by: rating.desc
+      limit: 125
+      language: eng
+      votes.gte: 30000
+      release.after: 2022-01-01
+      release.before: 2022-12-31
+      adult: false
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_2022.jpg?raw=true
   Top Rated of 2021:
     template: { name: Chart, num: 3 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/movies-top-rated-2021
-      limit: 75
+    imdb_search:
+      type: movie
+      sort_by: rating.desc
+      limit: 125
+      language: eng
+      votes.gte: 30000
+      release.after: 2021-01-01
+      release.before: 2021-12-31
+      adult: false
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_2021.jpg?raw=true
   Top Rated of 2020:
     template: { name: Chart, num: 4 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/movies-top-rated-2020
-      limit: 75
+    imdb_search:
+      type: movie
+      sort_by: rating.desc
+      limit: 125
+      language: eng
+      votes.gte: 30000
+      release.after: 2020-01-01
+      release.before: 2020-12-31
+      adult: false
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_2020.jpg?raw=true
   Top Rated of 2019:
     template: { name: Chart, num: 5 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/movies-top-rated-2019
-      limit: 75
+    imdb_search:
+      type: movie
+      sort_by: rating.desc
+      limit: 125
+      language: eng
+      votes.gte: 30000
+      release.after: 2019-01-01
+      release.before: 2019-12-31
+      adult: false
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_2019.jpg?raw=true
   Top Rated of 2018:
     template: { name: Chart, num: 6 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/movies-top-rated-2018
-      limit: 75
+    imdb_search:
+      type: movie
+      sort_by: rating.desc
+      limit: 125
+      language: eng
+      votes.gte: 30000
+      release.after: 2018-01-01
+      release.before: 2018-12-31
+      adult: false
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_2018.jpg?raw=true

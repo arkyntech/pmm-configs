@@ -1,137 +1,231 @@
 templates:
-  Genre:
-    sort_title: +4_1<<collection_name>>
-    sync_mode: sync
-    collection_mode: hide
-    collection_order: release.desc
-    cache_builders: 7
-  BestOf:
+  TopRated:
     sort_title: +4_<<collection_name>>
     sync_mode: sync
-    collection_mode: hide  
-    collection_order: release.desc
-    cache_builders: 7
-######################################################
-#                Genre Collections                   #
-######################################################
+    collection_mode: hide
+    collection_order: custom    
+    cache_builders: 1
+##########################################
+#              Top Rated                 #       
+##########################################
 collections:
-  Popular Action:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-action
-       limit: 130
+  Top Rated Action:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: action
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_action.jpg?raw=true
-  Popular Adventure:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-adventure
-       limit: 130
+  Top Rated Adventure:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: adventure
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_adventure.jpg?raw=true
-  Popular Animation:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-animation
-       limit: 130
+  Top Rated Animation:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: animation
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_animation.jpg?raw=true
-  Popular Biography:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-biography
-       limit: 130
+  Top Rated Biography:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: biography
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_biography.jpg?raw=true
-  Popular Comedy:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-comedy
-       limit: 130
+  Top Rated Comedy:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: comedy
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_comedy.jpg?raw=true
-  Popular Crime:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-crime
-       limit: 130
+  Top Rated Crime:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: crime
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_crime.jpg?raw=true
-  Popular Documentaries:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-documentaries
-       limit: 130
+  Top Rated Documentaries:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: documentary
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_documentary.jpg?raw=true
-  Popular Drama:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-drama
-       limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_drama.jpg?raw=true 
-  Popular Family:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-family
-       limit: 130
+  Top Rated Drama:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: drama
+      language: eng
+      votes.gte: 30000
+      adult: false
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_drama.jpg?raw=true
+  Top Rated Family:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: family
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_family.jpg?raw=true
-  Popular Fantasy:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-fantasy
-       limit: 130
+  Top Rated Fantasy:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: fantasy
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_fantasy.jpg?raw=true
-  Popular History:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-history
-       limit: 130
+  Top Rated History:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: history
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_history.jpg?raw=true
-  Popular Horror:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-horror
-       limit: 130
+  Top Rated Horror:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: horror
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_horror.jpg?raw=true
-  Popular Music:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-music
-       limit: 130
+  Top Rated Music:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: music
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_music.jpg?raw=true
-  Popular Musicals:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-musicals
-       limit: 130
+  Top Rated Musicals:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: musical
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_musicals.jpg?raw=true
-  Popular Mystery:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-mystery
-       limit: 130
+  Top Rated Mystery:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: mystery
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_mystery.jpg?raw=true
-  Popular Romance:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-romance
-       limit: 130
+  Top Rated Romance:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: romance
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_romance.jpg?raw=true
-  Popular Sci-Fi:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-sci-fi
-       limit: 130
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_sci-fi.jpg?raw=true
-  Popular Thriller:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-thriller
-       limit: 130
+  Top Rated Sci-Fi:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: sci-fi
+      language: eng
+      votes.gte: 30000
+      adult: false
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_scifi.jpg?raw=true
+  Top Rated Thriller:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: thriller
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_thriller.jpg?raw=true
-  Popular War:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-war
-       limit: 130
+  Top Rated War:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: war
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_war.jpg?raw=true
-  Popular Western:
-    template: { name: Genre }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/movies-top-rated-western
-       limit: 130
+  Top Rated Western:
+    template: { name: TopRated }
+    imdb_search:
+      type: movies
+      sort_by: rating.desc
+      limit: 125
+      genre: western
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_western.jpg?raw=true
