@@ -11,67 +11,43 @@ templates:
 collections:
   Oscar Winners:
     template: {name: Awards, num: 7 }
-    imdb_search:
-      type: movie
-      event.winning: oscar
-      sort_by: year.desc
-      limit: 125
-      language: eng
-      adult: false
+    imdb_award: 
+      event_id: ev0000003
+      winning: true
     summary: A collection of Oscar Winners
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards.jpg?raw=true
   Oscar Nominees:
     template: {name: Awards, num: 8 }
-    imdb_search:
-      type: movie
-      event: oscar
-      sort_by: year.desc
-      limit: 125
-      language: eng
-      adult: false
+    imdb_award: 
+      event_id: ev0000003
+      winning: false
     summary: A collection of Oscar Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards_nominated.jpg?raw=true
   Emmy Award Winners:
     template: {name: Awards, num: 90 }
-    imdb_search:
-      type: movie
-      event.winning: emmy
-      sort_by: year.desc
-      limit: 125
-      language: eng
-      adult: false
+    imdb_award: 
+      event_id: ev0000223
+      winning: true
     summary: A collection of Emmy Award Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_winners.jpg  
   Emmy Award Nominees:
     template: {name: Awards, num: 91 }
-    imdb_search:
-      type: movie
-      event: emmy
-      sort_by: year.desc
-      limit: 125
-      language: eng
-      adult: false
+    imdb_award: 
+      event_id: ev0000223
+      winning: false
     summary: A collection of Emmy Awards Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_nominated.jpg
   Golden Globes Winners:
     template: {name: Awards, num: 92 }
-    imdb_search:
-      type: movie
-      event.winning: golden
-      sort_by: year.desc
-      limit: 125
-      language: eng
-      adult: false
+    imdb_award: 
+      event_id: ev0000292
+      winning: true
     summary: A collection of Golden Globes Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes.jpg    
   Golden Globes Nominees:
     template: {name: Awards, num: 93 }
-    imdb_search:
-      type: movie
-      event: golden
-      sort_by: year.desc
-      limit: 125
-      language: eng
-      adult: false
+    imdb_award: 
+      event_id: ev0000292
+      winning: false
     summary: A collection of Golden Globes Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes_nominated.jpg        
