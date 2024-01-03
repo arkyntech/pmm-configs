@@ -11,120 +11,221 @@ templates:
 collections:
   Top Rated Action:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-action
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: action
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_action.jpg?raw=true
   Top Rated Adventure:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-adventure
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: adventure
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_adventure.jpg?raw=true
   Top Rated Animation:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-animation
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: animation
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_animation.jpg?raw=true
   Top Rated Biography:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-biography
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: biography
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_biography.jpg?raw=true
   Top Rated Comedy:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-comedy
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: comedy
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_comedy.jpg?raw=true
   Top Rated Crime:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-crime
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: crime
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_crime.jpg?raw=true
   Top Rated Documentaries:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-documentaries
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: documentary
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_documentary.jpg?raw=true
   Top Rated Drama:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-drama
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: drama
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_drama.jpg?raw=true
   Top Rated Family:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-family
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: family
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_family.jpg?raw=true
   Top Rated Fantasy:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-fantasy
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: fantasy
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_fantasy.jpg?raw=true
   Top Rated History:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-history
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: history
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_history.jpg?raw=true
   Top Rated Horror:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-horror
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: horror
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_horror.jpg?raw=true
   Top Rated Music:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-music
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: music
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_music.jpg?raw=true
   Top Rated Musicals:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-musicals
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: musical
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_musicals.jpg?raw=true
   Top Rated Mystery:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-mystery
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: mystery
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_mystery.jpg?raw=true
   Top Rated Romance:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-romance
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: romance
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_romance.jpg?raw=true
   Top Rated Sci-Fi:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-sci-fi
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: sci-fi
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_scifi.jpg?raw=true
   Top Rated Thriller:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-thriller
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: thriller
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_thriller.jpg?raw=true
   Top Rated War:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-war
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: war
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_war.jpg?raw=true
   Top Rated Western:
     template: { name: TopRated }
-    mdblist_list:
-     - url: https://mdblist.com/lists/quickflix/tv-shows-top-rated-western
-       limit: 125
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      limit: 125
+      genre: western
+      language: eng
+      votes.gte: 30000
+      adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_western.jpg?raw=true

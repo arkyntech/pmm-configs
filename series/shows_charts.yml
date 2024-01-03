@@ -11,35 +11,21 @@ collections:
 ### CHARTS ###
   Popular Shows:
     template: { name: Chart, num: 1 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/tv-shows-trakt-popular
-      limit: 125
-      sort_by: tmdbpopular.desc
-    summary: Popular Movies across the internet
+    imdb_chart: top_shows
+    summary: Popular TV Shows across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular.jpg?raw=true
-  Trending Shows:
-    template: { name: Chart, num: 1 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/tv-shows-trakt-trending-wimrs7mfi5
-      limit: 125
-      sort_by: tmdbpopular.desc
-    summary: Popular Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_trending.jpg?raw=true
   Most Watched Daily:
     template: { name: Chart, num: 2 }
     tmdb_trending_daily: 50
-    summary: Movies Trending across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/watched_tv_daily.jpg?raw=true 
+    summary: TV Shows Trending across the internet
+    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Misc/watched_tv_daily.jpg 
   Most Watched Weekly:
     template: { name: Chart, num: 3 }
     tmdb_trending_weekly: 50
-    summary: Movies Trending across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/watched_tv_weekly.jpg?raw=true 
-  Top Rated Shows:
-    template: { name: Chart, num: 6 } #kids is 7
-    mdblist_list:
-      url: https://mdblist.com/lists/fuzi0n/tv-shows-top-rated
-      limit: 125
-      sort_by: tmdbpopular.desc
-    summary: Top Rated Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated.jpg
+    summary: TV Shows Trending across the internet
+    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Misc/watched_tv_weekly.jpg 
+  Most Watched Yearly:
+    template: { name: Chart, num: 4 }
+    tmdb_trending_yearly: 50
+    summary: TV Shows Trending across the internet
+    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Misc/watched_tv_yearly.jpg
