@@ -23,13 +23,6 @@ collections:
     tmdb_trending_weekly: 50
     summary: Movies Trending across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/watched_movies_weekly.jpg?raw=true
-  Popular TV Movies:
-    template: { name: Chart, num: 7 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/movies-popular-tv-movies
-      limit: 125
-    summary: Popular Movies across the internet
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_tvmovies.jpg?raw=true
   Top Rated Movies:
     template: { name: Chart, num: 8 }
     mdblist_list:
