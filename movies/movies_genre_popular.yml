@@ -24,7 +24,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: adventure
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_adventure.jpg?raw=true
@@ -34,7 +33,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: animation
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_animation.jpg?raw=true
@@ -44,7 +42,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: biography
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_biography.jpg?raw=true
@@ -54,7 +51,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: comedy
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_comedy.jpg?raw=true
@@ -64,7 +60,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: crime
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_crime.jpg?raw=true
@@ -74,7 +69,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: documentary
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_documentary.jpg?raw=true
@@ -84,7 +78,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: drama
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_drama.jpg?raw=true
@@ -94,7 +87,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: family
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_family.jpg?raw=true
@@ -104,7 +96,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: fantasy
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_fantasy.jpg?raw=true
@@ -114,7 +105,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: history
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_history.jpg?raw=true
@@ -124,7 +114,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: horror
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_horror.jpg?raw=true
@@ -134,7 +123,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: music
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_music.jpg?raw=true
@@ -144,7 +132,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: musical
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_musicals.jpg?raw=true
@@ -154,7 +141,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: mystery
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_mystery.jpg?raw=true
@@ -164,7 +150,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: romance
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_romance.jpg?raw=true
@@ -174,7 +159,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: sci-fi
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_scifi.jpg?raw=true
@@ -184,7 +168,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: thriller
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_thriller.jpg?raw=true
@@ -194,7 +177,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: war
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_war.jpg?raw=true
@@ -204,7 +186,6 @@ collections:
       type: movie
       sort_by: popularity.desc
       genre: western
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_western.jpg?raw=true
