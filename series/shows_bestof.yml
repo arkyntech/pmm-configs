@@ -19,8 +19,6 @@ collections:
     imdb_search:
       type: tv_series
       sort_by: rating.desc
-      limit: 125
-      language: eng
       votes.gte: 30000
       release.after: 2023-01-01
       release.before: 2023-12-31
@@ -32,8 +30,6 @@ collections:
     imdb_search:
       type: tv_series
       sort_by: rating.desc
-      limit: 125
-      language: eng
       votes.gte: 30000
       release.after: 2022-01-01
       release.before: 2022-12-31
@@ -45,8 +41,6 @@ collections:
     imdb_search:
       type: tv_series
       sort_by: rating.desc
-      limit: 125
-      language: eng
       votes.gte: 30000
       release.after: 2021-01-01
       release.before: 2021-12-31
@@ -58,8 +52,6 @@ collections:
     imdb_search:
       type: tv_series
       sort_by: rating.desc
-      limit: 125
-      language: eng
       votes.gte: 30000
       release.after: 2020-01-01
       release.before: 2020-12-31
@@ -71,8 +63,6 @@ collections:
     imdb_search:
       type: tv_series
       sort_by: rating.desc
-      limit: 125
-      language: eng
       votes.gte: 30000
       release.after: 2019-01-01
       release.before: 2019-12-31

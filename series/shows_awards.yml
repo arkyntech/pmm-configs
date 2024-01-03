@@ -15,8 +15,6 @@ collections:
       type: tv_series
       event.winning: emmy
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: false
     summary: A collection of Emmy Award Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/awards_emmy_winners.jpg  
@@ -26,8 +24,6 @@ collections:
       type: tv_series
       event: emmy
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: false
     summary: A collection of Emmy Awards Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/awards_emmy_nominated.jpg
@@ -37,8 +33,6 @@ collections:
       type: tv_series
       event.winning: golden
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: falselection of Golden Globes Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/awards_goldenglobes_tv.jpg    
   Golden Globes Nominees:
@@ -47,8 +41,6 @@ collections:
       type: tv_series
       event: golden
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: false
     summary: A collection of Golden Globes Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/awards_goldenglobes_nominated_tv.jpg        
