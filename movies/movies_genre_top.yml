@@ -13,179 +13,200 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: action
       votes.gte: 30000
       adult: false
+      limit: 150
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_action.jpg?raw=true
   Top Rated Adventure:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: adventure
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_adventure.jpg?raw=true
   Top Rated Animation:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: animation
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_animation.jpg?raw=true
   Top Rated Biography:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: biography
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_biography.jpg?raw=true
   Top Rated Comedy:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: comedy
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_comedy.jpg?raw=true
   Top Rated Crime:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: crime
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_crime.jpg?raw=true
   Top Rated Documentaries:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: documentary
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_documentary.jpg?raw=true
   Top Rated Drama:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: drama
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_drama.jpg?raw=true
   Top Rated Family:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: family
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_family.jpg?raw=true
   Top Rated Fantasy:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: fantasy
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_fantasy.jpg?raw=true
   Top Rated History:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: history
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_history.jpg?raw=true
   Top Rated Horror:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: horror
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_horror.jpg?raw=true
   Top Rated Music:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: music
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_music.jpg?raw=true
   Top Rated Musicals:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: musical
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_musicals.jpg?raw=true
   Top Rated Mystery:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: mystery
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_mystery.jpg?raw=true
   Top Rated Romance:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: romance
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_romance.jpg?raw=true
   Top Rated Sci-Fi:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: sci-fi
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_scifi.jpg?raw=true
   Top Rated Thriller:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: thriller
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_thriller.jpg?raw=true
   Top Rated War:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: war
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_war.jpg?raw=true
   Top Rated Western:
     template: { name: TopRated }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       genre: western
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_western.jpg?raw=true

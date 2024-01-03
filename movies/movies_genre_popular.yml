@@ -17,6 +17,7 @@ collections:
       genre: action
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_action.jpg?raw=true
   Popular Adventure:
     template: { name: TopRated }
@@ -26,6 +27,7 @@ collections:
       genre: adventure
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_adventure.jpg?raw=true
   Popular Animation:
     template: { name: TopRated }
@@ -35,6 +37,7 @@ collections:
       genre: animation
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_animation.jpg?raw=true
   Popular Biography:
     template: { name: TopRated }
@@ -44,6 +47,7 @@ collections:
       genre: biography
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_biography.jpg?raw=true
   Popular Comedy:
     template: { name: TopRated }
@@ -53,6 +57,7 @@ collections:
       genre: comedy
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_comedy.jpg?raw=true
   Popular Crime:
     template: { name: TopRated }
@@ -62,6 +67,7 @@ collections:
       genre: crime
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_crime.jpg?raw=true
   Popular Documentaries:
     template: { name: TopRated }
@@ -71,6 +77,7 @@ collections:
       genre: documentary
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_documentary.jpg?raw=true
   Popular Drama:
     template: { name: TopRated }
@@ -80,6 +87,7 @@ collections:
       genre: drama
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_drama.jpg?raw=true
   Popular Family:
     template: { name: TopRated }
@@ -89,6 +97,7 @@ collections:
       genre: family
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_family.jpg?raw=true
   Popular Fantasy:
     template: { name: TopRated }
@@ -98,6 +107,7 @@ collections:
       genre: fantasy
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_fantasy.jpg?raw=true
   Popular History:
     template: { name: TopRated }
@@ -107,6 +117,7 @@ collections:
       genre: history
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_history.jpg?raw=true
   Popular Horror:
     template: { name: TopRated }
@@ -116,6 +127,7 @@ collections:
       genre: horror
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_horror.jpg?raw=true
   Popular Music:
     template: { name: TopRated }
@@ -125,6 +137,7 @@ collections:
       genre: music
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_music.jpg?raw=true
   Popular Musicals:
     template: { name: TopRated }
@@ -134,6 +147,7 @@ collections:
       genre: musical
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_musicals.jpg?raw=true
   Popular Mystery:
     template: { name: TopRated }
@@ -143,6 +157,7 @@ collections:
       genre: mystery
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_mystery.jpg?raw=true
   Popular Romance:
     template: { name: TopRated }
@@ -152,6 +167,7 @@ collections:
       genre: romance
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_romance.jpg?raw=true
   Popular Sci-Fi:
     template: { name: TopRated }
@@ -161,6 +177,7 @@ collections:
       genre: sci-fi
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_scifi.jpg?raw=true
   Popular Thriller:
     template: { name: TopRated }
@@ -170,6 +187,7 @@ collections:
       genre: thriller
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_thriller.jpg?raw=true
   Popular War:
     template: { name: TopRated }
@@ -179,6 +197,7 @@ collections:
       genre: war
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_war.jpg?raw=true
   Popular Western:
     template: { name: TopRated }
@@ -188,4 +207,5 @@ collections:
       genre: western
       votes.gte: 30000
       adult: false
+      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_western.jpg?raw=true
