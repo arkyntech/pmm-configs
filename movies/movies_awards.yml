@@ -15,8 +15,6 @@ collections:
       type: movie
       event.winning: oscar
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: false
     summary: A collection of Oscar Winners
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards.jpg?raw=true
@@ -26,8 +24,6 @@ collections:
       type: movie
       event: oscar
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: false
     summary: A collection of Oscar Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards_nominated.jpg?raw=true
@@ -37,8 +33,6 @@ collections:
       type: movie
       event.winning: emmy
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: false
     summary: A collection of Emmy Award Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_winners.jpg  
@@ -48,8 +42,6 @@ collections:
       type: movie
       event: emmy
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: false
     summary: A collection of Emmy Awards Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_nominated.jpg
@@ -59,8 +51,6 @@ collections:
       type: movie
       event.winning: golden
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: false
     summary: A collection of Golden Globes Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes.jpg    
@@ -70,8 +60,6 @@ collections:
       type: movie
       event: golden
       sort_by: year.desc
-      limit: 125
-      language: eng
       adult: false
     summary: A collection of Golden Globes Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes_nominated.jpg        
