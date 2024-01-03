@@ -16,7 +16,6 @@ collections:
       sort_by: popularity.desc
       limit: 125
       genre: action
-      language: eng
       votes.gte: 30000
       adult: false
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_action.jpg?raw=true
