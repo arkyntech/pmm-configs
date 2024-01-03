@@ -14,11 +14,10 @@ collections:
     imdb_search:
       type: movie
       sort_by: rating.desc
-      limit: 125
-      language: eng
       votes.gte: 30000
-      release.after: 2023-01-01
-      release.before: 2023-12-31
+      #release.after: 2023-01-01
+      #release.before: 2023-12-31
+      language.primary: eng
       adult: false
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_2023.jpg?raw=true
@@ -26,9 +25,6 @@ collections:
     template: { name: Chart, num: 2 }
     imdb_search:
       type: movie
-      sort_by: rating.desc
-      limit: 125
-      language: eng
       votes.gte: 30000
       release.after: 2022-01-01
       release.before: 2022-12-31
@@ -41,8 +37,6 @@ collections:
       type: movie
       sort_by: rating.desc
       limit: 125
-      language: eng
-      votes.gte: 30000
       release.after: 2021-01-01
       release.before: 2021-12-31
       adult: false
@@ -54,8 +48,6 @@ collections:
       type: movie
       sort_by: rating.desc
       limit: 125
-      language: eng
-      votes.gte: 30000
       release.after: 2020-01-01
       release.before: 2020-12-31
       adult: false
@@ -67,8 +59,6 @@ collections:
       type: movie
       sort_by: rating.desc
       limit: 125
-      language: eng
-      votes.gte: 30000
       release.after: 2019-01-01
       release.before: 2019-12-31
       adult: false
@@ -80,8 +70,6 @@ collections:
       type: movie
       sort_by: rating.desc
       limit: 125
-      language: eng
-      votes.gte: 30000
       release.after: 2018-01-01
       release.before: 2018-12-31
       adult: false
