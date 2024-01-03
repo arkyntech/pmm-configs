@@ -25,8 +25,6 @@ collections:
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Misc/watched_movies_weekly.jpg?raw=true
   Top Rated Movies:
     template: { name: Chart, num: 8 }
-    mdblist_list:
-      url: https://mdblist.com/lists/quickflix/tmdb-top-rated
-      limit: 125
+    imdb_chart: top_movies
     summary: Top Rated Movies across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated.jpg?raw=true
