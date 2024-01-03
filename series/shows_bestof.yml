@@ -13,7 +13,7 @@ collections:
     template: { name: Chart, num: 1 }
     imdb_chart: top_shows
     summary: Top Rated Series of All Time
-    url_poster:
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated.jpg 
   Top Rated of 2023:
     template: { name: Chart, num: 2 }
     imdb_search:
