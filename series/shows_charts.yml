@@ -11,7 +11,7 @@ collections:
 ### CHARTS ###
   Popular Shows:
     template: { name: Chart, num: 1 }
-    imdb_chart: top_shows
+    imdb_chart: popular_shows
     summary: Popular TV Shows across the internet
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_popular.jpg?raw=true
   Most Watched Daily:
