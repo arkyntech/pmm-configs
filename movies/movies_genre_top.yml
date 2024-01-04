@@ -18,7 +18,6 @@ collections:
       votes.gte: 30000
       adult: false
       limit: 150
-      limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_action.jpg?raw=true
   Top Rated Adventure:
     template: { name: TopRated }
