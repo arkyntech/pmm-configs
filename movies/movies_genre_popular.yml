@@ -178,7 +178,7 @@ collections:
       votes.gte: 30000
       adult: false
       limit: 150
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_popular_scifi.jpg?raw=true
+    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Movies/movies_popular_sci-fi.jpg
   Popular Thriller:
     template: { name: TopRated }
     imdb_search:
