@@ -13,7 +13,7 @@ collections:
     template: { name: Chart, num: 1 }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       votes.gte: 30000
       release.after: 2023-01-01
       release.before: 2023-12-31
@@ -25,6 +25,7 @@ collections:
     imdb_search:
       type: movie
       votes.gte: 30000
+      sort_by: rating.asc
       release.after: 2022-01-01
       release.before: 2022-12-31
       adult: false
@@ -34,7 +35,7 @@ collections:
     template: { name: Chart, num: 3 }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       release.after: 2021-01-01
       release.before: 2021-12-31
       adult: false
@@ -44,7 +45,7 @@ collections:
     template: { name: Chart, num: 4 }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       release.after: 2020-01-01
       release.before: 2020-12-31
       adult: false
@@ -54,7 +55,7 @@ collections:
     template: { name: Chart, num: 5 }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       release.after: 2019-01-01
       release.before: 2019-12-31
       adult: false
@@ -64,7 +65,7 @@ collections:
     template: { name: Chart, num: 6 }
     imdb_search:
       type: movie
-      sort_by: rating.desc
+      sort_by: rating.asc
       release.after: 2018-01-01
       release.before: 2018-12-31
       adult: false
