@@ -5,7 +5,7 @@ templates:
       validate: false
       any:
         network: <<network>>
-    sort_title: +5_<<collection_name>>  
+    sort_title: +7_<<collection_name>>  
     collection_mode: hide
 
 collections:

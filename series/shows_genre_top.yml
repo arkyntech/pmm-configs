@@ -1,6 +1,6 @@
 templates:
   TopRated:
-    sort_title: +4_<<collection_name>>
+    sort_title: +6_<<collection_name>>
     sync_mode: sync
     collection_mode: hide
     collection_order: custom    
