@@ -33,7 +33,8 @@ collections:
       type: tv_series
       event.winning: golden
       sort_by: year.desc
-      adult: falselection of Golden Globes Winners
+      adult: false
+    summary: A selection of Golden Globes Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/awards_goldenglobes_tv.jpg    
   Golden Globes Nominees:
     template: {name: Awards, num: 9 }
