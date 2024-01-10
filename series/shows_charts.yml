@@ -19,3 +19,8 @@ collections:
     tmdb_trending_daily: 50
     summary: TV Shows Trending across the internet
     url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Misc/watched_tv_daily.jpg 
+  Most Watched Weekly:
+    template: { name: Chart, num: 3 }
+    tmdb_trending_weekly: 50
+    summary: TV Shows Trending across the internet
+    url_poster: https://raw.githubusercontent.com/arkyntech/pmm-configs/main/images/Misc/watched_tv_weekly.jpg 
