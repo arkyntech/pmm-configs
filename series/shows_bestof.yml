@@ -18,8 +18,8 @@ collections:
     template: { name: Chart, num: 2 }
     imdb_search:
       type: tv_series
-      sort_by: rating.asc
-      votes.gte: 30000
+      sort_by: rating.desc
+      votes.gte: 10000
       release.after: 2023-01-01
       release.before: 2023-12-31
       adult: false
@@ -29,8 +29,8 @@ collections:
     template: { name: Chart, num: 3 }
     imdb_search:
       type: tv_series
-      sort_by: rating.asc
-      votes.gte: 30000
+      sort_by: rating.desc
+      votes.gte: 10000
       release.after: 2022-01-01
       release.before: 2022-12-31
       adult: false
@@ -41,7 +41,7 @@ collections:
     imdb_search:
       type: tv_series
       sort_by: rating.asc
-      votes.gte: 30000
+      votes.gte: 10000
       release.after: 2021-01-01
       release.before: 2021-12-31
       adult: false
@@ -52,7 +52,7 @@ collections:
     imdb_search:
       type: tv_series
       sort_by: rating.asc
-      votes.gte: 30000
+      votes.gte: 10000
       release.after: 2020-01-01
       release.before: 2020-12-31
       adult: false
@@ -63,7 +63,7 @@ collections:
     imdb_search:
       type: tv_series
       sort_by: rating.asc
-      votes.gte: 30000
+      votes.gte: 10000
       release.after: 2019-01-01
       release.before: 2019-12-31
       adult: false
