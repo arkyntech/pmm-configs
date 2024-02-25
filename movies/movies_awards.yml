@@ -7,7 +7,6 @@ templates:
     sync_mode: sync
     collection_mode: hide
     collection_order: custom
-    cache_builders: 7
 collections:
   Oscar Winners:
     template: {name: Awards, num: 7 }
@@ -24,6 +23,7 @@ collections:
       type: movie
       event: oscar
       sort_by: year.desc
+      limit: 200
       adult: false
     summary: A collection of Oscar Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards_nominated.jpg?raw=true
