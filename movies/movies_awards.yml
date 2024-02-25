@@ -10,7 +10,7 @@ templates:
 collections:
   Oscar Winners:
     template: {name: Awards, num: 7 }
-      imdb_award:
+    imdb_award:
       event_id: ev0000003
       winning: true
       type: movie
@@ -23,7 +23,7 @@ collections:
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards.jpg?raw=true
   Oscar Nominees:
     template: {name: Awards, num: 8 }
-      imdb_award:
+    imdb_award:
       event_id: ev0000003
       winning: true
       sort_by: year.desc
