@@ -16,6 +16,7 @@ collections:
       type: movie
       event.winning: oscar
       sort_by: year.desc
+      event_year: 2000-current
       limit: 250
       adult: false
     summary: A collection of Oscar Winners
@@ -26,6 +27,7 @@ collections:
       event_id: ev0000003
       winning: true
       sort_by: year.desc
+      event_year: 2000-current
       limit: 250
       adult: false
     summary: A collection of Oscar Nominees
