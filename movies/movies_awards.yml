@@ -10,20 +10,23 @@ templates:
 collections:
   Oscar Winners:
     template: {name: Awards, num: 7 }
-    imdb_search:
+      imdb_award:
+      event_id: ev0000003
+      winning: true
       type: movie
       event.winning: oscar
       sort_by: year.desc
+      limit: 250
       adult: false
     summary: A collection of Oscar Winners
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards.jpg?raw=true
   Oscar Nominees:
     template: {name: Awards, num: 8 }
-    imdb_search:
-      type: movie
-      event: oscar
+      imdb_award:
+      event_id: ev0000003
+      winning: true
       sort_by: year.desc
-      limit: 200
+      limit: 250
       adult: false
     summary: A collection of Oscar Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards_nominated.jpg?raw=true
