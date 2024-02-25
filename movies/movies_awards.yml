@@ -9,7 +9,9 @@ templates:
     collection_order: custom
 collections:
   Oscar Winners:
-    template: {name: Awards, num: 7 }
+    sort_title: +3_7Oscar Winners
+    collection_mode: hide
+    collection_order: custom
     imdb_award:
       event_id: ev0000003
       winning: true
@@ -22,10 +24,14 @@ collections:
     summary: A collection of Oscar Winners
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards.jpg?raw=true
   Oscar Nominees:
-    template: {name: Awards, num: 8 }
+    sort_title: +3_7Oscar Nominees
+    collection_mode: hide
+    collection_order: custom
     imdb_award:
       event_id: ev0000003
-      winning: true
+      winning: false
+      type: movie
+      event.winning: oscar
       sort_by: year.desc
       event_year: 2000-current
       limit: 250
