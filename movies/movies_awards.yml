@@ -9,7 +9,7 @@ templates:
     collection_order: custom
 collections:
   Oscar Winners:
-    sort_title: +3_7Oscar Winners
+    sort_title: +3_6Oscar Winners
     collection_mode: hide
     collection_order: custom
     imdb_award:
