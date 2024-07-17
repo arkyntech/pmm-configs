@@ -98,21 +98,18 @@ collections:
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_horror.jpg?raw=true
   Top Rated Music:
     template: { name: TopRated }
-    imdb_search:
-      type: movie
-      sort_by: rating.asc
-      genre: music
-      votes.gte: 30000
-      adult: false
-      limit: 150
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_music.jpg?raw=true
-  Top Rated Musicals:
-    template: { name: TopRated }
     tmdb_discover:
       with_genres: 10402
       sort_by: rating.desc
       limit: 150
-    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_musicals.jpg?raw=true
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_music.jpg?raw=true
+  # Top Rated Musicals:
+  #   template: { name: TopRated }
+  #   tmdb_discover:
+  #     with_genres: 10402
+  #     sort_by: rating.desc
+  #     limit: 150
+  #   url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_musicals.jpg?raw=true
   Top Rated Mystery:
     template: { name: TopRated }
     tmdb_discover:
