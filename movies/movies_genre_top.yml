@@ -13,21 +13,21 @@ collections:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 28
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_action.jpg?raw=true
   Top Rated Adventure:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 12
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_adventure.jpg?raw=true
   Popular Animation:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 16
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_animation.jpg?raw=true
   # Top Rated Biography:
@@ -44,111 +44,111 @@ collections:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 35
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_comedy.jpg?raw=true
   Top Rated Crime:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 80
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_crime.jpg?raw=true
   Top Rated Documentaries:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 99
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_documentary.jpg?raw=true
   Top Rated Drama:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 18
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_drama.jpg?raw=true
   Top Rated Family:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 10751
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_family.jpg?raw=true
   Top Rated Fantasy:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 14
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_fantasy.jpg?raw=true
   Top Rated History:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 36
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_history.jpg?raw=true
   Top Rated Horror:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 27
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_horror.jpg?raw=true
   Top Rated Music:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 10402
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_music.jpg?raw=true
   # Top Rated Musicals:
   #   template: { name: TopRated }
   #   tmdb_discover:
   #     with_genres: 10402
-  #     sort_by: rating.desc
+  #     sort_by: vote_average.desc
   #     limit: 150
   #   url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_musicals.jpg?raw=true
   Top Rated Mystery:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 9648
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_mystery.jpg?raw=true
   Top Rated Romance:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 10749
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_romance.jpg?raw=true
   Top Rated Sci-Fi:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 878
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_scifi.jpg?raw=true
   Top Rated Thriller:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 53
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_thriller.jpg?raw=true
   Top Rated War:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 10752
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_war.jpg?raw=true
   Top Rated Western:
     template: { name: TopRated }
     tmdb_discover:
       with_genres: 37
-      sort_by: rating.desc
+      sort_by: vote_average.desc
       limit: 150
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Movies/movies_toprated_western.jpg?raw=true
