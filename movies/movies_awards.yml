@@ -19,7 +19,7 @@ collections:
       event.winning: oscar
       sort_by: year.desc
       event_year: 2000-current
-      limit: 250
+      limit: 50
       adult: false
     summary: A collection of Oscar Winners
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards.jpg?raw=true
@@ -34,7 +34,7 @@ collections:
       event.winning: oscar
       sort_by: year.desc
       event_year: 2000-current
-      limit: 250
+      limit: 50
       adult: false
     summary: A collection of Oscar Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/blob/main/images/Movies/awards_oscarsawards_nominated.jpg?raw=true
@@ -45,6 +45,7 @@ collections:
       event.winning: emmy
       sort_by: year.desc
       adult: false
+      limit: 50
     summary: A collection of Emmy Award Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_winners.jpg  
   Emmy Award Nominees:
@@ -54,6 +55,7 @@ collections:
       event: emmy
       sort_by: year.desc
       adult: false
+      limit: 50
     summary: A collection of Emmy Awards Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_emmy_nominated.jpg
   Golden Globes Winners:
@@ -63,6 +65,7 @@ collections:
       event.winning: golden
       sort_by: year.desc
       adult: false
+      limit: 50
     summary: A collection of Golden Globes Winners
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes.jpg    
   Golden Globes Nominees:
@@ -72,5 +75,6 @@ collections:
       event: golden
       sort_by: year.desc
       adult: false
+      limit: 50
     summary: A collection of Golden Globes Nominees
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Awards/awards_goldenglobes_nominated.jpg        
