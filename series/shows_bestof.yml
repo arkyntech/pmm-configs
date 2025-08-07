@@ -14,6 +14,28 @@ collections:
     imdb_chart: top_shows
     summary: Top Rated Series of All Time
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated.jpg 
+  Top Rated of 2025:
+    template: { name: Chart, num: 2 }
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      votes.gte: 10000
+      release.after: 2025-01-01
+      release.before: 2025-12-31
+      adult: false
+    summary: Top Rated Series of 2025
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2025.jpg
+  Top Rated of 2024:
+    template: { name: Chart, num: 2 }
+    imdb_search:
+      type: tv_series
+      sort_by: rating.desc
+      votes.gte: 10000
+      release.after: 2024-01-01
+      release.before: 2024-12-31
+      adult: false
+    summary: Top Rated Series of 2024
+    url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2024.jpg
   Top Rated of 2023:
     template: { name: Chart, num: 2 }
     imdb_search:
