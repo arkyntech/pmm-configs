@@ -26,7 +26,7 @@ collections:
     summary: Top Rated Series of 2025
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2025.jpg
   Top Rated of 2024:
-    template: { name: Chart, num: 2 }
+    template: { name: Chart, num: 3 }
     imdb_search:
       type: tv_series
       sort_by: rating.desc
@@ -37,7 +37,7 @@ collections:
     summary: Top Rated Series of 2024
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2024.jpg
   Top Rated of 2023:
-    template: { name: Chart, num: 2 }
+    template: { name: Chart, num: 4 }
     imdb_search:
       type: tv_series
       sort_by: rating.desc
@@ -48,7 +48,7 @@ collections:
     summary: Top Rated Series of 2023
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2023.jpg
   Top Rated of 2022:
-    template: { name: Chart, num: 3 }
+    template: { name: Chart, num: 5 }
     imdb_search:
       type: tv_series
       sort_by: rating.desc
@@ -59,7 +59,7 @@ collections:
     summary: Top Rated Series of 2022
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2022.jpg
   Top Rated of 2021:
-    template: { name: Chart, num: 4 }
+    template: { name: Chart, num: 6 }
     imdb_search:
       type: tv_series
       sort_by: rating.asc
@@ -70,7 +70,7 @@ collections:
     summary: Top Rated Series of 201
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2021.jpg
   Top Rated of 2020:
-    template: { name: Chart, num: 5 }
+    template: { name: Chart, num: 7 }
     imdb_search:
       type: tv_series
       sort_by: rating.asc
@@ -81,7 +81,7 @@ collections:
     summary: Top Rated Series of 2020
     url_poster: https://github.com/arkyntech/pmm-configs/raw/main/images/Shows/tv_toprated_2020.jpg
   Top Rated of 2019:
-    template: { name: Chart, num: 6 }
+    template: { name: Chart, num: 8 }
     imdb_search:
       type: tv_series
       sort_by: rating.asc
