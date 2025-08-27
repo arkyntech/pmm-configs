@@ -13,7 +13,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: action
       votes.gte: 30000
       adult: false
@@ -22,7 +22,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: adventure
       votes.gte: 30000
       adult: false
@@ -31,7 +31,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: animation
       votes.gte: 30000
       adult: false
@@ -40,7 +40,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: biography
       votes.gte: 30000
       adult: false
@@ -49,7 +49,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: comedy
       votes.gte: 30000
       adult: false
@@ -58,7 +58,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: crime
       votes.gte: 30000
       adult: false
@@ -67,7 +67,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: documentary
       votes.gte: 30000
       adult: false
@@ -76,7 +76,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: drama
       votes.gte: 30000
       adult: false
@@ -85,7 +85,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: family
       votes.gte: 30000
       adult: false
@@ -94,7 +94,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: fantasy
       votes.gte: 30000
       adult: false
@@ -103,7 +103,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: history
       votes.gte: 30000
       adult: false
@@ -112,7 +112,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: horror
       votes.gte: 30000
       adult: false
@@ -121,7 +121,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: music
       votes.gte: 30000
       adult: false
@@ -130,7 +130,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: musical
       votes.gte: 30000
       adult: false
@@ -139,7 +139,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: mystery
       votes.gte: 30000
       adult: false
@@ -148,7 +148,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: romance
       votes.gte: 30000
       adult: false
@@ -157,7 +157,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: sci-fi
       votes.gte: 30000
       adult: false
@@ -166,7 +166,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: thriller
       votes.gte: 30000
       adult: false
@@ -175,7 +175,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: war
       votes.gte: 30000
       adult: false
@@ -184,7 +184,7 @@ collections:
     template: { name: TopRated }
     imdb_search:
       type: tv_series
-      sort_by: vote_average.desc
+      sort_by: votes.desc
       genre: western
       votes.gte: 30000
       adult: false
